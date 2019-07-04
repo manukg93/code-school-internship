@@ -50,7 +50,6 @@ class Rand {
 }
 
 
-
 class SwitchCase {
     public static void main(String[] args) {
         int number = (int)(Math.random() * 10); // number [0-9]
