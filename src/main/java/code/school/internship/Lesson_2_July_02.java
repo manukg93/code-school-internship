@@ -86,3 +86,139 @@ class SwitchCase {
 
     }
 }
+
+class pyramid {
+    public static void main(String[] args) {
+        for (int i = 0 ; i < 4 ; i++) {
+            for (int j = 0 ; j < 6 - i ; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 0 ; k <= 2*i ; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+
+class Divides_3_and_7 {
+    public static void main(String[] args) {
+        int num = (int)(Math.random() * 100);
+        System.out.println("Number = " + num);
+        boolean checker = false;
+//        method 1
+        if(num % 3 == 0 ){
+            checker = true;
+            System.out.println("(method 1) Number divides to 3");
+        } else if(num % 7 == 0 ) {
+            checker = true;
+            System.out.println("Number divides to 7");
+        }
+
+//        method 2
+        if(num % 3 == 0 ) {
+            checker = true;
+            System.out.println("(method 2) Number divides to 3");
+            if (num % 7 == 0){
+                System.out.println("and divides to 7");
+            }
+        }
+
+//        method 3
+        if(num % 3 == 0 && num % 7 == 0) {
+            checker = true;
+            System.out.println("(method 3) Number divides to 3 and 7");
+        }
+
+        if(!checker){
+            System.out.println("Number not divides to 3 or 7");
+        }
+    }
+}
+class Divides_5_or_6 {
+    public static void main(String[] args) {
+        int num = (int)(Math.random() * 100);
+        System.out.println("Number = " + num);
+        boolean checker = false;
+
+//        method 1
+        if(num % 5 == 0 ){
+            checker = true;
+            System.out.println("(method 1) Number divides to 5");
+        } else if(num % 6 == 0 ) {
+            checker = true;
+            System.out.println("Number divides to 6");
+        }
+
+//        method 2
+        if(num % 5 == 0 ) {
+            checker = true;
+            System.out.println("(method 2) Number divides to 5");
+            if (num % 6 == 0){
+                System.out.println("and divides to 6");
+            }
+        }
+
+//        method 3
+        if(num % 5 == 0 || num % 6 == 0) {
+            checker = true;
+            System.out.println("(method 3) Number divides to 5 or 6");
+        }
+
+        if(!checker){
+            System.out.println("Number not divides to 5 and 6");
+        }
+    }
+}
+
+class MaxMin{
+    public static void main(String[] args) {
+        double n1 = 1.2, n2 = 0.6, n3 = -2.5, n4 = 0;
+
+//        maximum
+        if(
+                n1 >= n2 &&
+                n1 >= n3 &&
+                n1 >= n4
+        ){
+            System.out.println("max n1 = " + n1);
+        }else if(
+                n2 > n1 &&
+                n2 >= n3 &&
+                n2 >= n4
+        ) {
+            System.out.println("max n2 = " + n2);
+        }else if(
+                n3 > n1 &&
+                n3 > n2 &&
+                n3 >= n4
+        ) {
+            System.out.println("max n3 = " + n3);
+        }else{
+            System.out.println("max n4 = " + n4);
+        }
+
+//        minimum
+        if(
+                n1 <= n2 &&
+                n1 <= n3 &&
+                n1 <= n4
+        ){
+            System.out.println("min n1 = " + n1);
+        }else if(
+                n2 < n1 &&
+                n2 <= n3 &&
+                n2 <= n4
+        ) {
+            System.out.println("min n2 = " + n2);
+        }else if(
+                n3 < n1 &&
+                n3 < n2 &&
+                n3 <= n4
+        ) {
+            System.out.println("min n3 = " + n3);
+        }else{
+            System.out.println("min n4 = " + n4);
+        }
+    }
+}
