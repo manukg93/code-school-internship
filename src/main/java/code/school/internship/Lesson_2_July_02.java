@@ -222,3 +222,110 @@ class MaxMin{
         }
     }
 }
+
+class ex_9 {
+    public static void main(String[] args) {
+        int a, b, c, d;
+
+        a = -5 + 8 * 6;
+        System.out.println("a = " + a);
+
+        b = (55+9) % 9;
+        System.out.println(" b = " + b);
+
+//        ?
+        c = 20 + -3*5 / 8;
+        System.out.println("c = " + c);
+
+        d = 5 + 15 / 3 * 2 - 8 % 3;
+        System.out.println("d = " + d);
+    }
+}
+
+class ex_10 {
+    public static void main(String[] args) {
+        int number1 = (int)(Math.random() * 100);
+        int number2 = (int)(Math.random() * 100);
+        int number3 = (int)(Math.random() * 100);
+        int number4 = (int)(Math.random() * 100);
+        int sum = number1 + number2 + number3 + number4;
+        int multiply = number1 * number2 * number3 * number4;
+        System.out.println("number1 = " + number1);
+        System.out.println("number2 = " + number2);
+        System.out.println("number3 = " + number3);
+        System.out.println("number4 = " + number4);
+
+
+        System.out.println("sum = " + sum);
+        System.out.println("multiply = " + multiply);
+
+    }
+}
+
+class ex_11 {
+    public static void main(String[] args) {
+        double a;
+        a = (4.0 * (1 - (1.0/3) + (1.0/5) - (1.0/7) + (1.0/9) - (1.0/11)));
+        System.out.println(a);
+    }
+}
+
+class ex_12 {
+    public static void main(String[] args) {
+        System.out.println(" +\"\"\"\"\"+");
+        System.out.println("[| o o |]");
+        System.out.println(" |  ^  |");
+        System.out.println(" | '-' |");
+        System.out.println(" +-----+");
+    }
+}
+
+class ex_13{
+    public static void main(String[] args) {
+        float number1 = (float) 0.25;
+        if(number1 == (float)number1){
+            if(number1 == 0){
+                System.out.println("zero");
+            }else if(number1 > 0){
+                System.out.println("positive");
+            }else{
+                System.out.println("negative");
+            }
+            if(number1 > -1 && number1 < 1) System.out.println("small");
+            if(number1 < -1000000 || number1 > 1000000) System.out.println("large");
+        }
+    }
+}
+
+class ex_14 {
+    public static void main(String[] args) {
+
+        char a = 120;
+        System.out.println(a);
+        if(a > 96){
+            a-=32;
+        }else{
+            a+=32;
+        }
+        System.out.println(a);
+    }
+}
+
+//?
+class ex_15 {
+    public static void main(String[] args) {
+        int number1 = (int)(Math.random() * 100);
+        int number2 = (int)(Math.random() * 100);
+        int number3 = (int)(Math.random() * 100);
+        int number4 = (int)(Math.random() * 100);
+        int number5 = (int)(Math.random() * 100);
+        float result = (number1 + number2 + number3 + number4 + number5) / 5;
+
+        System.out.println("number1 = " + number1);
+        System.out.println("number2 = " + number2);
+        System.out.println("number3 = " + number3);
+        System.out.println("number4 = " + number4);
+        System.out.println("number5 = " + number5);
+        System.out.println("result = " + result);
+    }
+}
