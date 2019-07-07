@@ -1,0 +1,105 @@
+HomeWork:
+
+	Reading:
+
+
+		1. Herbert Schildt - https://drive.google.com/open?id=1os57g3BfMhqafFECVbodOoDZ6SKftQWB
+
+		   Часть 1. Язык Java Глава
+
+
+			1. Глава 6. Введение в классы - 155 - 177
+			2. Глава 7. Подробное рассмотрение классов и методов - 177 - 207
+
+ 		2. CayS. Horstmann - https://drive.google.com/open?id=1jBC-OY-dvRcSeaK9Tttc7kvF12-zuK_j
+
+			1. Глава 4. Объекты и классы - 131 -194
+
+		4. Slides - https://drive.google.com/open?id=1E_qVCpDzl27atJlfw36uF8p358bF-YHd
+
+
+	 Writing:
+
+         Slides examples - https://drive.google.com/open?id=1E_qVCpDzl27atJlfw36uF8p358bF-YHd
+
+
+         Write codes
+
+                1. Write a program that prints the sum of odd numbers from 1 to N number(N = 1000_000).
+
+                2. Write a program to print the factorial value of the given N(N = 100).
+                   Please note that N! = 1 * 2 * 3 * ... * N
+
+                3.Given two numbers n = 2, m = 9. Write a program to find
+                  the value of one number raised to the power of another(m֊ի n աստիճանը).
+                  (Do not use Java built-in method)
+
+                4. Given n = 1895627. Write a program that prints "The number is prime" if the given number is prime,
+                   otherwise it prints "The number is not prime".
+                   (Note that the number is prime if it divides on 1 and on itself)
+
+                5. Write a program to calculate the sum of following series where n = 10000.
+                   1 + 1/2 + 1/3 + 1/4 + 1/5 + ... + 1/n
+
+                6. Given array = {1.2,2.2,5.5,4.5,5,7.8,8.5,7,5.1,3.15}.
+                   Write a Java program to calculate the average value of array elements.
+
+                7. Given array = {1,25,8,6,4,5,56,55,8,68,45,62,66,82,63,33,3,7,71,32} and n = 19.
+                   Write a Java program that prints the index of the n if the array contains the specific value.
+                   Otherwise prints "The array does not contain the value"
+
+                8. Given array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49} and index = 4.
+                   Write a Java program to remove the element with the index from an array.
+                   Print the array before and after removal of the element
+
+                9. Given array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49}.
+                   Write a Java program to copy the array to another array.
+
+                10. Given array = {25, 14, 56, 15, 36, 56, 77, 18, 29, 49}
+                    Write a Java program to find the maximum and minimum value of an array.
+
+                11. Given the array = {1,2,3,4,5,6}.Write a Java program to reverse the array of int values
+                    ex. {1,2,3,4,5,6} -> {6,5,4,3,2,1}
+
+                12. Given array = {1, 2, 5, 5, 6, 6, 7, 2}.
+                    Write program that prints duplicate values of the array.
+                    So the output should be:
+                              Duplicate value is: 5
+                              Duplicate value is: 6
+
+                13. Given an array of chars array = {'a','A','N','?','.','P','v','T','f','0','i','1','L','k','m','H'}.
+                     Write a Java program to count the number of uppercase letters from array of chars.
+
+
+                14. Given firstNum = 13, secondNum = 50. Write java program that uses while loop
+                     to perform following steps:
+                            1. Output all even numbers between firstNum and secindNum
+                            2. Output the sum of all odd numbers between firstNum and secindNum
+
+
+                15. Create a JAVA program to print the numbers that
+                    divide to 3 from 10 to 100, both included, except the numbers that divide to 7.
+
+                16. Write a Java program to find the common elements between two arrays (int values)
+                    ex. {1,2,3,4} {3,4,5,6} -> common value 3,4
+
+                17. Write a Java program to find the second largest and second smallest elements in an int array
+                    ex. {4,5,7,8,3} -> 7is second largest element, second smallest 4
+
+
+                18.  Write a Java program to compute a count of true and false elements in boolean array
+                 	 ex. {true, false, false, false, true, false} -> 2 true, 4 false
+
+                19.  Write a Java program to test the equality of two arrays
+                	 ex. {1,2} {2,3,4} not equal , {1,2} {1,2} equal
+
+                20.  Write a Java program to find a missing number in an array.
+                     ex. {1,2,3,4,6,7,8,9} 5 is missing
+
+                21.  Write a Java program to compute the average value of an array of integers except the largest and smallest values
+
+                22.   Write a Java program to test if an long array contains a specific long value (use break keyword if value is found).
+
+
+
+ Don't forget to push your homework onto branch by your name till the 15:00 of lesson day.
