@@ -1,6 +1,6 @@
 package code.school.internship;
 
-public class operations {
+public class FollowingOperations {
     public static void main(String[] args) {
 //        a. -5 + 8 * 6
 //        b. (55+9) % 9

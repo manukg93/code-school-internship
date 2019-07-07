@@ -1,14 +1,11 @@
 package code.school.internship;
 
-public class oddOReven {
+public class OddOrEven {
     public static void main(String[] args) {
-        int a=20;
+        int a=19;
         if ( a%2==0 )
             System.out.println("The number is even");
         else
             System.out.println("The number is odd");
-
-
-
     }
 }

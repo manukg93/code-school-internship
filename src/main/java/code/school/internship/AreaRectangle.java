@@ -2,10 +2,11 @@ package code.school.internship;
 
 public class AreaRectangle {
     public static void main(String[] args) {
-        float a, b, S;
-        a=10.5f;
-        b=25.8f;
-        S=a*b;
-        System.out.println("The area of rectangle is :" + S);
+        double height , width, S;
+        height=10.25d;
+        width=45.75d;
+        S= height * width;
+
+        System.out.println("The area of rectangle is : " + S);
     }
 }
