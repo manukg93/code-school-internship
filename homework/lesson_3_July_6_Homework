@@ -100,6 +100,15 @@ HomeWork:
 
                 22.   Write a Java program to test if an long array contains a specific long value (use break keyword if value is found).
 
+                23. Write program to print alphabets from a to z using while loop.
 
+                24. Write a program that prints the count of number of digits in a number.
+                    ex. 1546987 -> The number of digits is 7
+
+                25. Write a program to check whether a number is palindrome or not.
+                    Note the number is polindrome if it is the same when written forwards or backwards.
+                    ex. 12321, 4554,456654 numbers are polindrome
+
+                26. Write a program to print all Prime numbers between 1 to n(n = 1000).
 
  Don't forget to push your homework onto branch by your name till the 15:00 of lesson day.
