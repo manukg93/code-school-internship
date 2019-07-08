@@ -34,6 +34,7 @@ public class SwitchCase {
             case 9:
                 System.out.println("Number: " + digit);
                 break;
+            default:
         }
     }
 }
