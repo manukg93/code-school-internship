@@ -10,10 +10,10 @@ public class RemoveTheElement {
                 System.out.println(Array[i]);
             }
             for (int i = 0; i < n; i++) {
-                System.out.println(Array[i]);
+                System.out.print(Array[i]+" ");
             }
             for (int i = n + 1; i < arraylength; i++) {
-                System.out.println(Array[i]);
+                System.out.print(Array[i]+" ");
             }
         }
         }
