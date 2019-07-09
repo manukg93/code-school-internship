@@ -6,10 +6,11 @@ public class DivideNumber15 {
         for (a = 10; a <= b; a++) {
 
              if( a%3 ==0&& a%7!= 0 ) {
-                System.out.println(a);
+                System.out.print(a+"  ");
             }
 
 
         }
+
     }
 }
