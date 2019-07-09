@@ -1,6 +1,6 @@
 package code.school.internship;
 
-class Lesson_2_July_02 {
+/*class Lesson_2_July_02 {
     public static void main(String[] args) {
         char ch1, ch2;
         ch1 = 88; //
@@ -10,3 +10,4 @@ class Lesson_2_July_02 {
 
     }
 }
+*/
