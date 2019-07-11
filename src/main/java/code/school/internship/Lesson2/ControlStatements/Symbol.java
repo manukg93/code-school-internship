@@ -1,4 +1,4 @@
-package code.school.internship;
+package code.school.internship.Lesson2.ControlStatements;
 
 public class Symbol {
     public static void main(String[] args) {

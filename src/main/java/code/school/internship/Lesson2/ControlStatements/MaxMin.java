@@ -1,4 +1,4 @@
-package code.school.internship;
+package code.school.internship.Lesson2.ControlStatements;
 
 public class MaxMin {
     public static void main(String[] args) {
