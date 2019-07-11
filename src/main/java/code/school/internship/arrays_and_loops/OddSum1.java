@@ -1,4 +1,4 @@
-package code.school.internship;
+package code.school.internship.arrays_and_loops;
 
 //
 public class OddSum1 {
