@@ -3,11 +3,11 @@ package code.school.internship.arrays_and_loops;
 // Ex 26. Print all prime numbers between 1 to N
 public class PrintPrimeNumbers {
     public static void main(String[] args) {
-        final int N = 200;
+        final int N = 20;
 
         for(int i = 1; i <= N; i++) {
             boolean isPrime = true;
-            for (int j = 2; j < i; j++) {
+            for (int j = 2; j <= i/2; j++) {
                 if (i % j == 0) {
                     isPrime = false;
                     break;
