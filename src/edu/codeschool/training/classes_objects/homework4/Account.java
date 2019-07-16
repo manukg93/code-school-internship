@@ -1,17 +1,17 @@
 package edu.codeschool.training.classes_objects.homework4;
 
 public class Account {
-    private String id;
+    private int id;
     private String name;
     private double balance;
     public Account(){
     };
-    public Account(String id, String name){
+    public Account(int id, String name){
         this.id = id;
         this.name = name;
     }
 
-    public Account(String id, String name, double balance){
+    public Account(int id, String name, double balance){
         this.id = id;
         this.name = name;
         this.balance = balance;
@@ -19,7 +19,7 @@ public class Account {
 
 
 
-    public String getId() {
+    public int getId() {
         return id;
     }
 
@@ -42,6 +42,7 @@ public class Account {
     public void transferTo(Account otherAccount, int amount){
 //        ?
         this.balance -= amount;
+        otherAccount.balance+=amount;
     }
 
     public String toString(){
