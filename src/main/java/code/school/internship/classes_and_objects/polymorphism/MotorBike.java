@@ -8,4 +8,12 @@ class MotorBike extends Vehicle{
 
     }
 
+    public static void main(String[] args) {
+        int a = 10;
+        if (++a <= 10){
+            System.out.println("aaa");
+            System.out.println(a);
+        }
+    }
+
 }
