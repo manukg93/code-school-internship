@@ -1,0 +1,46 @@
+Arman Hakobyan
+-
+
+Arto Arshakyan
+       Test classes are not in client package
+	   In Date class plusYear, plusDay should not return value
+	   Function names should start with lowercase
+	   MaxFunct is not correct
+	   IsPrime should return boolean
+	   Don't need to call toString() in sout
+
+
+
+
+Arto Sargsyan
+	Recomended to use this keyword
+	Done validation for debit and transferTo functions
+	plusYear is not correct
+
+
+
+Geghayr Melqonyan
+	debit, transfer validation is missing
+	plusDay() Is good
+
+
+Hamlet Sargsyan
+   transferTo() is not correct
+   Circle default values
+   calculateArea is not correct
+
+Mane Zakaryan
+
+Ovsanna Simonyan
+
+Tigran Baloyan
+   credit () is not correct
+   debit  is not correct
+   plusDay is not correct
+   raiseSalary is not correct
+
+
+Vladimir Avagyan
+
+
+
