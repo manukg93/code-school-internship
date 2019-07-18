@@ -6,15 +6,16 @@ public class TestDate {
     public static void main(String[] args) {
         Date date = new Date();
 
-        date.setDay(9);
-        date.setMonth(10);
+        date.setDay(1);
+        date.setMonth(1);
         date.setYear(1992);
 
         System.out.println(date.toString());
 
-        date.plusYear(5);
-        date.plusDay(25);
+        date.plusMonth(30);
+        System.out.println(date.toString());
 
+        date.plusDay(1000);
         System.out.println(date.toString());
     }
 }

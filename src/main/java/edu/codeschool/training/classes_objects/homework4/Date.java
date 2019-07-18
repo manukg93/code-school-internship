@@ -8,7 +8,7 @@ public class Date {
     // Setter and getter methods
     public void setDay(int day) {
         if (day <= 0 || day > 31) {
-            System.out.println("Wrong day");
+            System.out.println("Not valid day");
             return;
         }
 
@@ -17,7 +17,7 @@ public class Date {
 
     public void setMonth(int month) {
         if (month <= 0 || month > 12) {
-            System.out.println("Wrong month.");
+            System.out.println("Not valid month.");
             return;
         }
 
@@ -25,6 +25,10 @@ public class Date {
     }
 
     public void setYear(int year) {
+        if (year < 0) {
+            System.out.println("Not valid year.");
+        }
+
         this.year = year;
     }
 
@@ -41,18 +45,41 @@ public class Date {
     }
 
     //Public methods
-    public void plusYear(int year) {
-        this.year += year;
+    public void plusYear(int years) {
+        if (years < 0) {
+            return;
+        }
+        this.year += years;
     }
 
-    public void plusDay(int day) {
-        int d = this.day + day;
-        if (d > 31) {
-            d -= 31;
-            this.day = d;
-            this.month++;
-        } else {
-            this.day = d;
+    public void plusMonth(int months) {
+        if (months < 0) {
+            return;
+        }
+
+        this.month += months;
+
+        if (this.month > 12) {
+            this.year += this.month / 12;
+            this.month %= 12;
+        }
+    }
+
+    public void plusDay(int days) {
+        if (days < 0) {
+            return;
+        }
+
+        this.day += days;
+
+        if (this.day > 31) {
+            this.month += this.day / 31;
+            this.day %= 31;
+        }
+
+        if (this.month > 12) {
+            this.year += this.month / 12;
+            this.month %= 12;
         }
     }
 
