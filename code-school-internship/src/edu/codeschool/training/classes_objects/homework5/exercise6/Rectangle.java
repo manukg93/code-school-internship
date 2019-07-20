@@ -14,4 +14,9 @@ public class Rectangle extends Shape {
         double area = this.height * this.width;
         return area;
     }
+
+    @Override
+    public String toString() {
+        return "Rectangle";
+    }
 }

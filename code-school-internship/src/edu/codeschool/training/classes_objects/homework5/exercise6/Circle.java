@@ -12,4 +12,9 @@ public class Circle extends Shape {
         double area = Math.PI * Math.pow(this.radius,2);
         return area;
     }
+
+    @Override
+    public String toString() {
+        return "Circle";
+    }
 }

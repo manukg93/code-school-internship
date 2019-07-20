@@ -14,4 +14,9 @@ public class Cylinder extends Shape {
         double area = Math.PI * Math.pow(this.radius,2) * this.height;
         return area;
     }
+
+    @Override
+    public String toString() {
+        return "Cylinder";
+    }
 }
