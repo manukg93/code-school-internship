@@ -4,7 +4,7 @@ import edu.codeschool.training.classes_objects.homework4.Date;
 
 public class TestDate {
     public static void main(String[] args) {
-        Date d=new Date(9,12,1992);
+        Date d=new Date(7,12,1992);
 
         System.out.println(d);
         d.plusDay(25);

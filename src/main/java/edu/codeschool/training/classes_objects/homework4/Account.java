@@ -31,7 +31,7 @@ public class Account {
        this.balance = balance - amount;
        return this.balance;
    }
-   public double TransferTo(Account otherAccount, int amount) {
+   public double  TransferTo(Account otherAccount, int amount) {
         this. balance=balance-amount;
         return this.balance;
    }
