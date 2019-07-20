@@ -1,4 +1,4 @@
-package edu.codeschool.training.classes_objects.homework5;
+package edu.codeschool.training.classes_objects.homework5.exercise3;
 
 public abstract class Person {
     private String name = "John";
@@ -13,7 +13,7 @@ public abstract class Person {
 
     @Override
     public String toString() {
-        return " Person [Name:" + this.name + ", Address:" + this.address + "]";
+        return "Name:" + this.name + ", Address:" + this.address;
     }
 
     public String getName() {
