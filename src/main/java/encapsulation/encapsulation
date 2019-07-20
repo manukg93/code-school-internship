@@ -1,0 +1,23 @@
+
+Encapsulation is binding the data with its related functionalities.
+
+Here functionalities mean "methods" and data means "variables"
+
+So we keep variable and methods in one place.
+
+That place is "class." Class is the base for encapsulation.
+
+Data Hiding: The user will have no idea about the inner implementation of the class.
+It will not be visible to the user that how the class is storing values in the variables.
+
+
+With Java Encapsulation, you can hide (restrict access)
+to critical data members in your code, which improves security
+
+Increased Flexibility: We can make the variables of the class
+as read-only or write-only depending on our requirement.
+
+Reusability: Encapsulation also improves the re-usability
+and easy to change with new requirements.
+
+Testing code is easy: Encapsulated code is easy to test for unit testing.
