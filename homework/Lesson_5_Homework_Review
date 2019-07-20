@@ -1,0 +1,46 @@
+Arman Hakobyan
+-
+
+Arto Arshakyan
+      Student, Student1 could be in another package
+      All methods of MyMath should be static
+      No need to call toString() method in System.out.println();
+      explain isFilled()
+      Cyrcle.toString() is not as required.
+      Rectngle, Square are missing
+      Dog.greeting() is not overridden correctly
+      Shape1 area() should not be void
+
+Arto Sargsyan
+    -
+
+Geghayr Melqonyan
+    -
+
+Hayk Serobyan
+    MyMath does not compile
+    Initialize the fields with default values John, Armenia,Yerevan respectively inside non static initialization block.
+
+
+Mane Zakaryan
+    The instance variables(fields) should start with lowercase
+    Give the same name of constructor parameters and use this keyword
+    Method names should start with lowercase
+    toString() is not overriden correctly
+    Class names and pacckage names are not logical
+
+
+Ovsanna Simonyan
+    Good
+
+Tigran Baloyan
+    -
+
+Vladimir Avagyan
+    -
+
+Mariam Hakobyan
+    -
+
+Hamlet Sargsyan
+    -
