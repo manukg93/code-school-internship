@@ -1,5 +1,5 @@
 package edu.codeschool.training.classes_objects.homework4.client;
-import edu.codeschool.training.classes_objects.homework4.Circle;
+
 public class TestCircle {
     public static void main(String[] args) {
         Circle c1 = new Circle(25.8);

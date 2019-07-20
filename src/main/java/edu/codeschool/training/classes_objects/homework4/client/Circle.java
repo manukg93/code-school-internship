@@ -1,4 +1,4 @@
-package edu.codeschool.training.classes_objects.homework4;
+package edu.codeschool.training.classes_objects.homework4.client;
 
 public class Circle {
     private double radius=1.0;
