@@ -1,14 +1,15 @@
 package edu.codeschool.training.classes_objects.homework4.client;
 
     public class Date {
-        int day;
-        int month;
-        int year;
-        Date(int a, int b, int c){
+       private int day;
+       private int month;
+       private int year;
+        public Date(int a, int b, int c){
             day = a;
             month = b;
             year = c;
         }
+
         public int getday(){ return day; }
         public void setday(){ this.day = day; }
         public int getmonth(){ return month; }
