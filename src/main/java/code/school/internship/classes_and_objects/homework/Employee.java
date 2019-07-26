@@ -1,4 +1,4 @@
-package code.school.internship.classes_and_objects.homework5;
+package code.school.internship.classes_and_objects.homework;
 
 public class Employee extends Person {
     public String office;
