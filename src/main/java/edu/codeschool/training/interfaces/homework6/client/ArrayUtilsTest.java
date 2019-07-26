@@ -4,10 +4,9 @@ import edu.codeschool.training.interfaces.homework6.ArraysUtil;
 
 public class ArrayUtilsTest {
     public static void main(String[] args) {
-        int[] array1 = {0, 1, 2, 3, 4, 5, 7};
+        int[] array1 = {7, 4, 10, 0, 2, 1, 3, 9, 5};
         int[] array2 = {8, 9, 10};
 
-        /*
         System.out.println("Array1: ");
         for (int i = 0; i < array1.length; i++) {
             System.out.print(array1[i] + " ");
@@ -30,9 +29,6 @@ public class ArrayUtilsTest {
         }
         System.out.println();
 
-         */
-
-        /*
         // Calling findIndex static method
         System.out.println("Index: " + ArraysUtil.findIndex(array1, 4));
         System.out.println();
@@ -56,7 +52,14 @@ public class ArrayUtilsTest {
         System.out.println("String representation of the array:");
         System.out.println(ArraysUtil.toString(array1));
 
-         */
 
+        System.out.println(ArraysUtil.findSecond(array1));
+        int[] doubleElements = ArraysUtil.doubleArray(array1);
+
+        for (int i = 0; i < doubleElements.length; i++) {
+            System.out.print(doubleElements[i] + " ");
+        }
+        System.out.println();
+        System.out.println(ArraysUtil.contains(doubleElements, 8));
     }
 }

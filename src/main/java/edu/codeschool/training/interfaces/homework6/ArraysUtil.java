@@ -68,6 +68,65 @@ public class ArraysUtil {
 
     // Sort elements of the array
     public static void sort(int[] arr) {
+        if (arr == null) {
+            System.out.println("Not valid argument passed.");
+            return;
+        }
 
+        // Bubble sort
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if (arr[i] < arr[j]) {
+                    int temp = arr[i];
+                    arr[i] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.println();
+    }
+
+    // Find the second largest element of the array
+    public static int findSecond(int[] arr) {
+        if (arr == null) {
+            System.out.println("Not valid argument passed.");
+            return 0;
+        }
+
+        ArraysUtil.sort(arr);
+
+        return arr[arr.length - 2];
+    }
+
+    //
+    public static int[] doubleArray(int[] arr) {
+        if (arr == null) {
+            System.out.println("Not valid argument passed.");
+            return null;
+        }
+
+        int[] doubleElements = new int[arr.length];
+
+        for (int i = 0; i < arr.length; i++) {
+            doubleElements[i] = arr[i] * 2;
+        }
+
+        return doubleElements;
+    }
+
+    // Check whether the array contains the element or not
+    public static boolean contains(int[] arr, int element) {
+        if (arr != null) {
+            for (int i = 0; i < arr.length; i++) {
+                if (element == arr[i]) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
