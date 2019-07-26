@@ -1,6 +1,4 @@
-package edu.codeschool.training.classes_objects.homework5;
-
-import code.school.internship.classes_and_objects.homework.homework5.Person;
+package code.school.internship.classes_and_objects.homework.homework5;
 
 public class Employee extends Person {
     public String office;
