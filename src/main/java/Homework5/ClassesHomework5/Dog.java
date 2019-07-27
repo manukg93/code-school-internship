@@ -1,10 +1,11 @@
 package Homework5.ClassesHomework5;
 
-public class Cat extends Animal {
+public class Dog extends Animal {
     String name;
-    public Cat(String name){
-       super(name);
+    public Dog (String name){
+        super(name);
     }
+
     @Override
     public void greeting() {
         System.out.println("Hello " + super.getName());
