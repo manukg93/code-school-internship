@@ -26,15 +26,13 @@ public class Lecturer extends Human {
     }
 
     // Getters
-    public String getSubject() {return this.subject;}
-
-    @Override
-    public void getDescription() {
-        System.out.println(this.getName() + " teaches " + this.getSubject());
+    public String getSubject() {
+        return this.subject;
     }
 
     @Override
-    public void view() {
-        this.getDescription();
+    public void getDescription() {
+
+        System.out.println(this.getName() + " teaches " + this.getSubject());
     }
 }

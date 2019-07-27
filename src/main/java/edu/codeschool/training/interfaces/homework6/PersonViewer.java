@@ -1,6 +1,8 @@
 package edu.codeschool.training.interfaces.homework6;
 
-public interface PersonViewer {
+public class PersonViewer {
+    public void view(Human human) {
+        human.getDescription();
+    }
 
-    public void view();
 }

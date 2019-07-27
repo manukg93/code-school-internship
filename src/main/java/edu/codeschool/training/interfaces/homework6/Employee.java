@@ -32,9 +32,4 @@ public class Employee extends Human {
     public void getDescription() {
         System.out.println(this.getName() + " works in " + this.getDepartmentName() + " department");
     }
-
-    @Override
-    public void view() {
-        this.getDescription();
-    }
 }

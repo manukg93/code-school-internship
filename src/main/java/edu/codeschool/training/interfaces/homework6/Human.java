@@ -1,6 +1,6 @@
 package edu.codeschool.training.interfaces.homework6;
 
-abstract public class Human implements Person, PersonViewer {
+abstract public class Human implements Person {
     // member variables of Human
     String name;
     String email;

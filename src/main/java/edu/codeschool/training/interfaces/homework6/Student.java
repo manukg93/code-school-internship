@@ -7,7 +7,7 @@ public class Student extends Human {
     // Constructors
     public Student() {
         super();
-        this.grade = '0';
+        this.grade = 'A';
     }
 
     public Student(String name, String email, char grade) {
@@ -26,15 +26,10 @@ public class Student extends Human {
     }
 
     // Getters
-    public char getGrade() {return this.grade;}
+    public char getGrade() { return this.grade; }
 
     @Override
     public void getDescription() {
         System.out.println("A " + "'" + getGrade() + "' grade student");
-    }
-
-    @Override
-    public void view() {
-        this.getDescription();
     }
 }
