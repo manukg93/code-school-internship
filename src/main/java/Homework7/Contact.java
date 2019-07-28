@@ -29,7 +29,7 @@ public class Contact {
         if (obj == null) return false;
         if (this.getClass() != obj.getClass()) return false;
         Contact that = (Contact) obj;
-        if (this.email != that.email) return false;
+        if (!this.email.equals(that.email)) return false;
         if (this.mobile != that.mobile) return false;
         if (this.fixe != that.fixe) return false;
         return true;

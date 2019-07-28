@@ -24,7 +24,7 @@ public class Department {
         if (obj == null) return false;
         if (this.getClass() != obj.getClass()) return false;
         Department that = (Department) obj;
-        if (this.name !=that.name) return false;
+        if (!this.name.equals(that.name)) return false;
         return true;
     }
 }

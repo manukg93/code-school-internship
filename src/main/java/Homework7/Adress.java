@@ -33,8 +33,8 @@ public class Adress {
         if (this.getClass() != obj.getClass()) return false;
         Adress that = (Adress) obj;
         if (!this.country.equals(that.country)) return false;
-        if (this.city != that.city) return false;
-        if (this.street != that.street) return false;
+        if (!this.city.equals(that.city)) return false;
+        if (!this.street.equals(that.street)) return false;
         if (this.CP != that.CP) return false;
         return true;
     }
