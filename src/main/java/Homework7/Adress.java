@@ -1,5 +1,7 @@
 package Homework7;
 
+import java.util.Objects;
+
 public class Adress {
     String country;
     String city;
@@ -26,6 +28,14 @@ public class Adress {
     }
     @Override
     public boolean equals(Object obj) {
-        return super.equals(obj);
+        if (this == obj) return true;
+        if (obj == null) return false;
+        if (this.getClass() != obj.getClass()) return false;
+        Adress that = (Adress) obj;
+        if (!this.country.equals(that.country)) return false;
+        if (this.city != that.city) return false;
+        if (this.street != that.street) return false;
+        if (this.CP != that.CP) return false;
+        return true;
     }
 }

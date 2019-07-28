@@ -1,5 +1,7 @@
 package Homework7;
 
+import java.util.Objects;
+
 public class Contact {
     String email;
     int fixe;
@@ -22,7 +24,14 @@ public class Contact {
     }
 
     @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
+    public boolean equals(Object obj)  {
+        if (this == obj) return true;
+        if (obj == null) return false;
+        if (this.getClass() != obj.getClass()) return false;
+        Contact that = (Contact) obj;
+        if (this.email != that.email) return false;
+        if (this.mobile != that.mobile) return false;
+        if (this.fixe != that.fixe) return false;
+        return true;
     }
 }

@@ -1,5 +1,7 @@
 package Homework7;
 
+import java.util.Objects;
+
 public class Department {
     String name;
     int employeeCount;
@@ -18,6 +20,11 @@ public class Department {
     }
     @Override
     public boolean equals(Object obj) {
-        return super.equals(obj);
+        if (this == obj) return true;
+        if (obj == null) return false;
+        if (this.getClass() != obj.getClass()) return false;
+        Department that = (Department) obj;
+        if (this.name !=that.name) return false;
+        return true;
     }
 }
