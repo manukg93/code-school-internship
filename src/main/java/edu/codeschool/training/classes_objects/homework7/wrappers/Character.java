@@ -68,4 +68,27 @@ public class Character {
             --this.value;
         }
     }
+
+    // Get character from string
+    public static char parseSymbol(String character) {
+        if (character.length() == 1) {
+            return character.charAt(0);
+        } else {
+            System.out.println("Character must be one symbol");
+        }
+        return 0;
+    }
+
+    // Get array of chars from string
+    public static char[] parseString(String symbols) {
+        if (symbols.isEmpty()) {
+            return null;
+        }
+        return symbols.toCharArray();
+    }
+
+    @Override
+    public String toString() {
+        return "" + this.value;
+    }
 }

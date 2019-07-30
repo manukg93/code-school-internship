@@ -39,4 +39,9 @@ public class Boolean {
     public Boolean or(Boolean other) {
         return new Boolean(this.value || other.value);
     }
+
+    @Override
+    public String toString() {
+        return "" + this.value;
+    }
 }
