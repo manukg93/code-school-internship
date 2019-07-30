@@ -44,6 +44,10 @@ public class TestWrappers {
         System.out.println(int1.intValue());
         System.out.println(int1.longValue());
 
+        Integer i = new Integer();
+        System.out.println(i.parseInt("1154"));
+        i.parseInt("12b78");
+
 
     }
 }

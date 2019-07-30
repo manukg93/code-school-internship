@@ -1,5 +1,7 @@
 package edu.codeschool.training.classes_objects.homework7.wrappers;
 
+import java.sql.SQLOutput;
+
 public class Integer {
     public static final int SIZE = 32;
     public static final int MIN_VALUE = -2147483648;
@@ -81,6 +83,24 @@ public class Integer {
             return null;
         }
         return new Integer(this.value - other.getValue());
+    }
+
+    // Return int from string
+    public int parseInt(String number) {
+        if (number.isEmpty()) {
+            return 0;
+        }
+        int num = number.charAt(0) - '0';
+
+        for (int i = 0; i < number.length() - 1; i++) {
+            if (number.charAt(i) >= '0' && number.charAt(i) <= '9') {
+                num = num * 10 + (number.charAt(i+1) - '0');
+            } else {
+                System.out.println("String must contain only digits.");
+                return 0;
+            }
+        }
+        return num;
     }
 
     @Override
