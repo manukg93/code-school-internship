@@ -129,7 +129,7 @@ public class CustomString implements CharSequence {
 
         int index = indexOf(str.characters[0]);
 
-        for (int i = index, j = 0; i <= str.length(); i++, j++) {
+        for (int i = index, j = 0; i < str.length(); i++, j++) {
             if (this.characters[i] != str.characters[j]) {
                 return -1;
             }
@@ -194,7 +194,6 @@ public class CustomString implements CharSequence {
 
     @Override
     public CharSequence subSequence(int start, int end) {
-        CustomString sequence = null;
         if (start < 0 || start >= end) {
             return null;
         }
@@ -202,7 +201,7 @@ public class CustomString implements CharSequence {
             return null;
         }
 
-        sequence = new CustomString(end - start);
+        CustomString sequence = new CustomString(end - start);
         int i = start;
         int j = 0;
         while (i < end) {
