@@ -19,6 +19,12 @@ public class Country implements Cloneable {
         this.capital = capital;
         this.province = province;
     }
+    public Country(Country country){
+        this.name=country.name;
+        this.nationality=country.nationality;
+        this.capital=country.capital;
+        this.province=country.province;
+    }
 
     public String getName() {
         return name;
@@ -53,7 +59,12 @@ public class Country implements Cloneable {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return (Country) super.clone();
+    public Object clone() throws CloneNotSupportedException {
+        Country cloned=(Country)super.clone();
+        cloned.setName(cloned.getName());
+        cloned.setNationality(cloned.getNationality());
+        cloned.setCapital(cloned.getCapital());
+        cloned.setProvince(cloned.getProvince());
+        return cloned;
     }
 }

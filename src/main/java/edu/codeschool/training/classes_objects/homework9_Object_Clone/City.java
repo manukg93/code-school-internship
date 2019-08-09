@@ -16,6 +16,11 @@ public class City implements Cloneable {
         this.countOfResidents = countOfResidents;
         this.surface = surface;
     }
+    public City(City city){
+        this.name = city.name;
+        this.countOfResidents = city.countOfResidents;
+        this.surface = city.surface;
+    }
 
     public String getName() {
         return name;
@@ -42,7 +47,11 @@ public class City implements Cloneable {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return (City) super.clone();
+    public Object clone() throws CloneNotSupportedException {
+        City cloned=(City)super.clone();
+        cloned.setName(cloned.getName());
+        cloned.setCountOfResidents(cloned.getCountOfResidents());
+        cloned.setSurface(cloned.getSurface());
+        return cloned;
     }
 }

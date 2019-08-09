@@ -19,6 +19,12 @@ public class Province implements Cloneable {
         this.centreCity = centreCity;
         this.cities = cities;
     }
+    public Province(Province province){
+        this.name=province.name;
+        this.mobileCode=province.mobileCode;
+        this.centreCity=province.centreCity;
+        this.cities=province.cities;
+    }
 
     public String getName() {
         return name;
@@ -53,7 +59,13 @@ public class Province implements Cloneable {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return (Province)super.clone();
+    public Object clone() throws CloneNotSupportedException {
+        Province cloned = (Province) super.clone();
+        cloned.setName(cloned.getName());
+        cloned.setMobileCode(cloned.getMobileCode());
+        cloned.setCentreCity(cloned.getCentreCity());
+        cloned.setCities(cloned.getCities());
+        return  cloned;
+
     }
 }
