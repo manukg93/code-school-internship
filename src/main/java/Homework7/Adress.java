@@ -1,13 +1,11 @@
 package Homework7;
 
-import java.util.Objects;
-
 public class Adress {
     String country;
     String city;
     String street;
     long CP;
-    public Adress(String country, String city, String street, long CP ){
+    public Adress(String country, String city){
         this.country=country;
         this.city=city;
         this.street=street;

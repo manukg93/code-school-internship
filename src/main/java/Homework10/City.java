@@ -9,6 +9,14 @@ City(String name, long countOfResidents, double surface) {
     this.countOfResidents=countOfResidents;
     this.surface=surface;
 }
+
+    public City() {
+        
+    }
+
+    public City(String cityName) {
+    }
+
     public String getName() {
         return name;
     }

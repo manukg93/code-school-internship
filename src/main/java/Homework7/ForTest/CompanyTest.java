@@ -8,8 +8,8 @@ import Homework7.Department;
 public class CompanyTest {
     public static void main(String[] args) {
         Company a = new Company();
-        Adress b = new Adress("Armenia", "Yerevan", "Khorenatsi 15", 1600);
-        Adress c = new Adress("Armenia", "Yerevan", "Khorenatsi 15", 1600);
+        Adress b = new Adress("Armenia", "Yerevan");
+        Adress c = new Adress("Armenia", "Yerevan");
         Department d = new Department("Marketing department", 65);
         Department e = new Department("Commercial department", 65);
         Contact f = new Contact("manezak94@gmail.com", 65, 10);
