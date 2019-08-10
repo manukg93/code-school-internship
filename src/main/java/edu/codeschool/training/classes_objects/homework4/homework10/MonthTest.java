@@ -6,7 +6,9 @@ public class MonthTest {
             for(Month month : Month.values()){
                 month.getOrder(month);
 
+
                 System.out.println(month);
+
                 System.out.println("--------------------------------------");
             }
         }
