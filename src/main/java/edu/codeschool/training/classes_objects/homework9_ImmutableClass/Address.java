@@ -4,9 +4,14 @@ public class Address {
     private String street;
     private City city;
 
-    public Address(String street, City city) {
+    public Address() {
+        this.street = "Shahumyan 1st";
+        this.city = new City();
+    }
+
+    public Address(String street,String city) {
         this.street = street;
-        this.city = city;
+        this.city = new City(city);
     }
 
     public String getStreet() {
@@ -21,15 +26,14 @@ public class Address {
         return city;
     }
 
-    public void setCity(City city) {
-        this.city = city;
+    public void setCity(String name) {
+        this.city = new City(name);
     }
 
     @Override
     public String toString() {
-        return "Address{" +
-                "street='" + street + '\'' +
-                ", city=" + city +
+        return  this.street+" "+
+                this.city.toString() +", city=" +
                 '}';
     }
 }
