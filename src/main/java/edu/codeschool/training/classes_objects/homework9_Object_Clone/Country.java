@@ -1,13 +1,16 @@
 package edu.codeschool.training.classes_objects.homework9_Object_Clone;
 
+import java.util.Arrays;
+
 public class Country implements Cloneable {
     private String name;
     private String nationality;
     private City capital;
     private Province[] province;
+    private int numberOfProvince;
 
     public Country() {
-        this.name = "Hayk";
+        this.name = "Armenia";
         this.nationality = "armenian";
         this.capital = null;
         this.province = null;
@@ -19,11 +22,25 @@ public class Country implements Cloneable {
         this.capital = capital;
         this.province = province;
     }
-    public Country(Country country){
-        this.name=country.name;
-        this.nationality=country.nationality;
-        this.capital=country.capital;
-        this.province=country.province;
+    //copy constructor
+    public Country(Country country) {
+        this.numberOfProvince = country.numberOfProvince;
+        this.name = country.name;
+        this.nationality = country.nationality;
+        this.capital = new City(country.capital);
+        this.province = new Province[this.numberOfProvince];
+
+        for (int i = 0; i < this.numberOfProvince; i++) {
+            this.province[i] = new Province(country.province[i]);
+        }
+    }
+
+    public int getNumberOfProvince() {
+        return numberOfProvince;
+    }
+
+    public void setNumberOfProvince(int numberOfProvince) {
+        this.numberOfProvince = numberOfProvince;
     }
 
     public String getName() {
@@ -60,11 +77,24 @@ public class Country implements Cloneable {
 
     @Override
     public Object clone() throws CloneNotSupportedException {
-        Country cloned=(Country)super.clone();
-        cloned.setName(cloned.getName());
-        cloned.setNationality(cloned.getNationality());
-        cloned.setCapital(cloned.getCapital());
-        cloned.setProvince(cloned.getProvince());
-        return cloned;
+        Country country = (Country) super.clone();
+        country.capital = (City) this.capital.clone();
+        country.province = new Province[country.numberOfProvince];
+
+        for (int i = 0; i < numberOfProvince; i++) {
+            country.province[i] = (Province) this.province[i].clone();
+        }
+        return country;
+    }
+
+    @Override
+    public String toString() {
+        return "Country{" +
+                "name='" + name + '\'' +
+                ", nationality='" + nationality + '\'' +
+                ", capital=" + capital +
+                ", province=" + Arrays.toString(province) +
+                ", numberOfProvince=" + numberOfProvince +
+                '}';
     }
 }

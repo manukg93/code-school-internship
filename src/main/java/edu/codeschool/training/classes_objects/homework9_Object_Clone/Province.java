@@ -1,5 +1,7 @@
 package edu.codeschool.training.classes_objects.homework9_Object_Clone;
 
+import java.util.Arrays;
+
 public class Province implements Cloneable {
     private String name;
     private long mobileCode;
@@ -22,7 +24,7 @@ public class Province implements Cloneable {
     public Province(Province province){
         this.name=province.name;
         this.mobileCode=province.mobileCode;
-        this.centreCity=province.centreCity;
+        this.centreCity=new City(province.centreCity);
         this.cities=province.cities;
     }
 
@@ -60,12 +62,17 @@ public class Province implements Cloneable {
 
     @Override
     public Object clone() throws CloneNotSupportedException {
-        Province cloned = (Province) super.clone();
-        cloned.setName(cloned.getName());
-        cloned.setMobileCode(cloned.getMobileCode());
-        cloned.setCentreCity(cloned.getCentreCity());
-        cloned.setCities(cloned.getCities());
-        return  cloned;
+            return super.clone();
+        }
 
+    @Override
+    public String toString() {
+        return "Province{" +
+                "name='" + name + '\'' +
+                ", mobileCode=" + mobileCode +
+                ", centreCity=" + centreCity +
+                ", cities=" + Arrays.toString(cities) +
+                '}';
     }
 }
+

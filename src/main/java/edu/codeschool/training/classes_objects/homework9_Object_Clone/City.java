@@ -6,9 +6,9 @@ public class City implements Cloneable {
     private double surface;
 
     public City() {
-        this.name = "Hayk";
-        this.countOfResidents = 1;
-        this.surface = 1.0;
+        this.name = "Erevan";
+        this.countOfResidents = 0;
+        this.surface = 0.0;
     }
 
     public City(String name, long countOfResidents, double surface) {
@@ -16,12 +16,12 @@ public class City implements Cloneable {
         this.countOfResidents = countOfResidents;
         this.surface = surface;
     }
-    public City(City city){
-        this.name = city.name;
-        this.countOfResidents = city.countOfResidents;
-        this.surface = city.surface;
+    // copy constructor
+    public City(City city) {
+            this.name = city.name;
+            this.countOfResidents = city.countOfResidents;
+            this.surface = city.surface;
     }
-
     public String getName() {
         return name;
     }
@@ -35,23 +35,29 @@ public class City implements Cloneable {
     }
 
     public void setCountOfResidents(long countOfResidents) {
-        this.countOfResidents = countOfResidents;
+        if (countOfResidents > 0) {
+            this.countOfResidents = countOfResidents;
+        }
     }
-
     public double getSurface() {
         return surface;
     }
 
     public void setSurface(double surface) {
-        this.surface = surface;
+        if (surface > 0) {
+            this.surface = surface;
+        }
     }
-
     @Override
     public Object clone() throws CloneNotSupportedException {
         City cloned=(City)super.clone();
-        cloned.setName(cloned.getName());
-        cloned.setCountOfResidents(cloned.getCountOfResidents());
-        cloned.setSurface(cloned.getSurface());
-        return cloned;
+
+        return (City)super.clone();
+    }
+
+    @Override
+    public String toString() {
+        return "City : "+ this.name+" , Residents count: " + this.countOfResidents + ", Surface: "
+                + this.surface + ".";
     }
 }
