@@ -1,5 +1,7 @@
 package code.school.internship.classes_and_objects.homework.homework5;
 
+import code.school.internship.classes_and_objects.homework.homework5.Person;
+
 public class SubStudent extends Person {
     public String university;
     public double fee;
