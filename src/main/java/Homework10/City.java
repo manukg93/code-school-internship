@@ -45,4 +45,5 @@ City(String name, long countOfResidents, double surface) {
  protected Object clone() throws CloneNotSupportedException {
        return super.clone();
   }
+
 }

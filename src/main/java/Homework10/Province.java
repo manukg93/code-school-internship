@@ -48,11 +48,18 @@ public class Province implements Cloneable {
         return name + " " + mobileCode + " " + cities + " " + centreCity;
 }
 
+//    @Override
+//    protected Object clone() throws CloneNotSupportedException {
+//       Province province = (Province)super.clone();
+//       province.country=new Country();
+//       return province;
+//    }
+Country prov = new Country();
     @Override
     protected Object clone() throws CloneNotSupportedException {
-       Province province = (Province)super.clone();
-       province.country=new Country();
-       return province;
+        Province prov1 = (Province)super.clone();
+        prov1.prov = new Country();
+        return prov1;
     }
 }
 

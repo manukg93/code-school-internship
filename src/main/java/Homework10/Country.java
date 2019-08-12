@@ -1,6 +1,6 @@
 package Homework10;
 
-public class Country implements Cloneable {
+public class Country {
     String name;
     String nationality;
     City capital;
@@ -31,8 +31,4 @@ Country(String name, String nationality, City City, Province[] province){
         return name + " " + nationality + " " + capital + " " + province;
     }
 
-    @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return (Country)super.clone();
-    }
 }
