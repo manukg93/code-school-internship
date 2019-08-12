@@ -13,7 +13,5 @@ public class Main {
         Country country = new Country("Armenia","hay",city,provinces);
         Country country1 = country.clone();
         System.out.println(country.getCapital()==country1.getCapital());
-
-
     }
 }

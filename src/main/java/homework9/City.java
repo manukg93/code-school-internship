@@ -10,6 +10,11 @@ public class City implements Cloneable  {
         this.countOfResidents = countOfResidents;
         this.surface = surface;
     }
+    public City(City obj){
+        this.name=obj.name;
+        this.countOfResidents=obj.countOfResidents;
+        this.surface=obj.surface;
+    }
 
     public String getName() {
         return name;

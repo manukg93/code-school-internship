@@ -3,6 +3,7 @@ package homework9;
 import java.util.Arrays;
 
 public class Province implements Cloneable{
+    private int numberOfCities;
     private String name;
     private long mobileCode;
     private City centerCity;
@@ -13,6 +14,23 @@ public class Province implements Cloneable{
         this.mobileCode = mobileCode;
         this.centerCity = centerCity;
         this.cities = cities;
+    }
+    public Province(Province obj){
+     this.numberOfCities=obj.numberOfCities;
+     this.mobileCode=obj.mobileCode;
+     this.centerCity=obj.centerCity;
+     this.cities = new City[this.numberOfCities];
+        for (int i = 0; i <numberOfCities ; i++) {
+            this.cities[i]=obj.cities[i];
+        }
+    }
+
+    public int getNumberOfCities() {
+        return numberOfCities;
+    }
+
+    public void setNumberOfCities(int numberOfCities) {
+        this.numberOfCities = numberOfCities;
     }
 
     public String getName() {
@@ -33,7 +51,13 @@ public class Province implements Cloneable{
 
     @Override
     protected Province clone() throws CloneNotSupportedException {
-        return (Province) super.clone();
+        Province prov = (Province)super.clone();
+        prov.centerCity=centerCity.clone();
+        prov.cities = new City[numberOfCities];
+        for (int i = 0; i < numberOfCities ; i++) {
+            prov.cities[i]=cities[i].clone();
+        }
+        return prov;
     }
 
     @Override
