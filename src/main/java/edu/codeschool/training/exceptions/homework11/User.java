@@ -11,12 +11,6 @@ public class User {
         this.name = name;
         setEmail(email);
         setPassword(password);
-
-        if (password.length() < 8) {
-            throw new IllegalPasswordException("Password is too short");
-        } else {
-            this.password = password;
-        }
     }
 
     // setters and getters
