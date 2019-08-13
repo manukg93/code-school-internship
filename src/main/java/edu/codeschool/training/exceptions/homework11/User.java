@@ -21,7 +21,7 @@ public class User {
     public void setEmail(String email) {
 
         if (!email.contains("@")) {
-            throw new IllegalEmailException("Illegal email");
+            throw new edu.codeschool.training.exceptions.homework11.IllegalEmailException("Illegal email");
         } else {
             this.email = email;
         }

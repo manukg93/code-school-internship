@@ -1,5 +1,6 @@
 package edu.codeschool.training.exceptions.homework11.client;
 
+
 import edu.codeschool.training.exceptions.homework11.IllegalEmailException;
 import edu.codeschool.training.exceptions.homework11.IllegalPasswordException;
 import edu.codeschool.training.exceptions.homework11.User;
