@@ -1,6 +1,7 @@
 package code.school.internship.classes_and_objects.homework.homework6;
 
-/*public class Employee implements Person {
+/*
+public class Employee extends Person {
     private  String name;
     private  String  email;
     private  String department;
@@ -41,4 +42,6 @@ package code.school.internship.classes_and_objects.homework.homework6;
     }
 }
 
-*/
+ */
+
+

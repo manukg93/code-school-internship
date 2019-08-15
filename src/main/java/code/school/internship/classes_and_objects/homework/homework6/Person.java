@@ -1,18 +1,17 @@
 package code.school.internship.classes_and_objects.homework.homework6;
 
-
-/*public class Persion extends Human {
+public class Person /*extends Human */{
     // member variables of Employee
     private String departmentName;
 
     // Constructors
-    public Persion() {
+    public Person() {
         super();
         this.departmentName = "";
     }
 
-    public Persion(String name, String email, String departmentName) {
-        super(name, email);
+    public Person(String name, String email, String departmentName) {
+//        super(name, email);
 
         if (departmentName != null) {
             this.departmentName = departmentName;
@@ -29,14 +28,14 @@ package code.school.internship.classes_and_objects.homework.homework6;
     // Getters
     public String getDepartmentName() {return this.departmentName;}
 
-    @Override
-    public void getDescription() {
-        System.out.println(this.getName() + " works in " + this.getDepartmentName() + " department");
-    }
+//    @Override
+//    public void getDescription() {
+//        System.out.println(this.getName() + " works in " + this.getDepartmentName() + " department");
+//    }
 
-    @Override
-    public void view() {
-        this.getDescription();
-    }
+//    @Override
+//    public void view() {
+//        this.getDescription();
+//    }
 }
-*/
+

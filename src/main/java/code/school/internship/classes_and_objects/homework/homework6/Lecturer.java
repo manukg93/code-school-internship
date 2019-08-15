@@ -1,7 +1,7 @@
 package code.school.internship.classes_and_objects.homework.homework6;
 
-/*
-public class Lecturer implements Person {
+
+/* public class Lecturer implements Person {
     private String name;
     private String email;
     private String subject;
@@ -35,10 +35,12 @@ public class Lecturer implements Person {
     public void setSubject(String subject) {
         this.subject = subject;
     }
-    @Override
+    // @Override
     public String getDescription(){
         return "Teaches"+subject;
     }
 }
 
  */
+
+
