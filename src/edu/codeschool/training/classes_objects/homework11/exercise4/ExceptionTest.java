@@ -18,6 +18,7 @@ public class ExceptionTest {
 }
 
 class ExceptionTest1 {
+
     public static void main(String[] args) {
         try{
             System.out.println("in try block");
@@ -27,7 +28,6 @@ class ExceptionTest1 {
         }
     }
 }
-
 
 class FinallyExample {
     public static void main(String[] args) {
