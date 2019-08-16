@@ -22,17 +22,15 @@ public class User {
 
         if (!email.contains("@")) {
             throw new edu.codeschool.training.exceptions.homework11.IllegalEmailException("Illegal email");
-        } else {
-            this.email = email;
         }
+        this.email = email;
     }
 
     public void setPassword(String password) {
         if (password.length() < 8) {
             throw new IllegalPasswordException("Password is too short");
-        } else {
-            this.password = password;
         }
+        this.password = password;
     }
 
     public String getName() {
