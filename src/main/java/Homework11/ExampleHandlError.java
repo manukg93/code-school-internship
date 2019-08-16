@@ -17,7 +17,7 @@ public class ExampleHandlError {
                 a = 0;
             }
             System.out.println("a: " + a);
-            }
-            }
         }
+    }
+}
 

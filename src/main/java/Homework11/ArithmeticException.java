@@ -1,6 +1,6 @@
 package Homework11;
 
-public class ArithmeticException {
+public class ArithmeticException extends Throwable {
     // Exercise 1
         public static void main(String[] args) {
             try {
