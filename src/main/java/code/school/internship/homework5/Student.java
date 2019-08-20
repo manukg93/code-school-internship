@@ -14,7 +14,7 @@ public class Student extends Person {
     }
 
     public String getUniversity() {
-        return university; 
+        return university;
     }
 
     public void setFee(double fee) {
