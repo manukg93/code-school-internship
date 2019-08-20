@@ -52,4 +52,12 @@ public class MyMath {
       System.out.println(mull);
      return mull;
  }
+ public int isPrime(int number){
+      if(number%2 != 1) {
+         System.out.println("number is not prime");
+      }else{
+          System.out.println("number is prime");
+      }
+     return number;
+ }
 }

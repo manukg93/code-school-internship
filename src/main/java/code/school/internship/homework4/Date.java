@@ -38,12 +38,9 @@ public class Date {
         this.day = this.day + day;
 
     }
-    public double toString(double yyyy, double mm, double dd) {
-        this.year = yyyy;
-        this.month = mm;
-        this.day = dd;
-        return yyyy/mm/dd;
 
+    public String toString() {
+        return this.year  + "/" + this.month + "/" + this.day;
     }
 
 

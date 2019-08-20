@@ -17,5 +17,7 @@ math.min(doubleArray);
 math.max(doubleArray);
 math.sum(doubleArray);
 math.mull(doubleArray);
+        System.out.println();
+math.isPrime(1489775697);
     }
 }
