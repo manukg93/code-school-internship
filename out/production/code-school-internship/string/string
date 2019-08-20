@@ -1,0 +1,22 @@
+String literal
+
+How to declare String (String constructors)
+
+Java String Methods:
+    char charAt(int index)
+    boolean contains(CharSequence s)
+    String toUpperCase(Locale locale)
+    int length()
+    int indexOf(int ch)
+    int lastIndexOf(int ch)
+    String substring(int beginIndex)
+    String substring(int beginIndex, int endIndex)
+    String concat(String str)
+    String replace(char oldChar, char newChar):
+    boolean equals(Object obj)
+    boolean equalsIgnoreCase(String string)
+    int compareTo(String string)
+    int compareToIgnoreCase(String string)
+    boolean startsWith(String prefix)
+    boolean startsWith(String prefix, int offset)
+    boolean endsWith(String suffix)
