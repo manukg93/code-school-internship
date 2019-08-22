@@ -28,6 +28,6 @@ public abstract class Person {
     @Override
     public String toString() {
         return super.toString();
-    }  
+    }
 }
 
