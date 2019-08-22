@@ -24,4 +24,9 @@ public class Student extends Person {
     public double getFee() {
         return fee;
     }
+
+    @Override
+    public String toString() {
+        return name+" "+address+" "+university+" "+fee;
+    }
 }
