@@ -112,6 +112,8 @@ public class FileDemo {
         //String toString()
         System.out.println("file3 toString: " + file3);
 
+        System.out.println("Delete file2: " + file2.delete());
+
 
 
 
