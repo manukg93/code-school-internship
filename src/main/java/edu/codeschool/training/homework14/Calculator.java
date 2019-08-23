@@ -1,45 +1,72 @@
 package edu.codeschool.training.homework14;
 
-import java.io.InputStreamReader;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Calculator {
+
     public static void main(String[] args) {
 
 
         Scanner scanner = new Scanner(System.in);
-
-        String exitStr = "exit";
-
         System.out.println("Enter \"exit\" to terminate Calculator");
 
-        double result = scanner.nextDouble();
+        double result = 0;
+        char operation = 0;
 
+        if (scanner.hasNext("exit"))
+            return;
 
-        while (!scanner.hasNext(exitStr)) {
+        try {
 
-            char operation = scanner.next().charAt(0);
+            result = scanner.nextDouble();
 
-            double nextDouble = scanner.nextDouble();
+        } catch (InputMismatchException ex) {
 
-                switch (operation) {
-                    case '+':
-                        result += nextDouble;
-                        break;
-                    case '-':
-                        result -= nextDouble;
-                        break;
-                    case '*':
-                        result *= nextDouble;
-                        break;
-                    case '/':
-                        result /= nextDouble;
-                        break;
-                    default:
-                        System.out.println("wrong operation");
-                        operation = scanner.next().charAt(0);
+            System.out.println("expected double or integer");
+        }
+
+        while (!scanner.hasNext("exit")) {
+
+            try {
+
+                operation = scanner.next().charAt(0);
+
+            } catch (InputMismatchException ex) {
+
+                System.out.println("expected arithmetic operation");
+            }
+
+            double nextDouble = 0;
+
+            try {
+
+                nextDouble = scanner.nextDouble();
+
+            } catch (InputMismatchException ex) {
+
+                System.out.println("Expected double or integer");
+            }
+
+            switch (operation) {
+                case '+':
+                    result += nextDouble;
+                    break;
+                case '-':
+                    result -= nextDouble;
+                    break;
+                case '*':
+                    result *= nextDouble;
+                    break;
+                case '/':
+                    result /= nextDouble;
+                    break;
+                default:
+                    System.out.println("wrong operation");
+                    break;
                 }
-                System.out.println(result);
+
+            System.out.println(result);
+            }
         }
     }
-}
