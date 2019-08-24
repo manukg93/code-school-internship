@@ -14,7 +14,7 @@ public class CalculatorProgram {
 
         System.out.println("Enter the numbers to calculate or keyword 'Exit' to exit program");
 
-       input: while (!Calc.hasNext(outOfCalc)) {
+        while (!Calc.hasNext(outOfCalc)) {
             try {
                 double n1 = Calc.nextDouble();
                 System.out.println("Enter the second number:");
@@ -44,10 +44,9 @@ public class CalculatorProgram {
                 }
             }catch (InputMismatchException ex){
                 System.out.println("Enter the numbers to calculate or keyword 'Exit' to exit program");
+                Calc.reset();
 
-            }finally{
-               break input;
+            }
             }
         }
     }
-}
