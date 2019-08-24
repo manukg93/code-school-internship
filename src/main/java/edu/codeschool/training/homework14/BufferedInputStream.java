@@ -30,15 +30,6 @@ public class BufferedInputStream extends InputStream {
         }
     }
 
-    // private method
-    private void checkCount() {
-
-        if (this.count >= this.buffer.length) {
-
-            this.buffer = new byte[this.buffer.length * 2];
-        }
-    }
-
     public byte[] getBuffer() {
 
         return this.buffer;
@@ -54,7 +45,6 @@ public class BufferedInputStream extends InputStream {
 
         position = 0;
         this.count = this.in.read(buffer);
-        checkCount();
 
         return buffer[position++];
     }
