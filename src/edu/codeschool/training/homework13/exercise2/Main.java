@@ -34,6 +34,8 @@ public class Main {
 
         source.deleteOnExit();
         System.out.println(source + " :- This file will delete on exit. ");
+        System.out.printf( "Дpyгoй Формат отрицатель ных чисел с " +
+        " плав ающей точкой : %,(f\n)", -1234567.123);
     }
 }
 
@@ -52,11 +54,17 @@ class AnOtherFile{
 
         fileInputStream = new FileInputStream("Lesson_13_August_17_Homework.txt");
         fileInputStream.skip(10);
-        fileOutputStream = new FileOutputStream("AnOtherFile.txt");
+        fileOutputStream = new FileOutputStream(file);
+
+            byte[] bytes = new byte[fileInputStream.available()];
+            int i = 0;
         while ((b = fileInputStream.read()) != -1){
 
-            fileOutputStream.write(b);
+//            fileOutputStream.write(b);
+            bytes[i] = (byte)b;
+            i++;
         }
+            fileOutputStream.write(bytes, 10, i-11);
 
         } catch (IOException e) {
             e.printStackTrace();
