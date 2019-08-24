@@ -1,6 +1,6 @@
 package edu.codeschool.training.classes_objects.homework4.client;
 
-import edu.codeschool.training.classes_objects.homework4.Circle;
+import edu.codeschool.training.classes_objects.homework4.homework6.Circle;
 
 public class TestCircle {
     public static void main(String[] args) {

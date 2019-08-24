@@ -1,6 +1,6 @@
 package edu.codeschool.training.classes_objects.homework4.client;
 
-import edu.codeschool.training.classes_objects.homework4.Date;
+import edu.codeschool.training.classes_objects.homework4.homework6.Date;
 
 public class TestDate {
     public static void main(String[] args) {

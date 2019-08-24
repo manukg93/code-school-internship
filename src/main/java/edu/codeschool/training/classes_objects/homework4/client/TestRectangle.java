@@ -1,6 +1,6 @@
 package edu.codeschool.training.classes_objects.homework4.client;
 
-import edu.codeschool.training.classes_objects.homework4.Rectangle;
+import edu.codeschool.training.classes_objects.homework4.homework6.Rectangle;
 
 public class TestRectangle {
     public static void main(String[] args) {

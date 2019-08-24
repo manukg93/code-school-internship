@@ -1,4 +1,4 @@
-package edu.codeschool.training.classes_objects.homework4.homewrk9;
+/*package edu.codeschool.training.classes_objects.homework4.homewrk9;
 
 public final  class Address {
     final String street;
@@ -27,3 +27,4 @@ public final  class Address {
                 '}';
     }
 }
+*/

@@ -1,6 +1,6 @@
 package edu.codeschool.training.classes_objects.homework4.client;
 
-import edu.codeschool.training.classes_objects.homework4.Employee;
+import edu.codeschool.training.classes_objects.homework4.homework6.Employee;
 
 public class TestEmployee {
     public static void main(String[] args) {

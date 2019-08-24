@@ -1,4 +1,4 @@
-package edu.codeschool.training.classes_objects.homework4.homewrk9;
+/*package edu.codeschool.training.classes_objects.homework4.homewrk9;
 
 import java.util.Arrays;
 
@@ -8,7 +8,6 @@ public class Province {
     private City centreCity;
     private City[] cities;
 
-    public Province(){}
 
     public Province(String name, long mobileCode, City centreCity, City[] cities) {
         this.name = name;
@@ -60,12 +59,13 @@ public class Province {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        Province cloned=new Province();
-        this.name = cloned.getName();
-        this.mobileCode =cloned.getMobileCode();
-        this.centreCity = cloned.getCentreCity();
-        this.cities = cloned.getCities();
-        return super.clone();
+    protected Province clone() throws CloneNotSupportedException {
+        Province cloned=(Province)super.clone();
+        cloned.name=this.name;
+        cloned.mobileCode=this.mobileCode;
+        cloned.centreCity=this.centreCity;
+        cloned.cities=this.cities;
+        return cloned;
     }
 }
+*/

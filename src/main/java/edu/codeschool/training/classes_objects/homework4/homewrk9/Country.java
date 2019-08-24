@@ -1,21 +1,22 @@
-package edu.codeschool.training.classes_objects.homework4.homewrk9;
+/*package edu.codeschool.training.classes_objects.homework4.homewrk9;
 
 import java.util.Arrays;
 
 public class Country {
     private String name="Armenia";
     private String natioality="Armenian";
-    private City capital;
-    private Province[] province;
+    private City capital=null;
+    private Province[] province=null;
 
-    public Country(){}
+    public Country() {
+    }*/
 
-    public Country(String name, String natioality, City capital, Province[] province) {
+  /*  public Country(String name, String natioality, City capital, Province[] province) {
         this.name = name;
         this.natioality = natioality;
         this.capital = capital;
-        this.province = province;
-    }
+        this.province = province;}
+
     Country (Country c){
         name=c.name;
         natioality=c.natioality;
@@ -66,13 +67,12 @@ public class Country {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        Country cloned=new Country();
-        this.name = cloned.getName();
-        this.natioality = cloned.getNatioality();
-        this.capital = cloned.getCapital();
-        this.province = cloned.getProvince();
-
-        return super.clone();
+    protected Country clone() throws CloneNotSupportedException {
+        Country cloned= (Country) super.clone();
+        cloned.name = this.name;
+        cloned.capital = this.capital;
+        cloned.province= this.province;
+        return cloned;
     }
 }
+*/

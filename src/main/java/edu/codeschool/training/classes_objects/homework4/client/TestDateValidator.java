@@ -1,6 +1,7 @@
 package edu.codeschool.training.classes_objects.homework4.client;
 
-import edu.codeschool.training.classes_objects.homework4.*;
+import edu.codeschool.training.classes_objects.homework4.homework6.Date;
+import edu.codeschool.training.classes_objects.homework4.homework6.DateValidator;
 
 public class TestDateValidator {
     public static void main(String[] args) {
