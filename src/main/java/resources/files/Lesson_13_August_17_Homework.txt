@@ -1,0 +1,38 @@
+HomeWork:
+
+
+    Reading:
+
+
+            1. Herbert Schildt - https://drive.google.com/open?id=1os57g3BfMhqafFECVbodOoDZ6SKftQWB
+
+                1. Глава 20. Пакет j ava. io для ввода-вывода - 717 - 768
+
+            2. CayS. Horstmann - https://drive.google.com/open?id=1jW5wyY1Uhv8c35NbcVIz0JI6XmeQ2tJD
+
+                1. Глава1. Потоки ввода - вывода и файлы  19 - 96
+ 
+            3. Slides - https://drive.google.com/open?id=1alm5BYE2EKloewpMwD18gM-nWJzJkmej
+
+    Writing:
+
+            1. Given Lesson_13_August_17_Homework.txt file
+			   1.1. Copy this file content into another file using FileInputStream and FileOutputStream classes
+			   read() method
+			   1.2. Copy contnent using using FileInputStream and FileOutputStream classes
+			   read(byte[] bytes) method
+			   
+			2. Create folloing directory tree using File class methods
+			   2.1. Create codeSchoolTrainings directory which will contain
+					2.1.1. Create java directory inside codeSchoolTrainings directory
+					2.1.2. Copy Lesson_13_August_17_Homework.txt file into java directory
+					2.1.3. Delete original Lesson_13_August_17_Homework.txt file after coping it into java directory
+					use deleteOnExit method
+			   2.2. Create another file inside java directory and copy content from Lesson_13_August_17_Homework.txt, skipping first 10 bytes
+			   use skip(n) method of InputStream
+					
+			3. Write 1. and 2. using both traditinal try-catch-finlly and try-with resources 
+			
+			4. Create System class, which will have static methods print(String), println(String). These methods should write given message into file (sout.txt)
+			ex. if I use System.println("Hello"), I should see Hello method inside sout.txt file
+			
