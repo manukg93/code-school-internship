@@ -8,6 +8,6 @@ public class TestSystem {
 
         System.print("Hello, world");
 
-        System.println("Armenia");
+        //System.println("Armenia");
     }
 }

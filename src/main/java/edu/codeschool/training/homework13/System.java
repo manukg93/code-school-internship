@@ -48,6 +48,10 @@ public class System {
         } catch (IOException ioe) {
 
             System.out.println("I/O exception: " + ioe.getStackTrace());
+
+        } finally {
+
+            out.close();
         }
     }
 
@@ -67,6 +71,10 @@ public class System {
         } catch (IOException ioe) {
 
             System.out.println("I/O exception: " + ioe.getStackTrace());
+
+        } finally {
+
+            out.close();
         }
 
     }
