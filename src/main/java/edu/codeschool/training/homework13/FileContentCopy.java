@@ -1,6 +1,7 @@
 package edu.codeschool.training.homework13;
 
 import java.io.*;
+import java.lang.System;
 
 public class FileContentCopy {
 
