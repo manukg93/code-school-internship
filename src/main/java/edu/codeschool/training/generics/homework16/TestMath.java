@@ -3,53 +3,60 @@ package edu.codeschool.training.generics.homework16;
 public class TestMath {
     public static void main(String[] args) {
 
-        Math<Character> charObj = new Math<>();
         Character[] characters = {'a', 'A', 'u', 'V', '2', '9'};
-
-        char minOfChars = charObj.min(characters);
-        char maxOfChars = charObj.max(characters);
+        // pass array of characters
+        Character minOfChars = Math.min(characters);
+        Character maxOfChars = Math.max(characters);
 
         System.out.println("min: " + minOfChars);
         System.out.println("max: " + maxOfChars);
 
-        Math<Integer> intObj = new Math<>();
         Integer[] integers = {1, 12, 0, -4, 6, 20};
-
-        int minOfIntegers = intObj.min(integers);
-        int maxOfIntegers = intObj.max(integers);
+        // pass array of integers
+        Integer minOfIntegers = Math.min(integers);
+        Integer maxOfIntegers = Math.max(integers);
 
         System.out.println("min: " + minOfIntegers);
         System.out.println("max: " + maxOfIntegers);
 
-        // create Math object of strings
-        Math<String> strObj = new Math<>();
         String[] strs = {"111", "abc", "aaa", "Abc", "acD"};
 
-        String minStr = strObj.min(strs);
-        String maxStr = strObj.max(strs);
+        // pass array of Strings
+        String minStr = Math.min(strs);
+        String maxStr = Math.max(strs);
 
         System.out.println("min: " + minStr);
         System.out.println("max:" + maxStr);
 
         // reverse integers' array
-        intObj.reverse(integers);
+        Math.reverse(integers);
         for (Integer el : integers ) {
-
             System.out.print(el + ",");
-
         }
         System.out.println();
 
         // reverse array of strings
-        strObj.reverse(strs);
+        Math.reverse(strs);
         for ( String s : strs ) {
-
             System.out.print(s + ",");
-
         }
         System.out.println();
 
         // search
-        System.out.println("array contains 0: " + intObj.search(integers, 0));
+        System.out.println("array contains 0: " + Math.search(integers, 0));
+
+        // get subArray of strs
+        String[] sub = Math.subArray(strs, 1, 3);
+        for (String st : sub ) {
+            System.out.print(st + ",");
+        }
+        System.out.println();
+
+        // get subArray of strs
+        Integer[] subInt = Math.subArray(integers, 1, 4);
+        for (Integer i : subInt ) {
+            System.out.print(i + ",");
+        }
+        System.out.println();
     }
 }

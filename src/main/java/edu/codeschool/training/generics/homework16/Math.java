@@ -1,24 +1,15 @@
 package edu.codeschool.training.generics.homework16;
 
-public class Math <T extends Comparable> {
+public class Math {
 
-    // declare array of type T
-    T[] arr;
+    public  static<T extends Comparable> T min(T[] arr) {
 
-    public  T min(T[] arr) {
-
-        this.arr = arr;
-        if (this.arr == null) {
-
+        if (arr == null || arr.length == 0) {
             return null;
         }
-        if (this.arr.length == 0) {
 
-            System.out.println("array is empty");
-            return null;
-        }
-        T min = this.arr[0];
-        for (T el : this.arr) {
+        T min = arr[0];
+        for (T el : arr) {
 
             if (el.compareTo(min) < 0) {
 
@@ -28,20 +19,13 @@ public class Math <T extends Comparable> {
         return min;
     }
 
-    public T max(T[] arr) {
+    public static <T extends Comparable> T max(T[] arr) {
 
-        this.arr = arr;
-        if (this.arr == null) {
-
+        if (arr == null || arr.length == 0) {
             return null;
         }
-        if (this.arr.length == 0) {
-
-            System.out.println("array is empty");
-            return null;
-        }
-        T max = this.arr[0];
-        for (T el : this.arr) {
+        T max = arr[0];
+        for (T el : arr) {
 
             if (el.compareTo(max) > 0) {
 
@@ -51,54 +35,52 @@ public class Math <T extends Comparable> {
         return max;
     }
 
-    public void sort(T[] arr) {
+    //public void sort(T[] arr) {
+//
+    //}
 
-    }
+    public static <T extends Comparable> void reverse(T[] arr) {
 
-    public void reverse(T[] arr) {
-
-        this.arr = arr;
-        if (this.arr == null || this.arr.length == 0) { return; }
+        if (arr == null || arr.length == 0) { return; }
 
         T temp;
-        for (int i = 0; i < this.arr.length/2; i++) {
-            temp = this.arr[i];
-            this.arr[i] = this.arr[this.arr.length - 1 - i];
-            this.arr[this.arr.length - 1 - i] = temp;
+        for (int i = 0; i < arr.length/2; i++) {
+            temp = arr[i];
+            arr[i] = arr[arr.length - 1 - i];
+            arr[arr.length - 1 - i] = temp;
         }
     }
 
-    public boolean search(T[] arr, T el) {
+    public static <T extends Comparable> boolean search(T[] arr, T el) {
 
-        this.arr = arr;
-        if (this.arr == null || this.arr.length == 0) {
+        if (arr == null || arr.length == 0) { return false; }
+        for ( T element : arr ) {
 
-            return false;
-        }
-        for ( T element : this.arr ) {
-
-            if (el.equals(element)) {
-
-                return true;
-            }
+            if (el.equals(element)) { return true; }
         }
         return false;
     }
 
-    /*
-    public T[] subArray(T[] arr, int offset, int len) {
-        this.arr = arr;
-        if (this.arr == null || this.arr.length == 0) { return null; }
+    public static <T extends Comparable> T[] subArray(T[] arr, int offset, int len) {
 
-        T[] subArray = (T[])new Comparable<T>()[len];
-        if (offset >= 0 && len >= 0 && offset + len < this.arr.length) {
-            for (int i = offset, j = 0; i < len; i++, j++) {
-                subArray[j] = this.arr[i];
+        if (arr == null || arr.length == 0) { return null; }
+
+        Comparable[] subArray = null;
+        if (arr instanceof String[]) { subArray = new String[len]; }
+
+        else if (arr instanceof Integer[]) { subArray = new Integer[len]; }
+
+        else if (arr instanceof Double[]) { subArray = new Double[len]; }
+
+        else if (arr instanceof Character[]) { subArray = new Character[len]; }
+
+        else if (arr instanceof Car[]) { subArray = new Car[len]; }
+
+        if (offset >= 0 && len >= 0 && offset + len < arr.length) {
+            for (int i = offset, j = 0; i <= len; i++, j++) {
+                subArray[j] = arr[i];
             }
         }
-
-        return subArray;
+        return (T[]) subArray;
     }
-
-     */
 }
