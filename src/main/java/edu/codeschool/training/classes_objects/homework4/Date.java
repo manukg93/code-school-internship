@@ -1,17 +1,29 @@
 package edu.codeschool.training.classes_objects.homework4;
 
-public class Date {
+public class Date implements Comparable<Date> {
     private int day;
     private int month;
     private int year;
 
-    // Setter and getter methods
+    // constructors
+    public Date() {
+
+        new java.util.Date();
+    }
+
+    public Date(int d, int m, int y) {
+
+        this.day = d;
+        this.month = m;
+        this.year = y;
+    }
+
+    // setter and getter methods
     public void setDay(int day) {
         if (day <= 0 || day > 31) {
             System.out.println("Not valid day");
             return;
         }
-
         this.day = day;
     }
 
@@ -86,6 +98,19 @@ public class Date {
     public String toString() {
         String stringRepresentation = "Date [" + year + "/" + month + "/" + day + "]";
         return stringRepresentation;
+    }
+
+    @Override
+    public int compareTo(Date d) {
+        if (this.year > d.year || this.month > d.month || this.day > d.day) {
+
+            return 1;
+        }
+        if (this.year < d.year || this.month < d.month || this.day < d.day) {
+
+            return -1;
+        }
+        return 0;
     }
 
 }

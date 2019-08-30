@@ -4,18 +4,15 @@ import edu.codeschool.training.classes_objects.homework4.Date;
 
 public class TestDate {
     public static void main(String[] args) {
-        Date date = new Date();
+        Date date1 = new Date();
 
-        date.setDay(1);
-        date.setMonth(1);
-        date.setYear(1992);
+        date1.setDay(10);
+        date1.setMonth(1);
+        date1.setYear(1992);
 
-        System.out.println(date.toString());
+        Date date2 = new Date(1, 1, 1992);
+        System.out.println(date1.compareTo(date2));
 
-        date.plusMonth(30);
-        System.out.println(date.toString());
 
-        date.plusDay(1000);
-        System.out.println(date.toString());
     }
 }
