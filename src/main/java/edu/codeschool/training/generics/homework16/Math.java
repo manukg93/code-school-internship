@@ -65,22 +65,16 @@ public class Math {
 
         if (arr == null || arr.length == 0) { return null; }
 
-        Comparable[] subArray = null;
-        if (arr instanceof String[]) { subArray = new String[len]; }
 
-        else if (arr instanceof Integer[]) { subArray = new Integer[len]; }
-
-        else if (arr instanceof Double[]) { subArray = new Double[len]; }
-
-        else if (arr instanceof Character[]) { subArray = new Character[len]; }
-
-        else if (arr instanceof Car[]) { subArray = new Car[len]; }
+        T [] subArray = (T[]) new Comparable[len];
+        subArray[0]=arr[0];
+        System.out.println(true);
 
         if (offset >= 0 && len >= 0 && offset + len < arr.length) {
             for (int i = offset, j = 0; i <= len; i++, j++) {
                 subArray[j] = arr[i];
             }
         }
-        return (T[]) subArray;
+        return subArray;
     }
 }

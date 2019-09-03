@@ -1,5 +1,7 @@
 package edu.codeschool.training.generics.homework16;
 
+import java.util.Arrays;
+
 public class TestMath {
     public static void main(String[] args) {
 
@@ -11,7 +13,7 @@ public class TestMath {
         System.out.println("min: " + minOfChars);
         System.out.println("max: " + maxOfChars);
 
-        Integer[] integers = {1, 12, 0, -4, 6, 20};
+        Integer[] integers = new Integer[]{1, 12, 0, -4, 6, 20};
         // pass array of integers
         Integer minOfIntegers = Math.min(integers);
         Integer maxOfIntegers = Math.max(integers);
@@ -46,15 +48,15 @@ public class TestMath {
         System.out.println("array contains 0: " + Math.search(integers, 0));
 
         // get subArray of strs
-        String[] sub = Math.subArray(strs, 1, 3);
-        for (String st : sub ) {
+        Comparable[] sub = Math.subArray(strs, 1, 3);
+        for (Comparable st : sub ) {
             System.out.print(st + ",");
         }
         System.out.println();
 
-        // get subArray of strs
-        Integer[] subInt = Math.subArray(integers, 1, 4);
-        for (Integer i : subInt ) {
+
+        Comparable[] subInt = Math.subArray(integers, 1, 4);
+        for (Comparable i : subInt ) {
             System.out.print(i + ",");
         }
         System.out.println();

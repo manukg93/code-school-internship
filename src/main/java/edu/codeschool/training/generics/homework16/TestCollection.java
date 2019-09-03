@@ -29,11 +29,11 @@ public class TestCollection {
         Collection<Integer> integerCollection = new Collection<>(20);
         System.out.println("is integer collection empty: " + integerCollection.isEmpty());
 
-        integerCollection.add(11);
-        integerCollection.add(22);
-        integerCollection.add(33);
-        integerCollection.add(44);
-        integerCollection.add(55);
+        //integerCollection.add(11);
+        //integerCollection.add(22);
+        //integerCollection.add(33);
+        //integerCollection.add(44);
+        //integerCollection.add(55);
 
         System.out.println(integerCollection.getElementAtIndex(2));
         try {

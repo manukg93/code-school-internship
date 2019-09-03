@@ -48,7 +48,7 @@ public class Collection<T> {
 
     // public T get(int index) returns the value of collection of the given index.
     // throws IndexOutOfBoundsException if index is out of bounds.
-    public T getElementAtIndex(int index) throws IndexOutOfBoundsException {
+    public T getElementAtIndex(int index) {
 
         if (index < 0 || index >= this.collection.length) {
             throw new IndexOutOfBoundsException("out of bounds");
