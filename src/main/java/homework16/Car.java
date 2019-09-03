@@ -2,7 +2,7 @@ package homework16;
 
 import java.util.Date;
 
-public class Car implements Comparable<Car> {
+public class Car implements Comparable <Car> {
     private String name;
     private String model;
     private Date date;
@@ -39,13 +39,13 @@ public class Car implements Comparable<Car> {
 
     @Override
     public int compareTo(Car o) {
-        if(this.date.getYear()>o.date.getYear()){
-            return 1;
-        }
-        if (this.date.getYear()<o.date.getYear()){
-            return -1;
-        }
-        return 0;
+    if(this.date.compareTo(o.getDate())>0){
+        return 1;
+    }
+    if(this.date.compareTo(o.getDate())<0){
+        return -1;
+    }
+    return 0;
     }
 
     @Override
