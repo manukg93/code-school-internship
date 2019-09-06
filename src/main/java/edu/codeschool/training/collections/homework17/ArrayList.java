@@ -103,18 +103,21 @@ public class ArrayList<E> implements java.util.List<E> {
             System.out.println("No array list.");
             return;
         }
-        if (index < 0 || index > this.size()) {
+        if (this.size() >= this.array.length) {
+            E[] copyArray =(E[]) new Object[this.array.length * 2];
+            for(int i = 0; i < this.array.length; i++) {
+                copyArray[i] = this.array[i];
+                this.array = copyArray;
+            }
+        }
+        if (index < 0 || index >= this.size()) {
             throw new IndexOutOfBoundsException("Not valid index: " + index);
         }
-        if (index == this.size()) {
-            this.array[index] = obj;
-        } else {
-            for (int i = this.size(); i >= index; i--) {
-                this.array[i] = this.array[i - 1];
-            }
-            this.array[index] = obj;
-            this.countOfElements++;
+        for (int i = this.size(); i >= index; i--) {
+            this.array[i] = this.array[i - 1];
         }
+        this.array[index] = obj;
+        this.countOfElements++;
     }
 
     @Override
@@ -165,6 +168,28 @@ public class ArrayList<E> implements java.util.List<E> {
     }
 
     @Override
+    public boolean equals(Object object) {
+        if (object == this) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder str = new StringBuilder("[");
+        for (int i = 0; i < this.size(); i++) {
+            if (i == this.size() - 1) {
+                str.append(this.array[i].toString());
+            } else {
+                str.append(this.array[i].toString()).append(", ");
+            }
+        }
+        str.append("]");
+        return str.toString();
+    }
+
+    @Override
     public Iterator<E> iterator() {
         return null;
     }
@@ -196,11 +221,6 @@ public class ArrayList<E> implements java.util.List<E> {
 
     @Override
     public boolean retainAll(Collection<?> var1) {
-        return false;
-    }
-
-    @Override
-    public boolean equals(Object var1) {
         return false;
     }
 
