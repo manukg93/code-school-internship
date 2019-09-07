@@ -10,32 +10,33 @@ public class TestArrayList {
         integers.add(40);
         integers.add(50);
         integers.add(60);
+        integers.add(60);
+        integers.add(60);
+        integers.add(60);
+        integers.add(60);
+        integers.remove((Integer)60);
+        integers.remove((Integer)30);
+        integers.remove((Integer)60);
+        integers.remove((Integer)50);
+        integers.remove((Integer)100);
         System.out.println(integers);
-        System.out.println("size: " + integers.size());
-        System.out.println("element at index 3: " + integers.get(3));
-        //System.out.println("element at index 7: " + integers.get(7));
-        //System.out.println("element at index -1: " + integers.get(-1));
-        integers.add(2, 25);
+        integers.add(4, 45);
+        integers.add(5, 55);
+        integers.add(6, 65);
         System.out.println(integers);
-        integers.add(6, 70);
-        System.out.println(integers);
-        integers.add(7, 80);
-        System.out.println(integers);
-        integers.add(90);
-        System.out.println(integers);
-        System.out.println(integers.indexOf(80));
         integers.remove(0);
+        integers.remove(2);
+        integers.remove(4);
         System.out.println(integers);
-        System.out.println(integers.size());
-        Object[] ints = integers.toArray();
-        for (Object i : ints) {
-            System.out.print(i + ",");
-        }
-        System.out.println();
-        integers.clear();
-        System.out.println(integers);
-        System.out.println(integers.size());
-        System.out.println(integers.isEmpty());
+
+        ArrayList<Integer> integers1 = new ArrayList<>(integers.size());
+        integers1.add(20);
+        integers1.add(40);
+        integers1.add(45);
+        integers1.add(55);
+        integers1.add(60);
+        System.out.println(integers1);
+        System.out.println(integers.equals(integers1));
 
     }
 }

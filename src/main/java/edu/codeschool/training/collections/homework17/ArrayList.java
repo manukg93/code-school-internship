@@ -131,11 +131,10 @@ public class ArrayList<E> implements List<E> {
         int index = this.indexOf(obj);
 
         if (index >= 0) {
-            this.array[index] = null;
             for (int i = index+1; i < this.size(); i++) {
                 this.array[i-1] = this.array[i];
             }
-            this.countOfElements--;
+            this.array[--countOfElements] = null;
             return true;
         }
         return false;
@@ -145,11 +144,10 @@ public class ArrayList<E> implements List<E> {
     public E remove(int index) {
         this.checkIndex(index);
         E obj = this.array[index];
-        this.array[index] = null;
         for (int i = index+1; i < this.size(); i++) {
             this.array[i-1] = this.array[i];
         }
-        this.countOfElements--;
+        this.array[--this.countOfElements] = null;
 
         return obj;
     }
@@ -171,7 +169,16 @@ public class ArrayList<E> implements List<E> {
         if (object == this) {
             return true;
         }
-        return false;
+        ArrayList<E> other = (ArrayList<E>)object;
+        if (other.countOfElements != this.countOfElements) {
+            return false;
+        }
+        for (int i = 0; i < this.countOfElements; i++) {
+            if (!(other.array[i].equals(this.array[i]))) {
+                return false;
+            }
+        }
+        return true;
     }
 
     @Override
