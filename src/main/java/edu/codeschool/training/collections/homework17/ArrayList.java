@@ -3,7 +3,7 @@ package edu.codeschool.training.collections.homework17;
 import java.util.*;
 import java.util.function.Predicate;
 
-public class ArrayList<E> implements java.util.List<E> {
+public class ArrayList<E> implements List<E> {
 
     private final int DEFAULT_SIZE = 10;
     private E[] array;
@@ -35,8 +35,8 @@ public class ArrayList<E> implements java.util.List<E> {
     @Override
     public void clear() {
         if (this.size() != 0) {
-            for (E element : this.array ) {
-                element = null;
+            for (int i = 0; i < this.size(); i++ ) {
+                this.array[i] = null;
             }
         }
         this.countOfElements = 0;
@@ -75,6 +75,7 @@ public class ArrayList<E> implements java.util.List<E> {
             throw new IndexOutOfBoundsException("Not valid index: " + index);
         }
     }
+
     @Override
     public E get(int index) {
         this.checkIndex(index);
@@ -110,9 +111,7 @@ public class ArrayList<E> implements java.util.List<E> {
                 this.array = copyArray;
             }
         }
-        if (index < 0 || index >= this.size()) {
-            throw new IndexOutOfBoundsException("Not valid index: " + index);
-        }
+        checkIndex(index);
         for (int i = this.size(); i >= index; i--) {
             this.array[i] = this.array[i - 1];
         }
@@ -162,7 +161,7 @@ public class ArrayList<E> implements java.util.List<E> {
         }
         Object[] array = new Object[this.size()];
         for (int i = 0; i < this.size(); i++) {
-            array[i] = this.get(i);
+            array[i] = this.array[i];
         }
         return array;
     }
