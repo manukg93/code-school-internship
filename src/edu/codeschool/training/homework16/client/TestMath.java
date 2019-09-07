@@ -17,9 +17,9 @@ public class TestMath {
         Car[] carArray = {car1,car2,car3,car4};
 
         Math<Car> math = new Math<Car>();
-        System.out.println(Arrays.toString(carArray));
         System.out.println(math.max(carArray));
         System.out.println(math.min(carArray));
+        System.out.println(Arrays.toString(carArray));
         System.out.println(Arrays.toString(math.sort(carArray)));
         System.out.println(Arrays.toString(math.reverse(carArray)));
         System.out.println(math.search(carArray, car3));

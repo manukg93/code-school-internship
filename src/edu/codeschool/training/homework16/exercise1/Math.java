@@ -47,7 +47,7 @@ public class Math<T> {
     }
 
     public  <T> T[] reverse (T[] array){
-        T reverse[] = array;
+        T reverse[] =  (T[]) new Object[array.length];
 
         for(int i = 0; i < array.length; i++){
             reverse[i] = array[array.length-i-1];
