@@ -63,6 +63,19 @@ public class TestArrayList {
         // test containsAll() method
         System.out.println("ArrayList numbers contains integers: " + numbers.containsAll(integers));
         System.out.println("ArrayList numbers contains doubles: " + numbers.containsAll(doubles));
+        numbers.remove((Integer) 22);
+        System.out.println("ArrayList numbers contains integers: " + numbers.containsAll(integers));
 
+
+
+//        // test retainAll(Collection<?> var)
+//        numbers.retainAll(doubles);
+//        System.out.println(numbers);
+
+//        // test removeAll(Collection<?> var)
+//        numbers.removeAll(doubles);
+//        System.out.println("numbers after removing doubles: " + numbers);
+//        numbers.removeAll(doubles);
+//        System.out.println("numbers after removing doubles: " + numbers);
     }
 }

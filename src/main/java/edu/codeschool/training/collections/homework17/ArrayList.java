@@ -51,6 +51,21 @@ public class ArrayList<E> implements List<E> {
     }
 
     @Override
+    public boolean containsAll(Collection<?> var1) {
+        ArrayList<E> list = (ArrayList<E>) var1;
+        if (list.size() > this.size()) {
+            return false;
+        }
+        Object[] var1Array = list.toArray();
+        for ( Object el : var1Array ) {
+            if (!this.contains(el)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    @Override
     public int indexOf(Object obj) {
         for (int i = 0; i < this.size(); i++) {
             if (obj.equals(this.array[i])) {
@@ -180,9 +195,44 @@ public class ArrayList<E> implements List<E> {
             this.array[i-1] = this.array[i];
         }
         this.array[--this.countOfElements] = null;
-
         return obj;
     }
+
+    @Override
+    public boolean removeAll(Collection<?> var1) {
+        ArrayList<E> list = (ArrayList<E>) var1;
+        if (list.countOfElements > this.countOfElements) {
+            return false;
+        }
+        if (!this.containsAll(list)) {
+            return false;
+        }
+        for ( Object el : list ) {
+            this.remove(el);
+        }
+        return true;
+    }
+
+    @Override
+    public boolean retainAll(Collection<?> var1) {
+//        ArrayList<E> list = (ArrayList<E>) var1;
+//        if (list.countOfElements > this.countOfElements) {
+//            return false;
+//        }
+//        if (!this.containsAll(list)) {
+//            return false;
+//        }
+//
+//        int i = 0;
+//        int j = 0;
+//        int index;
+//        while (i < this.countOfElements) {
+//            if (!list.array[j].equals(this.array[i])) {
+//                this.remove(this.array[i]);
+//            }
+//        }
+        return true;
+   }
 
     @Override
     public Object[] toArray() {
@@ -233,32 +283,8 @@ public class ArrayList<E> implements List<E> {
     }
 
     @Override
-    public boolean containsAll(Collection<?> var1) {
-        if (var1.size() > this.size()) {
-            return false;
-        }
-        Object[] var1Array = var1.toArray();
-        for ( Object el : var1Array ) {
-            if (!this.contains(el)) {
-                return false;
-            }
-        }
-        return true;
-    }
-
-    @Override
     public <T> T[] toArray(T[] ts) {
         return null;
-    }
-
-    @Override
-    public boolean removeAll(Collection<?> var1) {
-        return false;
-    }
-
-    @Override
-    public boolean retainAll(Collection<?> var1) {
-        return false;
     }
 
     @Override
