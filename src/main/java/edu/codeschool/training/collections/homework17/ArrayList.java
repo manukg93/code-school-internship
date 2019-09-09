@@ -91,8 +91,8 @@ public class ArrayList<E> implements List<E> {
             E[] copyArray =(E[]) new Object[this.array.length * 2];
             for(int i = 0; i < this.array.length; i++) {
                 copyArray[i] = this.array[i];
-                this.array = copyArray;
             }
+            this.array = copyArray;
         }
         this.array[countOfElements++] = e;
         return true;
@@ -100,6 +100,9 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public void add(int index, E obj) {
+        if (index < 0 || index > this.countOfElements) {
+            throw new IndexOutOfBoundsException("Not valid index: " + index);
+        }
         if (this.array == null) {
             System.out.println("No array list.");
             return;
@@ -108,15 +111,44 @@ public class ArrayList<E> implements List<E> {
             E[] copyArray =(E[]) new Object[this.array.length * 2];
             for(int i = 0; i < this.array.length; i++) {
                 copyArray[i] = this.array[i];
-                this.array = copyArray;
             }
+            this.array = copyArray;
         }
-        checkIndex(index);
-        for (int i = this.size(); i >= index; i--) {
+        if (index == this.countOfElements) {
+            this.array[index] = obj;
+            this.countOfElements++;
+            return;
+        }
+        for (int i = this.countOfElements; i > index; i--) {
             this.array[i] = this.array[i - 1];
         }
         this.array[index] = obj;
         this.countOfElements++;
+    }
+
+    @Override
+    public boolean addAll(Collection<? extends E> var1) {
+        for (E el : var1 ) {
+            this.add(el);
+        }
+        return true;
+    }
+
+    @Override
+    public boolean addAll(int index, Collection<? extends E> collectionOfE) {
+        if (index < 0 || index > this.countOfElements) {
+            throw new IndexOutOfBoundsException("Not valid index: " + index);
+        }
+        Object[] arr = collectionOfE.toArray();
+        E[] collectionToArray = (E[]) arr;
+
+        int j = 0;
+        while (j < collectionToArray.length) {
+            this.add(index, collectionToArray[j]);
+            index++;
+            j++;
+        }
+        return true;
     }
 
     @Override
@@ -196,28 +228,27 @@ public class ArrayList<E> implements List<E> {
     }
 
     @Override
-    public Iterator<E> iterator() {
-        return null;
+    public ArrayListIterator<E> iterator() {
+        return new ArrayListIterator<E>(this);
+    }
+
+    @Override
+    public boolean containsAll(Collection<?> var1) {
+        if (var1.size() > this.size()) {
+            return false;
+        }
+        Object[] var1Array = var1.toArray();
+        for ( Object el : var1Array ) {
+            if (!this.contains(el)) {
+                return false;
+            }
+        }
+        return true;
     }
 
     @Override
     public <T> T[] toArray(T[] ts) {
         return null;
-    }
-
-    @Override
-    public boolean containsAll(Collection<?> var1) {
-        return false;
-    }
-
-    @Override
-    public boolean addAll(Collection<? extends E> var1) {
-        return false;
-    }
-
-    @Override
-    public boolean addAll(int var1, Collection<? extends E> var2) {
-        return false;
     }
 
     @Override
