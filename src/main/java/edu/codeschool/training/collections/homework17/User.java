@@ -1,10 +1,18 @@
 package edu.codeschool.training.collections.homework17;
 
+import java.util.Comparator;
+
 public class User {
     private String name;
     private int age;
     private String email;
 
+    // default constructor
+    public User() {
+        this.name = null;
+        this.age = 0;
+        this.email = null;
+    }
     //
     public User(String name, int age, String email) {
         this.name = name;
