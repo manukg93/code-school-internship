@@ -7,10 +7,6 @@ public class ArrayList<E> implements List<E> {
     private E[] arr = (E[]) new Object[10];
     private int count = 0;
 
-    public ArrayList() {
-    }
-
-
     private void checkCount(){
         if(this.count == this.arr.length)
             createNewArr();
@@ -88,9 +84,9 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public boolean addAll(Collection<? extends E> collection) {
-
-        while(collection.iterator().hasNext())
-            this.add(collection.iterator().next());
+        Iterator<E> iterator = (Iterator<E>) collection.iterator();
+        while(iterator.hasNext())
+            this.add(iterator.next());
 
         return true;
     }
@@ -106,8 +102,9 @@ public class ArrayList<E> implements List<E> {
             for (int j = count-1; j > i; j--)
                 remove(this.arr[j]);
 
-            while (collection.iterator().hasNext())
-                this.add(collection.iterator().next());
+        Iterator<E> iterator = (Iterator<E>) collection.iterator();
+            while (iterator.hasNext())
+                this.add(iterator.next());
 
             for (int j = 0; j > arrTmp.length; j++)
                 add(arrTmp[j]);
@@ -174,12 +171,12 @@ public class ArrayList<E> implements List<E> {
     }
 
     @Override
-    public ListIterator listIterator() {
-        return null;
+    public ListIterator<E> listIterator() {
+        return new CustimListIterator<E>(this.arr, this.count);
     }
 
     @Override
-    public ListIterator listIterator(int i) {
+    public ListIterator<E> listIterator(int i) {
         return null;
     }
 
@@ -195,9 +192,10 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public boolean removeAll(Collection collection) {
-        while (collection.iterator().hasNext()){
-            if(contains(collection.iterator().next())){
-                remove(collection.iterator().next());
+        Iterator<E> iterator = (Iterator<E>) collection.iterator();
+        while (iterator.hasNext()){
+            if(contains(iterator.next())){
+                remove(iterator.next());
             }
         }
         return true;
@@ -205,8 +203,9 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public boolean containsAll(Collection collection) {
-        while (collection.iterator().hasNext())
-            if(!contains(collection.iterator().next())) return false;
+        Iterator<E> iterator = (Iterator<E>) collection.iterator();
+        while (iterator.hasNext())
+            if(!contains(iterator.next())) return false;
 
         return true;
     }
@@ -257,4 +256,92 @@ class Iterator<E> implements java.util.Iterator<E> {
         this.array[countIter++] = null;
     }
 
+}
+
+class CustimListIterator<E> implements java.util.ListIterator<E> {
+
+    private E[] array;
+    private int size;
+    private int current = 0;
+    private boolean remove = false;
+
+    public CustimListIterator(E[] array, int size){
+        this.array = array;
+        this.size = size;
+    }
+
+    @Override
+    public boolean hasNext() {
+        return current < size;
+    }
+
+    @Override
+    public E next() {
+        if(!this.remove){
+            this.remove = false;
+            if(current < size)
+                return this.array[current++];
+            else
+                throw new NoSuchElementException();
+        }
+        if(current < size)
+            return this.array[current];
+        else
+            throw new NoSuchElementException();
+
+
+    }
+
+    @Override
+    public boolean hasPrevious() {
+        return current > 0;
+    }
+
+    @Override
+    public E previous() {
+        if(!this.remove){
+            this.remove = false;
+        }
+        if(current > 0)
+            return this.array[current--];
+        else
+            throw new NoSuchElementException();
+    }
+
+    @Override
+    public int nextIndex() {
+//        if(current >= size-1){
+//            return size;
+//        }else{
+//            return current+1;
+//        }
+        return current < size ? current + 1 : size;
+    }
+
+    @Override
+    public int previousIndex() {
+        return current == 0 ? -1 : current - 1;
+    }
+
+    @Override
+    public void remove() {
+        if(!this.remove){
+            for(int i = current; i < size - 1; i++){
+                this.array[i] = this.array[i+1];
+            }
+            this.array[--size] = null;
+            this.remove = true;
+        }
+
+    }
+
+    @Override
+    public void set(E e) {
+        this.array[current] = e;
+    }
+
+    @Override
+    public void add(E e) {
+
+    }
 }

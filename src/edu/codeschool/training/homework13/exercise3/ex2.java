@@ -10,7 +10,7 @@ public class ex2 {
     public static void main(String[] args) {
         int b = 0;
         try(FileInputStream fileInputStream = new FileInputStream("Lesson_13_August_17_Homework.txt");
-            FileOutputStream fileOutputStream = new FileOutputStream("AnOtherFile.txt");) {
+            FileOutputStream fileOutputStream = new FileOutputStream("AnOtherFile.txt")) {
             File file = new File("AnOtherFile.txt");
             file.createNewFile();
             fileInputStream.skip(10);
