@@ -6,6 +6,17 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class LinkedList<E> implements List {
+
+//    private Node<E> head;
+//    private Node<E> tail;
+//    private int size = 0;
+//    private int position = 0;
+
+//    public LinkedList() {
+//        this.head = null;
+//        this.tail = null;
+//    }
+
     @Override
     public int size() {
         return 0;

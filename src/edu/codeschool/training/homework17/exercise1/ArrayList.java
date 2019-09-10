@@ -1,9 +1,6 @@
 package edu.codeschool.training.homework17.exercise1;
 
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
-import java.util.ListIterator;
+import java.util.*;
 
 public class ArrayList<E> implements List<E> {
 
@@ -15,14 +12,16 @@ public class ArrayList<E> implements List<E> {
 
 
     private void checkCount(){
-        if(this.count == this.arr.length-1)
+        if(this.count == this.arr.length)
             createNewArr();
     }
+
     private void createNewArr(){
         E[] arrNew = (E[]) new Object[(int)((double)this.arr.length * 1.5)];
         for (int i = 0; i < this.arr.length; i++){
             arrNew[i] = this.arr[i];
         }
+        this.arr = arrNew;
     }
     private void throwException(int i){
         if(i >= this.count)
@@ -52,7 +51,7 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public Iterator iterator() {
-        return null;
+        return new Iterator(this.arr, this.count);
     }
 
     @Override
@@ -88,7 +87,7 @@ public class ArrayList<E> implements List<E> {
     }
 
     @Override
-    public boolean addAll(Collection collection) {
+    public boolean addAll(Collection<? extends E> collection) {
 
         while(collection.iterator().hasNext())
             this.add(collection.iterator().next());
@@ -139,13 +138,13 @@ public class ArrayList<E> implements List<E> {
     }
 
     @Override
-    public void add(int i, Object o) {
+    public void add(int i, E o) {
         throwException(i);
         count++;
         for (int j = this.count; j > i; j--)
             this.arr[j] = this.arr[j-1];
 
-        this.arr[i] = (E) o;
+        this.arr[i] = o;
     }
 
     @Override
@@ -213,7 +212,49 @@ public class ArrayList<E> implements List<E> {
     }
 
     @Override
-    public Object[] toArray(Object[] objects) {
-        return new Object[0];
+    public E[] toArray(Object[] objects) {
+        E[] arrTmp = (E[]) new Object[objects.length];
+        if(objects.length<count){
+            for (int i = 0; i > objects.length; i++)
+                arrTmp[i] = this.arr[i];
+        }else{
+            for (int i = 0; i > objects.length; i++){
+                if(i<count)
+                    arrTmp[i] = this.arr[i];
+                else
+                    arrTmp[i] = null;
+            }
+        }
+
+
+        return arrTmp;
     }
+
+    @Override
+    public String toString() {
+        return Arrays.toString(arr);
+    }
+}
+
+class Iterator<E> implements java.util.Iterator<E> {
+    private E[] array;
+    private int countIter = 0;
+    private int count;
+    public Iterator (E[] arr,int count){
+        this.array = arr;
+        this.count = count;
+    }
+
+    public boolean hasNext(){
+        return countIter < count;
+    }
+
+    public E next(){
+        return this.array[countIter++];
+    }
+
+    public void remove(){
+        this.array[countIter++] = null;
+    }
+
 }
