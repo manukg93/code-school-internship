@@ -1,23 +1,50 @@
-package edu.codeschool.training.collections.homework17;
+package edu.codeschool.training.collections.homework17.linked_list;
 
-import java.util.*;
+import edu.codeschool.training.collections.homework17.linked_list.Node;
+
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
 
 public class LinkedList<E> implements List<E> {
 
     private Node<E> head;
     private Node<E> tail;
-    private int size = 0;
-    private int position = 0;
+    private int count;
 
     // default constructor
     public LinkedList() {
         this.head = null;
         this.tail = null;
+        this.count = 0;
+    }
+
+    // setters
+    public void setHead(Node<E> head) {
+        if (head != null) {
+            this.head = head;
+        }
+    }
+
+    public void setTail(Node<E> tail) {
+        if (tail != null) {
+            this.tail = tail;
+        }
+    }
+
+    // getters
+    public Node<E> getHead() {
+        return this.head;
+    }
+
+    public Node<E> getTail() {
+        return this.tail;
     }
 
     @Override
     public int size() {
-        return this.size;
+        return this.count;
     }
 
     @Override
@@ -32,52 +59,20 @@ public class LinkedList<E> implements List<E> {
 
     @Override
     public Iterator<E> iterator() {
-        return this.iterator();
-    }
-
-    @Override
-    public boolean add(E value) {
-        Node nextNode = new Node<>(value);
-        this.tail.setLink(nextNode);
-        this.tail = nextNode;
-        this.size++;
-        if (this.head == null) {
-            this.head = nextNode;
-        }
-        return true;
-    }
-
-    @Override
-    public int indexOf(Object value) {
-
-        if (this.size == 0) {return -1;}
-
-        Node node = this.head;
-        int index = 0;
-
-        while (node != tail) {
-            if (value == node.getValue()) {
-                return index;
-            }
-            node = node.getLink();
-            index++;
-        }
-        return index;
-    }
-
-    @Override
-    public int lastIndexOf(Object value) {
-        return  -1;
+        return new LinkedListIterator<E>(this);
     }
 
     @Override
     public Object[] toArray() {
-        Object[] array = new Object[size];
+        if (this == null) {
+            return null;
+        }
+        Object[] array = new Object[this.count];
         Node node = this.head;
         int i = 0;
-        while (node != tail) {
+        while (node != null) {
             array[i++] = node.getValue();
-            node = node.getLink();
+            node = node.getNext();
         }
         return array;
     }
@@ -85,6 +80,44 @@ public class LinkedList<E> implements List<E> {
     @Override
     public <T> T[] toArray(T[] var1) {
         return null;
+    }
+
+    @Override
+    public boolean add(E value) {
+        if (value == null) {
+            throw new NullPointerException("Null object");
+        }
+        Node nextNode = new Node<>(value);
+        if (this.head == null) {
+            this.head = this.tail = nextNode;
+        }
+        this.tail.setNext(nextNode);
+        this.tail = nextNode;
+        this.count++;
+        return true;
+    }
+
+    @Override
+    public int indexOf(Object value) {
+
+        if (this.count == 0) {return -1;}
+
+        Node node = this.head;
+        int index = 0;
+
+//        while (node != tail) {
+//            if (value == node.getValue()) {
+//                return index;
+//            }
+//            node = node.getLink();
+//            index++;
+//        }
+        return index;
+    }
+
+    @Override
+    public int lastIndexOf(Object value) {
+        return  -1;
     }
 
     @Override
