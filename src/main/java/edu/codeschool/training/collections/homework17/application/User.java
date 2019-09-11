@@ -1,6 +1,4 @@
-package edu.codeschool.training.collections.homework17;
-
-import java.util.Comparator;
+package edu.codeschool.training.collections.homework17.application;
 
 public class User {
     private String name;

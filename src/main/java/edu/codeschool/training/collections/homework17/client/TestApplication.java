@@ -1,14 +1,16 @@
-package edu.codeschool.training.collections.homework17;
+package edu.codeschool.training.collections.homework17.client;
+
+import edu.codeschool.training.collections.homework17.application.Application;
+import edu.codeschool.training.collections.homework17.application.SortByAge;
+import edu.codeschool.training.collections.homework17.application.SortByName;
+import edu.codeschool.training.collections.homework17.application.User;
 
 import java.io.File;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
-import java.util.Comparator;
 
 public class TestApplication {
     public static void main(String[] args) {
-        //System.out.println(System.getProperty("user.dir"));
         String path = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator
                 + "java" + File.separator + "resources" + File.separator + "users.txt";
 
@@ -33,7 +35,7 @@ public class TestApplication {
         }
         System.out.println();
 
-        // sort users arrayList by age
+        // sort users arrayList by name
         Collections.sort(users, new SortByName());
         for ( User user : users ) {
             System.out.println(user);

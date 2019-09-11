@@ -1,4 +1,4 @@
-package edu.codeschool.training.collections.homework17;
+package edu.codeschool.training.collections.homework17.application;
 
 import java.util.Comparator;
 
