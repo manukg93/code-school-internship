@@ -172,7 +172,7 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public ListIterator<E> listIterator() {
-        return new CustimListIterator<E>(this.arr, this.count);
+        return new CustomListIterator<E>(this.arr, this.count);
     }
 
     @Override
@@ -258,14 +258,14 @@ class Iterator<E> implements java.util.Iterator<E> {
 
 }
 
-class CustimListIterator<E> implements java.util.ListIterator<E> {
+class CustomListIterator<E> implements java.util.ListIterator<E> {
 
     private E[] array;
     private int size;
     private int current = 0;
     private boolean remove = false;
 
-    public CustimListIterator(E[] array, int size){
+    public CustomListIterator(E[] array, int size){
         this.array = array;
         this.size = size;
     }
