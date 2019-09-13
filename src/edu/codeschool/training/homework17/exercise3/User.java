@@ -53,6 +53,10 @@ public class User {
         }
     }
 
+    public int compareToName(User user) {
+        return this.getName().compareTo(user.getName());
+    }
+
     @Override
     public String toString() {
         return "User{" +
