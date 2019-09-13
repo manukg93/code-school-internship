@@ -67,19 +67,14 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public boolean remove(Object o) {
-        int k = 0;
-        for (int i = count-1; i > 0; i--) {
-            E[] arrTmp = (E[]) new Object[count - i];
-            arrTmp[k++] = this.arr[i];
+
+        for (int i = 0; i < count; i++) {
             if(o.equals(this.arr[i])){
-                this.arr[i] = null;
-                count--;
-                for(int j = (arrTmp.length-1); j > 0; j--)
-                    add(arrTmp[j]);
+                remove(i);
                 return true;
             }
         }
-            return false;
+        return false;
     }
 
     @Override
@@ -100,7 +95,7 @@ public class ArrayList<E> implements List<E> {
                 arrTmp[k++] = this.arr[j];
 
             for (int j = count-1; j > i; j--)
-                remove(this.arr[j]);
+                remove(j);
 
         Iterator<E> iterator = (Iterator<E>) collection.iterator();
             while (iterator.hasNext())
@@ -148,7 +143,11 @@ public class ArrayList<E> implements List<E> {
     public E remove(int i) {
         throwException(i);
         E tmpOb = this.arr[i];
-        remove(this.arr[i]);
+
+        for(int j = i; j < this.count-1; j++)
+            this.arr[j] = this.arr[j+1];
+
+        this.arr[count--] = null;
         return tmpOb;
     }
 
