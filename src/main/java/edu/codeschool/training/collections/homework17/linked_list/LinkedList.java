@@ -85,61 +85,161 @@ public class LinkedList<E> implements List<E> {
     @Override
     public boolean add(E value) {
         if (value == null) {
-            throw new NullPointerException("Null object");
+            throw new NullPointerException("Null object added");
         }
         Node nextNode = new Node<>(value);
         if (this.head == null) {
             this.head = this.tail = nextNode;
+            this.head.setPrevious(null);
         }
         this.tail.setNext(nextNode);
+        nextNode.setPrevious(tail);
         this.tail = nextNode;
         this.count++;
         return true;
     }
 
     @Override
-    public int indexOf(Object value) {
-
-        if (this.count == 0) {return -1;}
-
-        Node node = this.head;
-        int index = 0;
-
-//        while (node != tail) {
-//            if (value == node.getValue()) {
-//                return index;
-//            }
-//            node = node.getLink();
-//            index++;
-//        }
-        return index;
-    }
-
-    @Override
-    public int lastIndexOf(Object value) {
-        return  -1;
+    public void add(int index, E element) {
+        if (index < 0 || index >= this.count) {
+            throw new IllegalArgumentException("Not valid index");
+        }
+        if (element == null) {
+            throw new NullPointerException("Null object added");
+        }
+        if (this.count == 0) {
+            return;
+        }
+        Node<E> node = this.head;
+        if (index == 0) {
+            Node<E> newNode = new Node<>(element);
+            node.setPrevious(newNode);
+            newNode.setNext(node);
+            this.head = newNode;
+            this.count++;
+            return;
+        }
+        int i = 1;
+        while (i != index) {
+            node = node.getNext();
+            i++;
+        }
+        Node<E> newNode = new Node<>(element);
+        newNode.setPrevious(node);
+        newNode.setNext(node.getNext());
+        node.setNext(newNode);
+        this.count++;
     }
 
     @Override
     public boolean remove(Object value) {
-        Node node = this.head;
-        while (node != tail) {
-            if (value == node.getValue()) {
-
+        if (value == null) {
+            throw new NullPointerException("Null object removed");
+        }
+        Node<E> node = this.head;
+        if (value == node.getValue()) {
+            node.setValue(null);
+            node.getNext().setPrevious(null);
+            this.head = node.getNext();
+            node.setNext(null);
+            node = this.head;
+            this.count--;
+            return true;
+        }
+        while (node != this.tail) {
+            if (value != node.getValue()) {
+                node = node.getNext();
+            } else {
+                node.setValue(null);
+                node.getPrevious().setNext(node.getNext());
+                node.getNext().setPrevious(node.getPrevious());
+                this.count--;
+                return true;
             }
         }
-
+        if (node == this.tail && value == node.getValue()) {
+            node.setValue(null);
+            this.tail = node.getPrevious();
+            node.getPrevious().setNext(null);
+            node.setPrevious(null);
+            node = tail;
+            this.count--;
+            return true;
+        }
         return false;
     }
 
     @Override
     public boolean containsAll(Collection<?> var1) {
-        return false;
+        if (var1 == null) {
+            throw new NullPointerException("Null collection checked.");
+        }
+        for ( Object obj : var1 ) {
+            if (obj == null) {
+                throw new NullPointerException("Collection contains null object.");
+            }
+        }
+        for ( Object obj : var1 ) {
+            if (!this.contains(obj)) {
+                return false;
+            }
+        }
+        return true;
     }
 
     @Override
     public boolean addAll(Collection<? extends E> var1) {
-        return false;
+        if (var1 == null) {
+            throw new NullPointerException("Collection is null");
+        }
+        for ( Object obj : var1 ) {
+            if (obj == null) {
+                throw new NullPointerException("Collection contains null object.");
+            }
+        }
+        for ( E obj : var1 ) {
+            this.add(obj);
+        }
+
+        return true;
+    }
+
+    @Override
+    public int indexOf(Object o) {
+        if (o == null) {
+            throw new NullPointerException("Searched object is null.");
+        }
+        if (this.count == 0) {return -1;}
+        Node<E> node = this.head;
+        int index = 0;
+
+        while (index < this.count) {
+            if (o == node.getValue()) {
+                return index;
+            }
+            node = node.getNext();
+            index++;
+        }
+        return -1;
+    }
+
+    @Override
+    public int lastIndexOf(Object o) {
+        if (o == null) {
+            throw new NullPointerException("Searched object is null.");
+        }
+        if (this.count == 0) {return -1;}
+        Node<E> node = this.tail;
+        int index = this.count - 1;
+
+        while (index >= 0) {
+            if (o == node.getValue()) {
+                return index;
+            }
+            node = node.getPrevious();
+            index--;
+        }
+        return  -1;
     }
 
     @Override
@@ -183,11 +283,6 @@ public class LinkedList<E> implements List<E> {
         E e = null;
 
         return e;
-    }
-
-    @Override
-    public void add(int var1, E var2) {
-
     }
 
     @Override
