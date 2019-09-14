@@ -1,7 +1,5 @@
 package edu.codeschool.training.collections.homework17.linked_list;
 
-import edu.codeschool.training.collections.homework17.linked_list.Node;
-
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
@@ -132,6 +130,37 @@ public class LinkedList<E> implements List<E> {
     }
 
     @Override
+    public boolean addAll(Collection<? extends E> var1) {
+        if (var1 == null) {
+            throw new NullPointerException("Collection is null");
+        }
+        for ( Object obj : var1 ) {
+            if (obj == null) {
+                throw new NullPointerException("Collection contains null object.");
+            }
+        }
+        for ( E obj : var1 ) {
+            this.add(obj);
+        }
+
+        return true;
+    }
+
+    @Override
+    public boolean addAll(int index, Collection<? extends E> col) {
+        int i = index;
+        int ct = this.count;
+        for ( E obj : col ) {
+            this.add(i, obj);
+            i++;
+        }
+        if (this.count == ct + col.size()) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
     public boolean remove(Object value) {
         if (value == null) {
             throw new NullPointerException("Null object removed");
@@ -188,23 +217,6 @@ public class LinkedList<E> implements List<E> {
     }
 
     @Override
-    public boolean addAll(Collection<? extends E> var1) {
-        if (var1 == null) {
-            throw new NullPointerException("Collection is null");
-        }
-        for ( Object obj : var1 ) {
-            if (obj == null) {
-                throw new NullPointerException("Collection contains null object.");
-            }
-        }
-        for ( E obj : var1 ) {
-            this.add(obj);
-        }
-
-        return true;
-    }
-
-    @Override
     public int indexOf(Object o) {
         if (o == null) {
             throw new NullPointerException("Searched object is null.");
@@ -240,11 +252,6 @@ public class LinkedList<E> implements List<E> {
             index--;
         }
         return  -1;
-    }
-
-    @Override
-    public boolean addAll(int var1, Collection<? extends E> var2) {
-        return false;
     }
 
     @Override
@@ -302,7 +309,19 @@ public class LinkedList<E> implements List<E> {
     }
 
     @Override
-    public List<E> subList(int var1, int var2) {
+    public List<E> subList(int fromIndex, int toIndex) {
+
         return null;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder str = new StringBuilder("[");
+        Iterator<E> it = this.iterator();
+        while (it.hasNext()) {
+            str.append(it.next().toString()).append(", ");
+        }
+        str.append("]");
+        return str.toString();
     }
 }
