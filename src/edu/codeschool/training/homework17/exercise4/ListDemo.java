@@ -20,6 +20,7 @@ public class ListDemo {
 
         System.out.println();
 
+
         arrayList.remove(3);
 //        arrayList.remove("Simple_text_2");
 
