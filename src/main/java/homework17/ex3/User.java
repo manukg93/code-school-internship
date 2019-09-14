@@ -1,6 +1,6 @@
 package homework17.ex3;
 
-public class User {
+public class User{
     private String name;
     private int age;
     private String email;

@@ -1,13 +1,11 @@
 package homework17.ex3;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
+import java.text.ParseException;
 import java.util.ArrayList;
 
 public class App {
-    static void readUsersFromFile(String path) {
+    static ArrayList<User> readUsersFromFile(String path) {
         ArrayList<User> users = new ArrayList<>();
         File file = new File(path);
         String line;
@@ -24,16 +22,18 @@ public class App {
                 users.add(user);
             }
 
-        } catch (IOException e) {
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        catch (IOException e){
             e.printStackTrace();
         }
 
-        for (User user:users
-             ) {
-            System.out.println(users);
 
+
+        return users;
         }
     }
-}
+
 
 
