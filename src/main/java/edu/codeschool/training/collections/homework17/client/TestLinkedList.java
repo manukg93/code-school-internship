@@ -22,5 +22,8 @@ public class TestLinkedList {
         System.out.println(chars2.size());
         chars1.addAll(3, chars2);
         System.out.println(chars1);
+
+        System.out.println(chars1.removeAll(chars2));
+        System.out.println(chars1);
     }
 }

@@ -199,14 +199,25 @@ public class LinkedList<E> implements List<E> {
     }
 
     @Override
+    public boolean removeAll(Collection<?> col) {
+        int len = this.count;
+        int i = 0;
+        for ( Object obj : col ) {
+            if (this.contains(obj)) {
+                remove(obj);
+                i++;
+            }
+        }
+        if (this.count == len - i) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
     public boolean containsAll(Collection<?> var1) {
         if (var1 == null) {
             throw new NullPointerException("Null collection checked.");
-        }
-        for ( Object obj : var1 ) {
-            if (obj == null) {
-                throw new NullPointerException("Collection contains null object.");
-            }
         }
         for ( Object obj : var1 ) {
             if (!this.contains(obj)) {
@@ -252,11 +263,6 @@ public class LinkedList<E> implements List<E> {
             index--;
         }
         return  -1;
-    }
-
-    @Override
-    public boolean removeAll(Collection<?> var1) {
-        return false;
     }
 
     @Override
