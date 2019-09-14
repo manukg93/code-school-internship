@@ -1,7 +1,7 @@
 package edu.codeschool.training.collections.homework18;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
 public class ArrayQueue<E> {
@@ -19,7 +19,7 @@ public class ArrayQueue<E> {
 
     public boolean add(E e) {
         if (e == null) {
-            throw new NullPointerException();
+            throw new NullPointerException("Null object added");
         }
         if (this.list.size() >= this.size) {
             throw new IllegalStateException("Capacity restriction");
@@ -29,7 +29,9 @@ public class ArrayQueue<E> {
     }
 
     public boolean offer(E e) {
-        int len = this.list.size();
+        if (e == null) {
+            throw new NullPointerException("Null object offered");
+        }
         if (this.list.size() >= this.size) {
             return false;
         }
