@@ -199,6 +199,12 @@ public class LinkedList<E> implements List<E> {
     }
 
     @Override
+    public E remove(int var1) {
+        E e = null;
+        return e;
+    }
+
+    @Override
     public boolean removeAll(Collection<?> col) {
         int len = this.count;
         int i = 0;
@@ -295,12 +301,6 @@ public class LinkedList<E> implements List<E> {
     public E set(int var1, E var2) {
         E e = null;
 
-        return e;
-    }
-
-    @Override
-    public E remove(int var1) {
-        E e = null;
         return e;
     }
 

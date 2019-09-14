@@ -1,4 +1,4 @@
-package edu.codeschool.training.collections.homework17;
+package edu.codeschool.training.collections.homework17.array_list;
 
 import java.util.*;
 import java.util.function.Predicate;
@@ -52,12 +52,10 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public boolean containsAll(Collection<?> var1) {
-        ArrayList<E> list = (ArrayList<E>) var1;
-        if (list.size() > this.size()) {
+        if (var1.size() > this.size()) {
             return false;
         }
-        Object[] var1Array = list.toArray();
-        for ( Object el : var1Array ) {
+        for ( Object el : var1 ) {
             if (!this.contains(el)) {
                 return false;
             }
@@ -67,7 +65,7 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public int indexOf(Object obj) {
-        for (int i = 0; i < this.size(); i++) {
+        for (int i = 0; i < this.countOfElements; i++) {
             if (obj.equals(this.array[i])) {
                 return i;
             }
@@ -77,7 +75,7 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public int lastIndexOf(Object obj) {
-        for (int i = this.size() - 1; i >= 0; i--) {
+        for (int i = this.countOfElements - 1; i >= 0; i--) {
             if (obj.equals(this.array[i])) {
                 return i;
             }
@@ -86,7 +84,7 @@ public class ArrayList<E> implements List<E> {
     }
 
     private void checkIndex(int index) {
-        if (index < 0 || index >= this.size()) {
+        if (index < 0 || index >= this.countOfElements) {
             throw new IndexOutOfBoundsException("Not valid index: " + index);
         }
     }
@@ -115,24 +113,17 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public void add(int index, E obj) {
-        if (index < 0 || index > this.countOfElements) {
-            throw new IndexOutOfBoundsException("Not valid index: " + index);
-        }
+        checkIndex(index);
         if (this.array == null) {
             System.out.println("No array list.");
             return;
         }
-        if (this.size() >= this.array.length) {
+        if (this.countOfElements >= this.array.length) {
             E[] copyArray =(E[]) new Object[this.array.length * 2];
             for(int i = 0; i < this.array.length; i++) {
                 copyArray[i] = this.array[i];
             }
             this.array = copyArray;
-        }
-        if (index == this.countOfElements) {
-            this.array[index] = obj;
-            this.countOfElements++;
-            return;
         }
         for (int i = this.countOfElements; i > index; i--) {
             this.array[i] = this.array[i - 1];
@@ -150,18 +141,12 @@ public class ArrayList<E> implements List<E> {
     }
 
     @Override
-    public boolean addAll(int index, Collection<? extends E> collectionOfE) {
-        if (index < 0 || index > this.countOfElements) {
-            throw new IndexOutOfBoundsException("Not valid index: " + index);
-        }
-        Object[] arr = collectionOfE.toArray();
-        E[] collectionToArray = (E[]) arr;
-
-        int j = 0;
-        while (j < collectionToArray.length) {
-            this.add(index, collectionToArray[j]);
-            index++;
-            j++;
+    public boolean addAll(int index, Collection<? extends E> col) {
+        checkIndex(index);
+        int i = index;
+        for ( E el : col ) {
+            add(i, el);
+            i++;
         }
         return true;
     }
@@ -176,7 +161,6 @@ public class ArrayList<E> implements List<E> {
     @Override
     public boolean remove(Object obj) {
         int index = this.indexOf(obj);
-
         if (index >= 0) {
             for (int i = index+1; i < this.size(); i++) {
                 this.array[i-1] = this.array[i];
@@ -215,23 +199,24 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public boolean retainAll(Collection<?> var1) {
-//        ArrayList<E> list = (ArrayList<E>) var1;
-//        if (list.countOfElements > this.countOfElements) {
-//            return false;
+//        if (var1 == null) {
+//            throw new NullPointerException();
 //        }
-//        if (!this.containsAll(list)) {
-//            return false;
-//        }
-//
-//        int i = 0;
-//        int j = 0;
-//        int index;
-//        while (i < this.countOfElements) {
-//            if (!list.array[j].equals(this.array[i])) {
-//                this.remove(this.array[i]);
+//        for ( Object obj : var1 ) {
+//            if (obj == null) {
+//                throw new NullPointerException();
 //            }
 //        }
-        return true;
+//        int len = this.countOfElements;
+//        for ( E obj : this.array) {
+//            if (!var1.contains(obj)) {
+//                this.remove(obj);
+//            }
+//        }
+//        if (this.countOfElements < len) {
+//            return true;
+//        }
+        return false;
    }
 
     @Override
@@ -299,7 +284,7 @@ public class ArrayList<E> implements List<E> {
 
     @Override
     public ListIterator<E> listIterator() {
-        return null;
+        return new CustomListIterator<>(this.array, this.countOfElements);
     }
 
     @Override
@@ -308,7 +293,13 @@ public class ArrayList<E> implements List<E> {
     }
 
     @Override
-    public List<E> subList(int var1, int var2) {
+    public List<E> subList(int fromIndex, int toIndex) {
+        if (fromIndex < 0 || toIndex >= this.countOfElements) {
+            throw new IndexOutOfBoundsException();
+        }
+        if (fromIndex > toIndex) {
+            throw new IllegalArgumentException();
+        }
         return null;
     }
 }

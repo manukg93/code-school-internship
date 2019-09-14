@@ -1,7 +1,8 @@
-package edu.codeschool.training.collections.homework17;
+package edu.codeschool.training.collections.homework17.array_list;
 
+import java.util.Iterator;
 
-public class ArrayListIterator<E> implements java.util.Iterator<E> {
+public class ArrayListIterator<E> implements Iterator<E> {
 
     private ArrayList<E> arrayList;
     private int count = 0;
