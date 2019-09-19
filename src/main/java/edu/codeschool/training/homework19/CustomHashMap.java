@@ -123,21 +123,49 @@ public class CustomHashMap<K, V> implements Map<K, V> {
 
     @Override
     public V remove(Object key) {
+        for (int i = 0; i < INITIAL_CAPACITY; i++) {
+            Node<K, V> nd = this.hashTable.get(i);
+            if (nd == null) {
+                continue;
+            }
+            if (nd.getKey().equals(key)) {
+                this.hashTable.set(i, nd.getNext());
+                nd.setNext(null);
+                this.capacity--;
+                return nd.getValue();
+            }
+            while (nd.getNext() != null) {
+                Node<K, V> next = nd.getNext();
+                if (next.getKey().equals(key)) {
+                    nd.setNext(next.getNext());
+                    next.setNext(null);
+                    this.capacity--;
+                    return next.getValue();
+                }
+                nd = nd.getNext();
+            }
+        }
         return null;
     }
 
     @Override
     public void putAll(Map m) {
-
+        Set<K> keys = m.keySet();
+        for ( K key : keys ) {
+            this.put(key, (V) m.get(key));
+        }
     }
 
     @Override
     public void clear() {
-
+        for (int i = 0; i < INITIAL_CAPACITY; i++) {
+            this.hashTable.set(i, null);
+        }
+        this.capacity = 0;
     }
 
     @Override
-    public Set keySet() {
+    public Set<K> keySet() {
         return null;
     }
 
@@ -160,10 +188,10 @@ public class CustomHashMap<K, V> implements Map<K, V> {
             if (nd == null) {
                 continue;
             }
-            map.append(nd.toString()).append(" ");
+            map.append(nd.toString()).append(", ");
             while (nd.getNext() != null) {
                 nd = nd.getNext();
-                map.append(nd.toString()).append(" ");
+                map.append(nd.toString()).append(", ");
             }
         }
         map.append("]");
