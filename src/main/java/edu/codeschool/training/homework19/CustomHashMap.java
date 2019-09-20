@@ -1,10 +1,9 @@
 package edu.codeschool.training.homework19;
 
-import com.sun.xml.internal.bind.marshaller.NoEscapeHandler;
-
 import java.util.Map;
 import java.util.ArrayList;
 import java.util.Set;
+import java.util.HashSet;
 import java.util.Collection;
 
 public class CustomHashMap<K, V> implements Map<K, V> {
@@ -166,17 +165,53 @@ public class CustomHashMap<K, V> implements Map<K, V> {
 
     @Override
     public Set<K> keySet() {
-        return null;
+        Set<K> keys = new HashSet<>();
+        for (int i = 0; i < INITIAL_CAPACITY; i++) {
+            Node<K, V> nd = this.hashTable.get(i);
+            if (nd == null) {
+                continue;
+            }
+            keys.add(nd.getKey());
+            while (nd.getNext() != null) {
+                nd = nd.getNext();
+                keys.add(nd.getKey());
+            }
+        }
+        return keys;
     }
 
     @Override
     public Collection<V> values() {
-        return null;
+        Collection<V> values = new ArrayList<>();
+        for (int i = 0; i < INITIAL_CAPACITY; i++) {
+            Node<K, V> nd = this.hashTable.get(i);
+            if (nd == null) {
+                continue;
+            }
+            values.add(nd.getValue());
+            while (nd.getNext() != null) {
+                nd = nd.getNext();
+                values.add(nd.getValue());
+            }
+        }
+        return values;
     }
 
     @Override
     public Set<Map.Entry<K, V>> entrySet() {
-        return null;
+        Set<Map.Entry<K, V>> nodes = new HashSet<>();
+        for (int i = 0; i < INITIAL_CAPACITY; i++) {
+            Node<K, V> nd = this.hashTable.get(i);
+            if (nd == null) {
+                continue;
+            }
+            nodes.add(nd);
+            while (nd.getNext() != null) {
+                nd = nd.getNext();
+                nodes.add(nd);
+            }
+        }
+        return nodes;
     }
 
     @Override
