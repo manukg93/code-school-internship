@@ -146,7 +146,7 @@ public class LinkedList<E> implements List {
         }
         System.out.println(i);
         System.out.println(node);
-        return (E) node;
+        return (E) node.getValue();
     }
 
     @Override

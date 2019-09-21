@@ -1,8 +1,8 @@
 package edu.codeschool.training.homework17.client;
 
 import java.util.List;
-//import java.util.LinkedList;
-import edu.codeschool.training.homework17.exercise2.LinkedList;
+import java.util.LinkedList;
+//import edu.codeschool.training.homework17.exercise2.LinkedList;
 
 
 public class TestLinkedList {
@@ -16,7 +16,7 @@ public class TestLinkedList {
             String s = list.get(1);
         System.out.println(s);
         System.out.println(list);
-
+        System.out.println(list.get(list.size() -  1));
 
 
 //
