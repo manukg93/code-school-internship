@@ -1,0 +1,39 @@
+User 
+	id, 
+	firstNmae
+	lastNmae,
+	email,
+	gender,
+	birthDate
+	
+	List watched movies
+	
+	
+	
+	Movie
+		Id,
+		DirectorNmae
+		duration
+		genres
+		movieTytle
+		ImdbRating
+		
+		
+		
+		
+
+Menue
+	Add User
+	Add Movie
+	Delete movie
+	Delete users
+	Get most watched movie
+	Get All users
+	Get all movies
+	Get top 10 rated movies
+    	
+	
+	
+	
+	
+	

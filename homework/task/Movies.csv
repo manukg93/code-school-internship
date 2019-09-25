@@ -1,0 +1,1002 @@
+ID,directorName,duration,genres,movieTitle,imdbRating
+1,Phoebe Herbert,3:20 PM,Biography,Seven,5.36794328706709
+2,Jayden Saunders,6:00 AM,Adventure,Chocolat,0.963667832763711
+3,Denny Vince,1:08 AM,Action,The Notebook,8.70315733212193
+4,Julius Mccall,8:11 PM,Crime,Brimstone,1.87209965282683
+5,Alex Ranks,12:24 PM,Family,Brimstone,0.915391180624902
+6,Sadie Rehman,9:17 AM,History,Rambo III,1.52356844233515
+7,Cedrick Reading,4:08 PM,Drama,Seven,0.796364747358656
+8,Irene Donnelly,8:34 PM,Sci-Fi,Terminator 2,8.64994020557494
+9,Adela Bradley,3:46 AM,Musical,Ice Age 1,4.68598433755617
+10,Cara Vaughan,4:41 AM,Romance,Iron Man ,7.90745659028527
+11,Lara Jones,11:24 AM,Musical,The Dark Knight,0.677049393615243
+12,Faith Mason,8:57 PM,Drama,Avatar,3.34073935418424
+13,Doug Wheeler,3:21 AM,History,The Wolf Of Wallstreet,5.86593386617766
+14,Johnathan Pitt,10:16 PM,Crime,Thor : Ragnarok,1.60919856913816
+15,Elena Michael,10:48 AM,Fantasy,The Conjuring,3.51394538605304
+16,Angela Vincent,2:15 AM,Adventure,The Wolf Of Wallstreet,1.10437094564753
+17,Marigold Gordon,10:00 PM,Crime,Zootropolis,6.19475953383127
+18,Winnie Boden,2:53 PM,History,Allied,9.5340723681888
+19,Marissa Eagle,3:09 AM,Thriller,Fantastic Beasts and Where To Find Them,2.4422687997307
+20,Wendy Jenkins,9:49 PM,Fantasy,Interstellar,9.89170551853799
+21,Barry Nicholls,6:36 PM,Adventure,Friends With Kids,2.10634856676047
+22,Gladys Power,9:51 PM,Thriller,Mr. Bean's Holiday,8.9603727459723
+23,Eden Tennant,2:57 PM,History,The Martian,5.53519719538055
+24,Jacob Powell,12:22 PM,History,Transformers,6.23152428363986
+25,Jacob Andrews,1:53 PM,Romance,Transformers,4.02275669762062
+26,Josh Fleming,3:00 PM,Musical,The Ring,2.59097280287695
+27,Owen Phillips,2:20 AM,Adventure,The Ring,1.26415178005777
+28,Clint Rowe,2:23 PM,Family,Fantastic Beasts and Where To Find Them,7.08251952663181
+29,Monica Barrett,3:41 AM,Horror,Ice Age 2,5.98419317928338
+30,Darlene Bell,5:47 AM,Thriller,Transformers,2.89904545708515
+31,Stephanie Barrett,10:21 PM,Action,Allied,4.81791097755447
+32,Emely Fulton,8:12 PM,Biography,Iron Man ,2.74424942990032
+33,Gil Styles,8:10 AM,Sci-Fi,The Martian,0.820764381820692
+34,Marissa Hill,2:42 PM,Musical,The Dark Knight,5.50039067328926
+35,Darlene Porter,10:53 PM,Crime,Avatar,9.67547718513546
+36,Esmeralda Gates,12:00 AM,Crime,Interstellar,5.78093425360552
+37,Rosemary Mackenzie,6:34 PM,Horror,Avengers Infinity War,9.17140051357979
+38,Jack Marshall,11:10 AM,Horror,The Wolf Of Wallstreet,5.8444415455891
+39,Nate Bristow,3:40 PM,Fantasy,The Ring,0.996169814838176
+40,Livia Mitchell,1:06 AM,Crime,Friends With Kids,5.76575891942054
+41,William Cadman,8:30 AM,Action,Ice Age 1,5.19970774473609
+42,Carina Jeffery,4:54 PM,Action,Avatar,7.09371077599642
+43,Ryan Reynolds,1:06 PM,Horror,Chronicles of Narnia,0.297194877777805
+44,Havana Lee,10:19 PM,Biography,Batman Begins,4.40396505007705
+45,Samara Cattell,7:23 PM,Thriller,The Martian,0.0441352804396931
+46,Luke London,3:54 PM,Crime,Blood Diamond,7.15249037610017
+47,Piper Pitt,6:54 AM,Thriller,Titanic,1.62674581847468
+48,Carter Judd,7:16 AM,Musical,American Pie,0.202310650703642
+49,Andrea Brooks,10:38 AM,Drama,Interstellar,7.64586179873248
+50,Matthew Brown,5:07 AM,Musical,Finding Dory,9.94110069188341
+51,Hank Huggins,6:35 AM,Crime,Love,7.06690922662006
+52,Kenzie Cadman,7:28 PM,Musical,Harry Potter and The Sorcerer's Stone,6.86830136499754
+53,Chelsea Fleming,6:03 AM,Drama,Wonder Woman,8.28011814843869
+54,Christine Quinnell,6:21 AM,History,Inside Out,8.94168736550104
+55,Bethany Graves,7:17 PM,Comedy,Chocolat,4.32678261228222
+56,Rose Walter,6:20 AM,Romance,Titanic,4.19779702331768
+57,Jennifer Jenkins,11:10 AM,Action,Rambo II,2.98232376947176
+58,Aleksandra Notman,6:12 PM,Adventure,Transformers,5.83656888168145
+59,Gil Woods,5:04 PM,Romance,Finding Dory,7.47569687733226
+60,Freya Douglas,11:45 AM,Action,SING,3.11509867809485
+61,Ramon Vallory,12:31 PM,Action,Rambo I,7.6956563986352
+62,Juliet Jordan,8:24 PM,Animation,Star Wars,9.26736203779809
+63,Angelina Stewart,1:42 PM,Action,Titanic,6.47991819422688
+64,Winnie Hogg,9:32 PM,Crime,Terminator I,5.74133517720799
+65,Owen Farmer,1:52 PM,Drama,The Ring,4.13027025532456
+66,Rocco Ward,3:56 PM,Drama,The Conjuring,5.99893613578702
+67,Claire Hobbs,10:28 PM,Family,Harry Potter and The Chamber Of Secrets,3.67951074553631
+68,Rihanna Notman,10:07 AM,Comedy,Harry Potter and The Sorcerer's Stone,5.05994787069966
+69,Martin Myatt,10:52 AM,Musical,Star Wars,0.176426893182298
+70,Lucas Radley,2:53 AM,History,The Martian,6.80916648256088
+71,Lucas Dale,7:28 PM,Thriller,American Pie,0.488868070993977
+72,Maia Pond,12:00 AM,Thriller,Brimstone,3.65144649411153
+73,Carla Holt,6:01 PM,Horror,Terminator 2,5.45118389253094
+74,Peyton Eagle,4:03 PM,Animation,Titanic,9.08865852658109
+75,Vanessa Hunt,5:53 AM,Fantasy,Shutter Island,6.42288928591781
+76,Abbey Bloom,12:39 PM,Thriller,Rambo I,9.95430297542098
+77,Harvey Speed,6:17 PM,Musical,The Notebook,2.67407350552924
+78,Teagan Rivers,10:46 PM,History,Titanic,3.83873797247128
+79,Peter Gates,6:29 AM,Comedy,The Dark Tower,8.10670937323324
+80,Martha Morris,1:06 PM,Action,Inside Out,2.19113350249414
+81,Payton Weasley,1:41 PM,Animation,Thor : Ragnarok,8.62623816571489
+82,Erick Dowson,3:01 PM,Comedy,Love,8.81937049646833
+83,Rufus Morgan,3:11 PM,Adventure,Limitless,9.58753137085006
+84,Alma Utterson,8:53 PM,Crime,SING,0.288102722395259
+85,Rose Harrison,10:24 PM,Drama,Octav,3.36840038391221
+86,Grace Asher,3:01 AM,Action,Blood Diamond,2.68968598716412
+87,Thea Powell,1:07 AM,Fantasy,Fantastic Beasts and Where To Find Them,0.736046837985537
+88,Estrella Horton,11:13 AM,Thriller,Love,0.215853837419233
+89,Marvin Brett,2:44 AM,Fantasy,Shutter Island,3.05624277333554
+90,Nicholas Knight,8:22 AM,Thriller,The Wolf Of Wallstreet,6.33954356207491
+91,Barry Strong,8:32 AM,Fantasy,The Wolf Of Wallstreet,3.61400410514977
+92,Bob James,8:01 AM,Sci-Fi,Harry Potter and The Chamber Of Secrets,8.36077805578745
+93,Daria Edley,10:50 PM,Animation,Rambo I,1.60988153173117
+94,Benjamin Ingram,6:21 AM,Adventure,Finding Dory,4.6965350949655
+95,Wade Khan,6:58 PM,Action,Interstellar,7.51516384375988
+96,Clint Cork,7:32 AM,Thriller,Wonder Woman,2.44424711840425
+97,Mona Morris,3:44 PM,Sci-Fi,SING,6.89438762278035
+98,Roger Lynn,1:02 AM,Action,The Conjuring,6.82300247616274
+99,Julianna Richardson,2:02 AM,Fantasy,Avatar,2.45504799972058
+100,Joseph Selby,2:20 AM,Drama,Rambo II,9.90788662149938
+101,Clint Hancock,10:30 AM,Action,Romeo and Juliet,6.76844501577711
+102,Melanie John,2:39 PM,Fantasy,Octav,1.67171453436451
+103,Denny Aldridge,12:55 AM,Family,Octav,5.84222661929309
+104,Maxwell Clark,7:34 AM,Horror,The Wolf Of Wallstreet,5.78378119682138
+105,Penelope Rowan,3:43 PM,Horror,Terminator 2,1.75252883683542
+106,Stella Vangness,6:28 AM,Animation,Harry Potter and The Sorcerer's Stone,8.17046158675591
+107,Chester Blackburn,4:19 AM,Adventure,Allied,2.13221123913872
+108,Domenic Mcneill,11:14 AM,Comedy,Allied,4.72458153717433
+109,Andrea Wilcox,5:16 AM,Musical,Wonder Woman,0.972299533883249
+110,Mark Bingham,1:32 AM,Drama,American Pie,1.50626392453269
+111,Elijah Harvey,1:57 AM,Comedy,Allied,8.67265570940108
+112,Barry Stewart,10:04 PM,Action,Terminator 2,0.062973052292584
+113,Liliana Pope,5:10 AM,Romance,Seven,4.55349640667136
+114,Tony Sherry,4:13 PM,Adventure,Rambo III,1.1131630288964
+115,Dorothy Summers,7:33 AM,Thriller,Avatar,0.502557453002109
+116,Phoebe Graves,12:43 PM,Fantasy,Thor : Ragnarok,5.22501062565716
+117,Hayden Pearce,2:21 PM,Crime,Terminator 2,2.93679576410763
+118,Martha Mccall,3:50 PM,Horror,Snatch,9.49493565666253
+119,Boris Everett,10:39 AM,History,Thor : Ragnarok,3.51673885226098
+120,Julius Wallace,3:54 AM,Adventure,Zootropolis,9.21862172019604
+121,Julian Collingwood,1:03 PM,Horror,Ice Age 2,0.22971418324379
+122,Violet Tindall,12:53 PM,History,Fantastic Beasts and Where To Find Them,4.58902649236332
+123,Oliver Gavin,2:41 PM,Fantasy,Harry Potter and The Sorcerer's Stone,6.54539637432685
+124,John Palmer,5:04 AM,Action,Love,4.42857199415032
+125,Catherine Rose,5:22 AM,Adventure,Allied,1.72016872359448
+126,Carrie Campbell,8:24 AM,Musical,Allied,6.56359182976353
+127,Marilyn Lloyd,4:38 AM,Drama,Finding Dory,6.14256610402026
+128,Louise Reese,10:27 AM,Horror,Avatar,7.36223175486654
+129,Domenic Uddin,9:40 AM,Sci-Fi,The Godfather,4.80331075554868
+130,Rylee Oliver,6:11 PM,Adventure,Wonder Woman,9.09482493721639
+131,Susan Furnell,12:57 AM,Crime,American Pie,1.84215151976894
+132,Ethan Burge,9:14 PM,Sci-Fi,Fantastic Beasts and Where To Find Them,5.65154946113543
+133,Juliet Saunders,6:38 PM,Action,Avengers Infinity War,4.39946027398084
+134,Marla Drake,7:39 AM,Musical,Brimstone,4.63913601992612
+135,Ember Khan,7:15 AM,Thriller,Thor : Ragnarok,1.53376042169228
+136,Noah Phillips,9:11 AM,Action,Interstellar,7.35341873641751
+137,Jayden Ogilvy,7:55 PM,Romance,Star Wars,5.19989542206744
+138,Trisha Pearce,6:20 AM,Sci-Fi,Romeo and Juliet,7.20383927654654
+139,Rae Cunningham,5:15 PM,Musical,Avengers Infinity War,9.90910574789583
+140,Mark Brennan,8:23 PM,Crime,Ice Age 1,2.95646960239693
+141,Rick Clifton,7:54 AM,Biography,Rambo II,0.640132393986048
+142,Carter Oatway,2:09 AM,Crime,Rambo II,1.24542350799098
+143,Danny Hudson,5:27 AM,Family,The Conjuring,1.94879522172212
+144,Danny Norton,6:55 PM,Family,Black Panther,8.86791061603833
+145,Amy Pratt,3:16 PM,Thriller,Snatch,1.81015650313821
+146,Peyton Moore,11:39 AM,Sci-Fi,Octav,4.52517728159445
+147,Amelia Harrison,2:21 AM,Horror,Chronicles of Narnia,0.374423576227587
+148,Isabel Weasley,2:46 AM,Family,SING,6.77692078462658
+149,Alba Watt,1:27 AM,Crime,Blood Diamond,0.388798067061602
+150,Hadley Clarke,12:10 AM,History,Limitless,3.80174762094475
+151,Fred Saunders,10:33 PM,Musical,Terminator I,6.9204889735768
+152,Helen Rodwell,1:17 AM,Sci-Fi,Fantastic Beasts and Where To Find Them,3.36134821891847
+153,Danny Whittle,4:44 AM,Action,Avengers Infinity War,0.447542416140224
+154,Harvey Olivier,7:27 PM,Drama,Chronicles of Narnia,3.7017934050885
+155,Christine Vollans,4:05 PM,Sci-Fi,Titanic,5.49639108986426
+156,Maribel Kerr,7:22 AM,Sci-Fi,Terminator 2,2.90819931724491
+157,Leah Richardson,3:27 PM,Comedy,American Pie,4.00418804679261
+158,Cedrick Mould,8:01 AM,Romance,Pretty Woman,8.87812983937474
+159,Bethany Quinton,7:09 PM,Crime,Chocolat,2.44659238701993
+160,Bart Garcia,1:26 AM,Horror,Romeo and Juliet,5.03701959738369
+161,Gwenyth Williams,11:01 AM,Romance,The Wolf Of Wallstreet,2.06604515950477
+162,Juliet Addley,2:35 AM,Fantasy,Allied,0.756368887031623
+163,Thea Thatcher,7:56 PM,Biography,Rambo II,1.35754959255343
+164,Kate Thomas,6:39 PM,Comedy,Shutter Island,3.21255952129725
+165,Ryan Vollans,10:21 AM,Animation,Transformers,5.95862345535244
+166,Laila Grady,9:09 AM,Biography,Batman Begins,1.9070408739648
+167,Andrea Ranks,11:47 AM,Sci-Fi,Avengers Infinity War,8.42949831133219
+168,Marvin Wright,5:30 PM,Adventure,Interstellar,4.78671037209533
+169,Bree Shields,1:15 PM,Horror,Love,7.07131905996768
+170,Alice Attwood,4:50 PM,Fantasy,Zootropolis,1.08834732095168
+171,Tyson Dempsey,4:23 AM,Musical,Ice Age 1,6.4962220618018
+172,Daron Payne,8:13 PM,Adventure,Mr. Bean's Holiday,9.72296862850104
+173,Sharon Mitchell,12:47 AM,Comedy,Friends With Kids,0.650255097379095
+174,Javier Wilson,2:04 PM,Thriller,American Pie,1.41518092733583
+175,Sage Mackenzie,3:56 PM,Action,The Dark Knight,5.09830495114359
+176,Boris Townend,5:21 AM,Family,Rambo II,1.42958557672314
+177,Maddison Yoman,3:35 AM,Crime,Fantastic Beasts and Where To Find Them,9.62248111684922
+178,Stephanie Knight,7:09 PM,Family,Allied,7.05595920470355
+179,Macy Buckley,11:48 AM,Comedy,Harry Potter and The Chamber Of Secrets,0.287654534116226
+180,Chad Chapman,7:47 PM,Family,Wonder Woman,8.14683941339461
+181,Russel Tanner,6:31 AM,Action,Harry Potter and The Chamber Of Secrets,1.67243824464848
+182,Ramon Hepburn,12:05 AM,Comedy,Iron Man ,1.59925764221663
+183,Mavis Parr,9:17 PM,Action,Blood Diamond,5.22193451003262
+184,Rocco Price,1:31 AM,Biography,Iron Man ,2.11937492439494
+185,Alex Oatway,2:46 PM,Thriller,Thor : Ragnarok,5.0200907499623
+186,Nick Niles,4:34 AM,Drama,Finding Dory,4.15513357108232
+187,Matt Pratt,5:02 PM,Sci-Fi,Allied,8.38677429844941
+188,Marissa Overson,5:40 AM,Adventure,Allied,7.66935748079296
+189,Tyler Gardner,8:18 PM,Comedy,Ice Age 1,0.656312248509523
+190,Faith Faulkner,10:02 AM,Thriller,The Notebook,6.17521926908531
+191,Naomi Turner,12:20 AM,Animation,The Ring,5.40834456561522
+192,Rhea Walsh,12:09 PM,Horror,Harry Potter and The Sorcerer's Stone,2.38588086999295
+193,Zara Walsh,7:14 PM,Comedy,Titanic,3.06739196184436
+194,Ron Upton,2:17 AM,Biography,Brimstone,8.14255180542476
+195,Cadence Graham,8:29 PM,Crime,Avengers Infinity War,1.92947532093594
+196,Mina Warner,4:30 PM,Action,Romeo and Juliet,3.02594488860385
+197,Daron Ross,12:03 AM,Musical,The Ring,2.56820370981852
+198,Claire Plumb,4:21 PM,Crime,Pretty Woman,9.94185182402928
+199,Isla Edley,7:33 AM,History,Inside Out,1.79398905522841
+200,Gabriel Palmer,8:28 AM,Thriller,Batman Begins,9.6684696421346
+201,Daron Holmes,4:46 AM,Adventure,The Conjuring,3.08010485352953
+202,Nick Tyrrell,7:42 PM,Romance,SING,8.44110163694299
+203,Mandy Emmott,4:00 AM,Musical,Seven,3.99322209972573
+204,Sasha Watt,8:21 PM,Musical,The Dark Knight,5.48040594695155
+205,Daron Stevens,11:37 AM,Fantasy,Avengers Infinity War,1.7992240911346
+206,Gabriel Eastwood,4:33 AM,Adventure,Fantastic Beasts and Where To Find Them,0.766239785014763
+207,Mark Turner,2:49 PM,History,Casablanca,5.88423317572299
+208,Leilani Mcgee,2:30 PM,Family,Iron Man ,8.85102046553559
+209,Parker Phillips,4:09 PM,Family,Alien,7.43170056884722
+210,Ruth Eddison,9:01 PM,Action,The Godfather,1.25602724228801
+211,Vanessa Dowson,5:56 AM,Animation,Mr. Bean's Holiday,7.88838110533002
+212,Brooklyn Fields,12:07 PM,Crime,Fantastic Beasts and Where To Find Them,2.0911181685939
+213,Ethan Woodley,3:33 PM,Sci-Fi,Rambo III,8.71057242048465
+214,Macy Drake,12:54 PM,Family,Romeo and Juliet,2.66281102395747
+215,Adelaide Wise,5:28 PM,Biography,Star Wars,3.01450100867753
+216,Hayden Foxley,10:18 PM,Family,Terminator 2,0.0725229275750569
+217,Harvey Poulton,12:35 PM,Musical,Mr. Bean's Holiday,5.85012226963887
+218,Javier Notman,1:48 AM,Musical,Avengers Infinity War,8.32615625733796
+219,Ethan Kelly,5:57 PM,Thriller,Harry Potter and The Sorcerer's Stone,1.61429532971899
+220,Kassandra Mcgee,2:55 PM,Fantasy,Terminator 2,8.46118780153859
+221,Marilyn Stone,11:14 AM,Biography,Alien,6.19390219924688
+222,Fred Grant,11:50 AM,Musical,SING,0.709886362175404
+223,Wade Butler,3:11 PM,Thriller,Interstellar,7.48589875478572
+224,Agnes Duvall,3:27 PM,Crime,Black Panther,8.99957153387348
+225,Julius Ainsworth,5:26 PM,Action,Wonder Woman,0.373632720379919
+226,Gil Norburn,12:34 AM,History,Friends With Kids,1.41549102329439
+227,Leilani Saunders,4:10 AM,Crime,Romeo and Juliet,9.85879987145718
+228,Chris Owen,5:25 AM,Action,The Wolf Of Wallstreet,5.44096844384492
+229,Ryan Chester,6:27 PM,Animation,SING,3.8739803064959
+230,Bryon Harrison,9:15 PM,Drama,Rambo I,3.434657027216
+231,Ramon Hardwick,6:18 PM,Musical,Allied,2.8825044328731
+232,Sienna Fulton,9:23 AM,Fantasy,Pretty Woman,1.52926077159553
+233,Rylee Mcnally,7:29 PM,Action,Wonder Woman,3.08273028213658
+234,Aleksandra Chadwick,9:39 AM,Animation,Brimstone,3.66513054383226
+235,Luke Penn,3:49 AM,Family,The Ring,3.29948796159564
+236,Emerald Clayton,5:28 PM,Action,Chocolat,9.48364272177389
+237,Elle Bright,3:00 PM,Crime,Inside Out,1.14453722217331
+238,Mayleen Osman,7:21 PM,Fantasy,Casablanca,2.75439761707298
+239,Jade Torres,3:53 AM,Crime,Avatar,0.699227447015805
+240,Logan York,7:09 AM,Comedy,Rambo II,9.15457628627986
+241,Jocelyn Mason,2:37 AM,Crime,The Dark Tower,9.27204837010803
+242,Hope Morris,7:49 PM,Thriller,Seven,6.13738715748181
+243,Madison Mcnally,5:01 AM,History,Friends With Kids,1.81444787691089
+244,Colleen Farmer,4:45 PM,Fantasy,The Notebook,5.73903531848408
+245,Emely Wilkinson,6:18 PM,Action,Zootropolis,6.46286619709007
+246,Tara Wills,8:22 PM,Musical,Rambo II,4.14439942089114
+247,Henry Whitehouse,4:08 AM,Adventure,Alien,3.55297131210238
+248,Alison Adler,4:12 AM,Action,Star Wars,7.14094991662584
+249,Fiona Sylvester,8:52 AM,Musical,Snatch,5.31606614325012
+250,Sebastian Needham,7:06 AM,Comedy,Zootropolis,3.12002883763985
+251,Leroy Villiger,1:11 PM,Horror,Snatch,4.3618973546484
+252,Chester Hudson,10:44 PM,Drama,Harry Potter and The Sorcerer's Stone,8.04562436558568
+253,Vera Simmons,1:51 PM,Horror,Avengers Infinity War,4.76798045345022
+254,Colleen Bright,5:16 PM,Horror,Shrek,0.831594281751474
+255,Carl Parker,11:06 AM,Biography,Terminator I,9.29387488416111
+256,Alice Lane,4:35 AM,Adventure,The Conjuring,0.908965210853594
+257,Tara Crawley,4:00 AM,Comedy,The Conjuring,1.04544163637117
+258,Johnny Lewis,5:21 AM,Adventure,Black Panther,7.86691011063145
+259,Susan Howard,11:04 AM,Musical,Batman Begins,4.78362896609289
+260,Shelby Fields,3:54 AM,History,Rambo I,3.11347673792088
+261,Melinda Nash,12:20 PM,Biography,Friends With Kids,9.11227818024916
+262,Hayden Hill,5:28 AM,Fantasy,Transformers,5.62114011711494
+263,Bart Norburn,3:13 AM,Romance,Thor : Ragnarok,6.54196149694825
+264,Danny Emerson,1:31 PM,Romance,The Notebook,8.88082440517881
+265,John Robertson,4:39 PM,Comedy,Black Panther,5.5616055804126
+266,Janice Payne,5:10 AM,Sci-Fi,Chocolat,1.4430706326119
+267,Peter Knight,7:53 PM,Thriller,Limitless,1.73227740439227
+268,Leslie Reynolds,10:30 AM,Thriller,Iron Man ,5.95139718938218
+269,Hank Varndell,4:17 AM,Drama,The Wolf Of Wallstreet,5.76077884797043
+270,Ada Hastings,6:47 PM,Romance,The Notebook,0.366428985431059
+271,Janelle Reid,10:41 AM,Biography,Batman Begins,8.91372981989464
+272,Ilona Sinclair,10:43 PM,Thriller,Ice Age 2,2.22427740237875
+273,Gwenyth Camden,11:42 AM,Biography,Rambo II,1.9440717156716
+274,Phoebe Redwood,12:50 AM,Thriller,Ice Age 1,8.91599932309054
+275,Bryon Ashley,12:48 AM,Romance,The Conjuring,1.07647864803508
+276,Elise Thomas,3:12 PM,Fantasy,Zootropolis,7.73233941697159
+277,Maxwell Terry,5:41 PM,Comedy,Black Panther,6.3369868627456
+278,Denny Saunders,12:41 AM,Comedy,Star Wars,6.82793059238602
+279,Manuel Stevens,6:11 PM,Comedy,Batman Begins,5.15985216533758
+280,Stacy Poulton,9:04 AM,Fantasy,Rambo II,9.38274336810352
+281,Ema Dowson,6:10 AM,Sci-Fi,Harry Potter and The Chamber Of Secrets,8.11994643142444
+282,Harvey Lee,9:54 PM,History,Batman Begins,0.793891235158728
+283,Jayden Cann,3:16 PM,Comedy,Star Wars,5.85834695951005
+284,Vivian Thomson,2:54 AM,Fantasy,Titanic,7.33091621581973
+285,Valentina Judd,11:07 AM,Adventure,Rambo III,3.30753064588994
+286,Nathan Potts,1:29 AM,Adventure,Zootropolis,8.60313926432428
+287,Harvey Gosling,5:46 AM,Sci-Fi,Batman Begins,9.06889086452727
+288,Ada Ianson,1:45 PM,History,Star Wars,8.51434387942513
+289,Sharon Thomas,5:50 PM,Thriller,Rambo I,3.43726621867962
+290,Carina Pearson,9:52 AM,Fantasy,Seven,7.3866668280152
+291,Daria Connell,4:53 AM,Drama,The Martian,9.80184763381344
+292,Carl Woodley,7:01 AM,Adventure,Ice Age 2,7.67800809195172
+293,Priscilla Lomax,2:19 AM,Adventure,The Martian,5.80052048563981
+294,Manuel Watson,1:38 PM,Family,Inside Out,4.46882217212991
+295,Manuel Murphy,6:32 PM,Thriller,Shutter Island,8.59258822379289
+296,Gemma Giles,9:47 PM,Biography,Allied,9.25077136338259
+297,Harvey Pearce,9:25 PM,Action,Batman Begins,3.25992960867469
+298,Jack Atkinson,12:30 AM,Drama,Wonder Woman,3.97182101848154
+299,Natalie Stanley,10:42 PM,Crime,Rambo II,4.48088438272517
+300,Harriet Parker,9:36 AM,Romance,Terminator I,2.20076090013644
+301,Dalia Hewitt,1:45 AM,Sci-Fi,Finding Dory,7.90190196358687
+302,Savannah Judd,12:27 AM,Musical,Snatch,3.78585659935412
+303,Tony Tanner,11:07 AM,Musical,American Pie,6.76631666709032
+304,Lily Flett,10:38 PM,Comedy,Shrek,2.73378289199145
+305,Jenna Donnelly,2:36 PM,History,SING,6.89677204512841
+306,Rae Callan,7:15 PM,Family,The Notebook,6.21032837369029
+307,Naomi Cadman,3:29 AM,Fantasy,Pretty Woman,6.52563620010653
+308,Mandy Rodwell,8:29 AM,Comedy,Blood Diamond,8.07107102222325
+309,Lucy Parker,7:46 PM,Fantasy,Avengers Infinity War,9.04417431822241
+310,Luke Kelly,3:27 AM,Romance,Love,6.23013853525284
+311,Ryan Nicholls,3:53 AM,Action,Love,9.32403918976152
+312,Ellen Osmond,4:37 AM,Biography,American Pie,2.61554940306374
+313,George Graham,6:19 PM,Action,Mr. Bean's Holiday,0.401238640025835
+314,Gabriel Reynolds,7:37 PM,Fantasy,Love,0.0621461398257623
+315,Ethan Brock,10:15 AM,Thriller,The Conjuring,6.99720988748465
+316,Blake Chapman,8:05 AM,History,The Dark Knight,4.30497996430145
+317,Naomi Yang,10:47 AM,Action,The Godfather,3.58705361820155
+318,Johnathan Thomson,5:52 PM,Biography,Thor : Ragnarok,4.77519431466944
+319,Bob West,12:15 PM,Biography,Harry Potter and The Sorcerer's Stone,7.62663455057267
+320,Penny Wheeler,7:46 PM,Adventure,Casablanca,5.6301950987569
+321,Danny Tait,12:20 PM,Comedy,Casablanca,6.8585366312687
+322,Elijah Preston,8:15 AM,Fantasy,Fantastic Beasts and Where To Find Them,8.87449963105586
+323,Charlize Butler,3:01 AM,Musical,Thor : Ragnarok,4.21383353053305
+324,Adina Broomfield,5:42 PM,Action,Brimstone,7.97475692395808
+325,Katelyn Truscott,7:25 PM,Comedy,The Godfather,8.7311603118345
+326,Tyson Kidd,2:12 AM,History,Titanic,8.41922760914044
+327,Chad Stevenson,4:29 AM,Animation,Finding Dory,9.17211916212557
+328,Jack Cartwright,10:11 AM,Animation,Seven,3.40652541322938
+329,Oliver Hammond,3:36 AM,Thriller,Batman Begins,5.10094509231902
+330,Hazel Notman,3:14 PM,Thriller,The Dark Tower,5.81689977497649
+331,Carissa Ashley,6:45 PM,Drama,Snatch,6.04910087448037
+332,Tyson Cork,7:19 PM,Animation,The Dark Tower,2.63334611227426
+333,Chester Connell,12:31 AM,Fantasy,Friends With Kids,9.81495714132439
+334,Matthew Mills,10:49 AM,Family,Allied,0.490921634943654
+335,Ramon Nanton,8:24 PM,Action,SING,1.52904719604601
+336,Daniel Durrant,4:43 AM,Family,The Conjuring,0.0836948911117832
+337,Barry Dobson,7:50 PM,Biography,Titanic,3.60941067319802
+338,Jade Roberts,7:37 AM,Action,Allied,1.64091914316682
+339,Caleb Evans,6:37 AM,Family,Transformers,4.40849669156992
+340,Denny Rivers,10:32 AM,Family,Harry Potter and The Sorcerer's Stone,0.199510969314496
+341,Rihanna Nanton,8:23 PM,Romance,The Martian,1.91434413702895
+342,Bob Tate,2:35 AM,Thriller,Star Wars,5.14867857571164
+343,Mike Owens,12:10 PM,Crime,Blood Diamond,6.63240509369988
+344,Noah Mason,12:43 PM,Musical,Mr. Bean's Holiday,4.27464745159943
+345,Paige West,9:27 AM,Action,Blood Diamond,0.606088324732188
+346,Cedrick Allen,3:50 PM,Drama,Ice Age 2,4.21545210118194
+347,Regina Nelson,2:03 PM,Animation,The Godfather,0.661706983885591
+348,Michael Gunn,4:45 AM,Romance,Rambo I,0.549555212515199
+349,Isabel Cann,9:03 PM,Animation,Octav,5.83593650573675
+350,Payton Ingham,12:49 PM,Animation,The Godfather,0.563763700222486
+351,Liam Roth,12:38 AM,Drama,Blood Diamond,3.21442441559137
+352,Ethan Latham,3:05 PM,Biography,Avengers Infinity War,1.06256874793329
+353,Jacqueline Dixon,8:14 AM,Biography,Friends With Kids,9.53663656419918
+354,Margaret Gordon,2:03 AM,Romance,The Ring,8.53039367754496
+355,Barry Hamilton,9:10 PM,Drama,Fantastic Beasts and Where To Find Them,5.37201242166199
+356,Ron Richards,7:17 PM,Comedy,Inside Out,7.2890600041901
+357,Hayden Richards,3:57 PM,Animation,Wonder Woman,0.173939200664842
+358,Boris Summers,1:17 PM,Action,SING,1.9523539687285
+359,Emmanuelle Selby,1:13 AM,Fantasy,Blood Diamond,4.74973345769091
+360,Melania Zaoui,5:29 PM,Horror,Rambo II,3.35647133754402
+361,Matt Mooney,10:41 PM,Sci-Fi,Harry Potter and The Chamber Of Secrets,9.11902736552014
+362,Jade Leigh,2:54 AM,Biography,Wonder Woman,3.67450030551967
+363,Jocelyn Stanton,5:30 AM,Thriller,The Wolf Of Wallstreet,0.601298644487419
+364,Bryon Harris,11:14 AM,Crime,Wonder Woman,6.77651164856577
+365,Mary Buckley,8:23 AM,Biography,Thor : Ragnarok,1.03456176632762
+366,Savannah Ogilvy,1:27 PM,Fantasy,American Pie,0.0379488468346879
+367,Callie Patel,5:25 AM,Animation,The Ring,0.000194481574089491
+368,Alex Roth,9:09 AM,Horror,Batman Begins,2.49632609565571
+369,Jack Gardner,12:39 PM,Animation,Alien,6.72379800059078
+370,Bethany Cunningham,2:10 PM,Fantasy,Black Panther,9.94532045346932
+371,Stella Atkinson,4:01 PM,Musical,Rambo I,4.74450982396701
+372,Drew Gunn,7:52 PM,Sci-Fi,Snatch,7.37263444223098
+373,Juliette Bell,6:30 PM,Comedy,Romeo and Juliet,1.56867059393258
+374,Michael Funnell,12:55 PM,Sci-Fi,Avatar,4.30390322362255
+375,Adelaide Ashwell,12:19 PM,Family,Rambo III,4.14573054441518
+376,Scarlett Harrison,1:11 AM,Horror,Shrek,7.60015531051911
+377,Maxwell Donovan,2:20 AM,Family,Terminator 2,3.87302039557743
+378,Manuel Gilmore,10:56 PM,Fantasy,Avengers Infinity War,4.15856401489981
+379,Ember Steer,1:51 PM,Drama,The Conjuring,8.57630720249205
+380,Robyn Bennett,2:12 AM,Comedy,Avatar,3.80571410050882
+381,Chad Yoman,6:13 PM,Biography,Romeo and Juliet,2.170879933597
+382,Lauren Nicholls,1:44 PM,Biography,Avengers Infinity War,7.01315125916766
+383,Paula Ellis,7:49 AM,Thriller,Star Wars,9.85700838913071
+384,Eryn Weston,12:04 AM,Horror,Iron Man ,1.28408524966058
+385,George Edmonds,6:36 PM,Animation,The Ring,8.03369324236814
+386,Bethany Knight,4:52 PM,Horror,Star Wars,3.20233593564589
+387,Bernadette Potts,8:44 AM,Comedy,Mr. Bean's Holiday,4.84482486957909
+388,Ronald Kennedy,8:02 PM,Biography,The Dark Knight,7.99173725721973
+389,Madison Wallace,4:20 PM,Fantasy,Inside Out,2.9217030834042
+390,Candice Richards,2:13 AM,Musical,Terminator I,3.54723142112942
+391,Mason Whitehouse,2:58 AM,Crime,Ice Age 1,0.418016196423218
+392,Nick Hewitt,3:02 PM,Animation,Ice Age 1,0.611032278095853
+393,Chadwick Whatson,6:55 AM,Animation,Interstellar,1.67014025834861
+394,Nancy Pierce,4:13 AM,Adventure,Alien,6.8674598824547
+395,John Tutton,3:32 AM,History,Brimstone,7.4626850478643
+396,Jennifer Rodwell,8:42 PM,Action,The Martian,5.29215321377486
+397,Christine Gilmour,10:49 AM,Thriller,Mr. Bean's Holiday,7.99149323440692
+398,Leah Radley,3:45 PM,Fantasy,Black Panther,1.94535616736177
+399,Enoch Kennedy,11:19 AM,Crime,Rambo III,6.30895142690695
+400,Daron Addison,7:05 AM,Crime,Finding Dory,1.67003536441831
+401,Liam Cassidy,1:01 PM,Action,Brimstone,4.16455405306283
+402,Mike Curtis,8:20 AM,Animation,Harry Potter and The Sorcerer's Stone,0.349557890719528
+403,Rebecca Hudson,5:26 AM,Romance,Casablanca,9.77140165854776
+404,Willow Carson,8:43 AM,Horror,Rambo I,6.89223072626266
+405,John Thompson,4:42 AM,Family,Limitless,7.59562779990753
+406,Jenna Holmes,6:47 PM,Drama,SING,4.25357454701028
+407,Juliet Benfield,5:58 AM,Comedy,Limitless,9.69694703570425
+408,Alice Mackenzie,1:15 AM,Drama,Thor : Ragnarok,3.06773302474419
+409,Joseph Ross,11:55 AM,Crime,Avengers Infinity War,8.49165985011107
+410,Gabriel Boyle,9:27 PM,Crime,Rambo II,1.64776260063414
+411,Elise Mills,4:42 PM,Comedy,The Godfather,6.93251217898564
+412,Clint Mackenzie,8:29 PM,Romance,Avatar,5.8482892028281
+413,Tom Shea,3:19 PM,Family,Rambo III,2.95536532483779
+414,Tiffany Adler,1:12 PM,Animation,The Wolf Of Wallstreet,7.87885800603724
+415,Susan Avery,6:33 PM,Musical,Ice Age 2,6.12841778813322
+416,Carina Jones,12:03 PM,Musical,Harry Potter and The Chamber Of Secrets,8.69740353277763
+417,Skylar Cox,7:54 PM,Action,Harry Potter and The Chamber Of Secrets,6.07299881338747
+418,Chadwick Rogan,5:31 AM,Biography,Octav,3.30384212839596
+419,Johnny Wilkinson,2:38 PM,Comedy,Terminator 2,9.98304810141355
+420,Cameron Simpson,7:42 AM,Musical,Alien,8.51696909569063
+421,Skylar Nielson,4:48 PM,Animation,Snatch,0.3592614905719
+422,Leroy Rodgers,3:18 AM,Adventure,The Dark Knight,5.11004887619524
+423,Chris Nelson,3:12 AM,Family,Pretty Woman,0.467500246813288
+424,David Tailor,5:55 PM,Horror,Avatar,4.95164650816081
+425,Ron Lewis,6:33 PM,Comedy,Wonder Woman,5.00871086679805
+426,Daniel Payne,10:39 AM,Family,Seven,0.318859779890096
+427,Elijah Ward,10:31 AM,History,Avengers Infinity War,0.663808180328369
+428,Maggie Coll,2:23 AM,Action,Mr. Bean's Holiday,8.94968877730411
+429,Angela Bullock,10:29 AM,Comedy,Finding Dory,1.94660290188464
+430,Barry Flack,10:06 AM,Adventure,Ice Age 2,0.950233164685887
+431,Doug Oswald,10:32 AM,History,Rambo III,4.51345504704558
+432,Daphne Ward,5:05 AM,Biography,Allied,8.47316372416595
+433,Abdul Parker,10:56 PM,History,Harry Potter and The Sorcerer's Stone,9.86501020373079
+434,George Wilson,9:02 PM,Comedy,Octav,4.48621788410759
+435,Danny Wooldridge,6:50 AM,Romance,Ice Age 1,1.11867568228332
+436,Carolyn Stone,1:33 PM,Animation,The Notebook,9.59895851584103
+437,Henry Mcgregor,1:08 PM,Thriller,Harry Potter and The Sorcerer's Stone,9.99706000415471
+438,Rhea Santos,5:39 PM,Biography,Zootropolis,3.73015223477509
+439,Christy Plumb,2:28 AM,Sci-Fi,Wonder Woman,1.50575683382608
+440,Tyler Norris,9:14 AM,Biography,Harry Potter and The Chamber Of Secrets,6.15238605167362
+441,Ivette Ramsey,1:47 PM,Drama,Rambo II,6.28771258671196
+442,Savannah Fox,4:03 PM,Musical,American Pie,7.8750503966003
+443,Thea Radcliffe,9:15 PM,Biography,American Pie,4.06971170337392
+444,Teagan Thomas,3:51 AM,Adventure,Snatch,0.857187686887191
+445,Tony Oakley,7:30 PM,Horror,Allied,6.43387424733204
+446,Chelsea Notman,11:50 AM,Crime,Fantastic Beasts and Where To Find Them,5.7925853514078
+447,Jayden Swift,12:53 PM,Thriller,Pretty Woman,2.83379953672821
+448,Alexia Thompson,8:25 PM,Sci-Fi,Titanic,5.46195738365034
+449,Rufus Dillon,1:21 AM,Horror,The Dark Tower,2.26442893513685
+450,Mark John,3:57 AM,History,Finding Dory,5.23208784136553
+451,Brad Walsh,3:56 AM,Fantasy,Zootropolis,4.25096203631301
+452,Cedrick Paterson,1:50 AM,Comedy,Rambo I,7.54818453432442
+453,Shay Kaur,12:16 AM,Sci-Fi,Harry Potter and The Chamber Of Secrets,3.87507008336255
+454,Maia Gilbert,4:11 PM,Romance,Avengers Infinity War,9.84426380267565
+455,Marina Saunders,8:53 PM,Family,Transformers,4.45058529425905
+456,Paige Stone ,6:55 AM,Musical,Ice Age 2,6.92573206216364
+457,Matthew Woods,3:08 AM,Romance,Star Wars,3.58970202067387
+458,Luke Blackwall,6:22 PM,Biography,Ice Age 1,5.40972241359284
+459,Caleb Calderwood,6:53 PM,Thriller,Limitless,0.234508157816952
+460,Alma Abbot,7:45 PM,Family,Limitless,5.10294686402331
+461,Johnny Wooldridge,12:07 AM,Animation,Limitless,0.349080757400524
+462,Angelique Clayton,12:20 PM,Thriller,Titanic,7.51659357618382
+463,Rae Rodwell,12:31 AM,Biography,The Notebook,9.8750008935458
+464,Alma Morris,8:52 AM,Thriller,Allied,4.22983095572788
+465,Mark Whinter,2:13 PM,Romance,SING,3.33507065583722
+466,Vera Isaac,12:05 PM,Romance,Iron Man ,6.36016910074287
+467,Chad Giles,8:57 PM,Action,Avengers Infinity War,8.02574001719511
+468,David Harper,3:53 AM,Animation,Titanic,1.50149530335399
+469,Mike Collins,2:20 AM,Family,SING,2.58285889522306
+470,Henry Keys,8:20 PM,Adventure,Wonder Woman,9.52523186315095
+471,Carter Rees,8:56 PM,Horror,Ice Age 1,4.16393650563617
+472,Hank Haines,12:50 PM,Sci-Fi,The Ring,0.812079064460508
+473,Chuck Bowen,5:00 PM,Fantasy,Black Panther,9.55199340430647
+474,Crystal Rowlands,3:28 PM,Animation,Ice Age 2,5.10250747907092
+475,Karla Ralph,3:46 AM,Family,Harry Potter and The Chamber Of Secrets,7.51860083291242
+476,Emma Dunbar,12:12 PM,Adventure,Batman Begins,3.204553508295
+477,Isabel Flanders,11:11 AM,Family,Friends With Kids,1.21349311164277
+478,Agnes Wilton,1:49 AM,Romance,The Wolf Of Wallstreet,1.78354456964114
+479,Jack Johnson,9:55 PM,Crime,Love,9.75765050843249
+480,Natalie Harris,11:17 AM,Horror,Ice Age 1,2.40239933384694
+481,Ember Little,8:09 AM,Horror,Avatar,4.06894665866576
+482,Wade Nicolas,3:14 PM,Family,Avengers Infinity War,2.24225881334499
+483,Brad Mullins,8:19 PM,Action,Casablanca,5.53718584055881
+484,Michaela Dwyer,2:33 PM,History,The Martian,5.32496309528358
+485,Kurt Young,10:36 PM,Comedy,The Notebook,8.15914139298682
+486,Hannah Clark,9:16 PM,Crime,The Wolf Of Wallstreet,4.53059578199433
+487,Lorraine Watson,2:35 AM,Sci-Fi,Terminator 2,2.72764258865623
+488,Rosie Lynn,5:20 PM,Romance,Snatch,1.73158696933258
+489,Scarlett Tennant,12:37 PM,Horror,Love,6.90715812421737
+490,Melania Lewis,1:30 PM,Drama,The Wolf Of Wallstreet,7.88084030518347
+491,Gil Gibson,10:30 PM,Horror,Rambo III,9.33904089934148
+492,Madison Wellington,11:02 AM,Horror,The Ring,4.11773804440989
+493,Tyson Osmond,7:45 PM,History,SING,2.02798750439099
+494,Cassandra Ralph,8:38 PM,Musical,Allied,8.99104445520371
+495,Alex Stewart,9:58 AM,Comedy,Pretty Woman,5.46997116900513
+496,Marilyn Asher,3:39 AM,Family,Zootropolis,1.06721571370364
+497,Stella Cork,7:09 AM,Musical,The Dark Knight,4.2368440251969
+498,Teagan Weston,1:22 PM,Animation,Iron Man ,2.49995832541024
+499,Aiden Owen,3:30 PM,Action,Rambo III,5.87795809417868
+500,Boris Brown,8:39 AM,Adventure,The Ring,2.01649371535354
+501,Lexi Becker,2:04 PM,Action,Romeo and Juliet,8.8320899125338
+502,Evelynn Larsen,2:27 AM,Comedy,Transformers,7.69075145418325
+503,Jane Santos,12:58 AM,Adventure,Seven,0.283752768898268
+504,Zara Gunn,3:52 AM,Drama,Titanic,8.04101426808211
+505,Bridget Parker,8:32 AM,Adventure,Romeo and Juliet,4.28356192181053
+506,Elijah Mccormick,12:02 PM,Action,Batman Begins,5.77731777111875
+507,Chadwick Sawyer,5:18 AM,Family,The Godfather,5.82742589517842
+508,Melania Lucas,2:36 PM,Fantasy,Wonder Woman,3.80184163656171
+509,Fred Pearson,12:20 PM,Thriller,Ice Age 1,2.46455719157334
+510,Susan Jones,3:17 AM,Horror,Interstellar,4.7123200873436
+511,Rihanna Mcneill,3:23 AM,Crime,Romeo and Juliet,3.40932671651678
+512,Denny Plant,8:45 PM,Fantasy,The Dark Knight,9.58237882777228
+513,Gladys Tait,4:28 AM,Crime,Alien,8.3845244815501
+514,Rosalee Murray,4:11 PM,Sci-Fi,Snatch,5.11900433670683
+515,Dalia Chester,10:23 AM,Romance,Friends With Kids,1.75410816108534
+516,Caydence Oakley,3:11 AM,Fantasy,The Conjuring,0.527948867309815
+517,Gil Farrant,2:03 AM,Crime,Octav,4.01696612872973
+518,Leilani James,10:01 PM,Adventure,Rambo I,3.2781860578238
+519,Hayden Cork,6:02 PM,Animation,The Conjuring,0.0777108539257715
+520,Elijah Strong,2:16 AM,Animation,The Dark Tower,2.31157487598787
+521,Zara Stewart,2:11 AM,Family,Interstellar,9.1790707503348
+522,Caleb Gray,2:14 AM,Sci-Fi,Wonder Woman,8.01280236989856
+523,Michaela Robinson,12:54 AM,Adventure,Friends With Kids,9.03257300752801
+524,Matthew Kaur,12:54 PM,Musical,The Notebook,5.16939477723529
+525,Chadwick Gordon,10:11 AM,Crime,Allied,0.434687434432417
+526,Daniel Shaw,1:10 AM,Drama,Avengers Infinity War,3.25188301748218
+527,Darlene Jeffery,5:41 PM,Adventure,Inside Out,5.50731194694867
+528,Denis Nurton,9:26 AM,Biography,Avengers Infinity War,9.02110860730573
+529,Vivian Lomax,3:51 PM,Fantasy,Batman Begins,0.78797094374335
+530,Diane Rodwell,5:26 AM,Comedy,Star Wars,6.92227721583204
+531,Angelina Horton,8:45 AM,Sci-Fi,Rambo I,9.28234062403549
+532,Aiden Nielson,4:02 AM,Thriller,Avengers Infinity War,8.43507209021369
+533,Henry Ogilvy,10:11 AM,Family,Star Wars,0.407491459700973
+534,Rosalie Matthews,7:28 PM,Action,The Ring,9.84275361795107
+535,Abdul Kelly,12:14 PM,Thriller,The Ring,1.04132840085837
+536,Chadwick Reyes,7:19 PM,Animation,Octav,0.251830711146738
+537,Benjamin Brock,2:11 PM,Biography,Ice Age 2,7.48420505574169
+538,Maribel Vane,10:37 AM,Family,Black Panther,8.22737189486035
+539,Bree Gibson,11:37 AM,Biography,Mr. Bean's Holiday,0.833755162467135
+540,Lara Walsh,2:35 PM,Action,The Wolf Of Wallstreet,2.33413893698442
+541,Rosa Wigley,9:52 PM,Adventure,Ice Age 1,8.40280058998745
+542,Hailey Webster,10:41 PM,Crime,Limitless,1.39197219181432
+543,Denny Turner,9:00 AM,Sci-Fi,Limitless,9.93994484373366
+544,Valerie Styles,7:41 PM,Drama,Interstellar,4.97476118010225
+545,Sonya Craig,2:37 AM,Fantasy,SING,7.16787259288499
+546,Carl Miller,12:26 AM,Adventure,The Ring,2.46585315720451
+547,Sloane Rose,1:49 PM,Musical,Love,6.90971158254413
+548,Clint Lewis,10:54 AM,Biography,Ice Age 1,1.23601302329265
+549,Daniel Murphy,12:40 PM,Crime,Avengers Infinity War,3.70242364737318
+550,Matt Jefferson,2:03 AM,Crime,Allied,8.49403978488131
+551,Alma Kaur,7:58 AM,Drama,Octav,6.32323705513181
+552,Stella Alcroft,3:16 AM,Adventure,Transformers,2.60695798676785
+553,Marvin Price,9:47 AM,Adventure,Interstellar,1.40392154939655
+554,Meredith Gates,8:21 AM,Sci-Fi,Rambo III,4.03263007012784
+555,William Morgan,1:53 PM,Horror,The Wolf Of Wallstreet,0.250185476732527
+556,Jacob Palmer,12:34 PM,Sci-Fi,Harry Potter and The Chamber Of Secrets,1.12660683045471
+557,Lucy Shields,3:54 AM,Family,Alien,5.16803021084891
+558,Penelope Farmer,6:12 AM,Adventure,Mr. Bean's Holiday,2.32081189906262
+559,Abdul Paterson,5:49 AM,Action,Alien,6.85103858767591
+560,Juliette Tindall,2:44 AM,Crime,Blood Diamond,7.72373380685399
+561,Jacob Shaw,3:18 PM,Adventure,Thor : Ragnarok,6.83995519943533
+562,Adeline Adler,9:40 AM,Fantasy,Rambo III,2.55049966441025
+563,Hank Saunders,1:06 PM,Fantasy,Avengers Infinity War,5.53398587253596
+564,Javier Stevenson,3:09 AM,Horror,Iron Man ,8.22579898602599
+565,Sharon Marshall,6:19 AM,Romance,Rambo III,0.49740961263767
+566,Fiona Roberts,3:42 PM,History,SING,1.25420416391185
+567,Georgia Gordon,8:30 PM,Adventure,SING,9.70520597496312
+568,Aeris Avery,1:49 PM,Action,Alien,8.46315163022985
+569,Percy Verdon,3:29 PM,History,Love,0.038662106282386
+570,Aiden Roman,4:25 PM,Biography,Romeo and Juliet,2.54396441697328
+571,Nicholas Hilton,8:08 PM,Crime,Shutter Island,8.39635795187036
+572,Jaylene Richards,7:51 AM,Musical,Avengers Infinity War,0.655930612541703
+573,Parker Ballard,12:05 AM,Drama,Allied,1.19253161139438
+574,Abdul Roscoe,11:35 AM,Animation,SING,8.14333056665181
+575,Alan Ainsworth,5:05 AM,Adventure,Chronicles of Narnia,8.46931584434086
+576,Chad Baker,4:06 PM,Family,Interstellar,9.21967019942574
+577,Aiden Irving,3:20 PM,Thriller,SING,2.81760208672732
+578,Juliet Chapman,8:50 PM,Drama,Star Wars,3.36107261123186
+579,Miley Cattell,5:51 AM,Adventure,The Conjuring,3.20656487867542
+580,Ethan Whitmore,11:23 AM,Biography,The Godfather,0.186048812785209
+581,Mayleen Yates,6:12 PM,Sci-Fi,Thor : Ragnarok,0.888550484966743
+582,Marvin Butler,2:06 PM,Musical,Thor : Ragnarok,7.47309799048728
+583,Owen Farrell,8:20 AM,Crime,Ice Age 1,2.3257142847058
+584,Elijah Rogers,2:03 PM,Family,Black Panther,5.20373396817769
+585,Allison Reid,12:44 AM,Comedy,Seven,2.4786711183743
+586,Shay Wright,3:50 PM,Adventure,Blood Diamond,3.63256332168009
+587,Aleksandra Hill,7:29 AM,Crime,Snatch,5.90451999330172
+588,Johnny Nielson,8:18 AM,Action,Terminator 2,9.06061657195008
+589,Erick Hill,10:21 AM,Musical,Terminator 2,8.81150537021994
+590,Barney Collins,3:23 AM,Thriller,Shutter Island,7.91660527461982
+591,Juliet Fowler,4:29 AM,Sci-Fi,Titanic,2.63945785148044
+592,Sloane Blackwall,3:03 AM,Romance,Terminator I,4.03862594628643
+593,Margaret Simpson,3:08 PM,Comedy,Chocolat,8.30715312776489
+594,Nicholas Nash,5:10 AM,Thriller,Blood Diamond,7.52779170941924
+595,Enoch White,4:14 PM,Biography,Casablanca,0.459217575592556
+596,Jennifer Johnson,6:48 AM,Romance,Terminator I,9.83881093693842
+597,Caleb Jenkins,5:47 PM,Musical,Star Wars,7.33730079808147
+598,Harry Rodwell,12:26 PM,Comedy,American Pie,7.2222819259494
+599,Marigold Donovan,10:51 PM,Thriller,Friends With Kids,0.61708064406043
+600,Abdul Moore,6:29 PM,Crime,The Ring,1.70361503898334
+601,Florence James,5:16 PM,Romance,Black Panther,8.04146631855586
+602,Barry Murray,11:48 AM,Family,Black Panther,2.29877564557771
+603,Nathan Gilmore,1:39 PM,History,Star Wars,6.06487883164775
+604,Boris Gibbons,6:06 PM,Biography,Zootropolis,9.74808496923562
+605,Ramon Shaw,2:01 AM,Thriller,Star Wars,0.478503923154671
+606,Ramon Varndell,1:39 AM,Drama,Thor : Ragnarok,9.43547358058182
+607,Rick Gardner,5:00 PM,Fantasy,Octav,8.39747096011297
+608,Barry Gavin,12:33 AM,Adventure,Titanic,6.045707558303
+609,Daniel Rose,12:03 AM,Sci-Fi,Batman Begins,1.81115192119551
+610,Harmony Willis,6:14 AM,Comedy,The Martian,1.59445246988649
+611,Chadwick Wilkinson,9:37 PM,Family,Thor : Ragnarok,7.76903635066423
+612,Claire Rose,5:58 AM,History,Inside Out,2.2824822283734
+613,Chris Rogan,1:18 AM,Animation,Batman Begins,6.87527763837729
+614,Shannon Moreno,1:08 PM,Romance,Chocolat,3.03991096980866
+615,Logan Young,7:01 AM,History,Batman Begins,7.34223748666339
+616,George John,5:33 PM,Adventure,Rambo I,1.07433495767151
+617,Tom Craig,2:23 PM,History,Shutter Island,8.95376603396319
+618,Clint Summers,6:00 PM,Biography,Seven,0.0995544586794239
+619,Florence Lunt,6:22 AM,Family,The Notebook,1.90139147774381
+620,Mike James,7:22 PM,History,Wonder Woman,5.47381811191971
+621,Mike Downing,2:44 AM,Musical,Chronicles of Narnia,8.99774020537629
+622,Joseph Cavanagh,12:08 PM,Fantasy,The Martian,5.75732751458759
+623,Martin Osman,5:08 PM,History,The Wolf Of Wallstreet,8.5294702917009
+624,Abbey Yard,11:14 AM,Biography,Interstellar,3.03087421834044
+625,Miley Wise,8:50 AM,Drama,Seven,5.95265151511536
+626,Carter Hamilton,12:58 AM,Adventure,Interstellar,9.15800155846309
+627,Rosalie Cork,8:38 AM,History,Romeo and Juliet,0.395308567395112
+628,Mandy Spencer,1:46 PM,Comedy,Finding Dory,5.93178913413165
+629,Boris Collis,10:12 AM,Comedy,Avatar,8.08240497814603
+630,Piper Stone,12:28 AM,Biography,The Wolf Of Wallstreet,9.93051434537885
+631,Aurelia Olson,5:25 PM,Crime,Allied,7.57329365451508
+632,John Miller,12:11 PM,Drama,Shutter Island,5.52070062166113
+633,Marie Moran,1:44 AM,History,Ice Age 2,6.02436693898605
+634,Mayleen Morris,2:27 AM,Sci-Fi,The Notebook,9.34993038482495
+635,Carmella Ogilvy,9:56 PM,Romance,Shutter Island,6.36422411369356
+636,Dalia Norton,4:21 AM,Animation,Limitless,8.90058277868693
+637,Lana Rees,6:05 AM,Comedy,Fantastic Beasts and Where To Find Them,2.60144790243425
+638,Denis Dowson,11:47 AM,History,Fantastic Beasts and Where To Find Them,4.32840342555586
+639,Celina Wilcox,11:15 AM,Romance,Rambo III,3.51564783347568
+640,Alessia Vaughn,12:39 AM,Sci-Fi,Rambo III,9.15969644960002
+641,Emma Benfield,3:50 AM,Crime,Shutter Island,0.439201934001968
+642,Doug Hamilton,2:35 PM,Animation,Mr. Bean's Holiday,4.27125096147473
+643,Logan Griffiths,4:46 AM,Comedy,The Dark Knight,7.3829310775655
+644,Anabel Mann,10:07 PM,Thriller,Ice Age 1,1.43517260133995
+645,Eden Nicolas,9:02 PM,Adventure,Terminator 2,3.68562103886419
+646,William Johnson,3:39 AM,Biography,Terminator I,7.70488934857067
+647,Phillip Potter,3:35 PM,Animation,Harry Potter and The Chamber Of Secrets,8.13543230487752
+648,Shelby Allington,9:50 PM,Family,Alien,6.99164923047258
+649,Owen Vollans,3:58 AM,Adventure,Zootropolis,4.66505812279184
+650,Moira Redden,5:21 PM,Drama,Avatar,5.82334979056537
+651,Logan Ashley,4:44 AM,Sci-Fi,The Dark Tower,4.06717458649873
+652,Estrella Robertson,8:27 PM,Biography,Fantastic Beasts and Where To Find Them,5.67123819360102
+653,Phillip Moore,9:05 AM,Action,Ice Age 1,1.41701286212402
+654,Tony Nanton,8:46 AM,Family,Love,0.194784011782512
+655,Michael Knott,10:28 AM,History,Black Panther,8.30428396226106
+656,Hailey Harris,3:18 PM,Adventure,Harry Potter and The Chamber Of Secrets,8.89088526223362
+657,Sonya Roberts,10:07 AM,Thriller,Friends With Kids,6.62490483542201
+658,Blake Rixon,1:38 AM,Sci-Fi,Wonder Woman,0.598079176898151
+659,Joyce Ingham,1:06 PM,Comedy,Octav,2.327623320896
+660,Alessia Burge,9:01 AM,Musical,The Dark Tower,2.66403959349917
+661,Maxwell Dwyer,12:15 PM,Crime,The Dark Tower,6.86538352159103
+662,Jules Knight,5:31 PM,Comedy,Casablanca,7.40290579218553
+663,Chad Taylor,3:13 PM,History,The Dark Tower,6.30144767384112
+664,Maddison Wigley,6:34 AM,Sci-Fi,Fantastic Beasts and Where To Find Them,8.69737392277334
+665,Carolyn Redden,8:16 PM,History,Star Wars,2.87358600966334
+666,Eduardo Paterson,12:33 PM,Romance,The Godfather,2.2559121480472
+667,Irene Fenton,3:13 AM,Comedy,Limitless,0.597846123202632
+668,Chester Rowlands,12:19 AM,Musical,Casablanca,6.02321809112244
+669,Adela Fields,12:03 AM,Action,Ice Age 1,7.48112288512342
+670,Cristal Rogers,3:06 PM,Action,Avatar,6.85043092996368
+671,Chadwick Allen,9:32 PM,Comedy,Seven,1.58167467898767
+672,Melania Richardson,5:12 AM,Adventure,Casablanca,4.8678997773062
+673,Carl Thorpe,9:37 PM,Comedy,Avatar,2.33310456589475
+674,Henry Chester,6:06 PM,Crime,The Godfather,4.28264492949594
+675,Christy Stark,7:49 PM,Thriller,Chocolat,6.42760648132656
+676,John Villiger,8:36 PM,Fantasy,Fantastic Beasts and Where To Find Them,7.35528061089817
+677,Rosa Farrant,7:22 PM,Romance,Star Wars,3.40699115787027
+678,Mason Eddison,3:47 AM,Sci-Fi,Terminator I,8.64338008251199
+679,Boris Thompson,9:13 PM,Romance,Rambo II,6.54173312221734
+680,Madison Kennedy,10:58 PM,Crime,The Ring,7.07964247142879
+681,Elise Heaton,8:26 AM,Biography,Chocolat,0.512811667524656
+682,Kenzie Palmer,7:27 PM,Fantasy,Transformers,2.71394151203052
+683,Benny Jobson,2:48 PM,Drama,Mr. Bean's Holiday,6.88382122241139
+684,Erick Lee,5:50 PM,Crime,SING,3.47338865859126
+685,Michael Roman,7:10 PM,Drama,Wonder Woman,0.820671310099154
+686,Bristol Bryson,2:48 PM,Animation,Romeo and Juliet,5.85662603976979
+687,Angelica Stevens,12:42 PM,Romance,Batman Begins,4.38836487028206
+688,Ramon Kaur,1:56 PM,Sci-Fi,Octav,4.86313378338848
+689,Logan Brett,12:13 PM,Horror,Shutter Island,6.95473982158803
+690,Alan Nurton,10:37 PM,Crime,The Godfather,3.35718242747578
+691,Chelsea Eastwood,10:12 AM,Crime,Seven,6.43282748406419
+692,Abdul Campbell,8:09 AM,Romance,Fantastic Beasts and Where To Find Them,2.74695654155079
+693,Zara Norman,5:57 AM,Horror,Rambo III,3.46369609118611
+694,Joseph Townend,6:46 PM,Action,Rambo I,3.29016118323904
+695,Samara Adams,3:14 AM,Thriller,Love,6.08823883677285
+696,Logan Daniells,7:57 AM,Romance,Chocolat,9.07789239849797
+697,Nate Isaac,9:21 AM,Sci-Fi,Titanic,1.36227183386789
+698,Anthony Fulton,10:48 PM,Comedy,Allied,4.81871594619877
+699,Ivy Brett,5:27 AM,Biography,The Wolf Of Wallstreet,0.356080120595209
+700,Eve Kelly,10:49 PM,Family,Avatar,4.93477839833814
+701,William Wilkinson,10:57 AM,Action,Love,9.6022315712656
+702,Ronald Bristow,8:08 AM,Animation,Ice Age 2,2.35022781293384
+703,Boris Irving,2:49 AM,Comedy,Blood Diamond,0.346793411461075
+704,Anthony Cooper,1:00 AM,Thriller,The Notebook,1.36571505822507
+705,Adina Ward,6:28 PM,Romance,SING,5.70086644995067
+706,Ema Ianson,12:51 PM,Thriller,Inside Out,2.57252552480089
+707,Oliver Heaton,5:03 AM,Musical,Rambo I,8.21235605525428
+708,Carl Jobson,7:01 PM,Action,Mr. Bean's Holiday,2.77350440424564
+709,Ryan Redwood,12:28 PM,Romance,Limitless,7.08220836430891
+710,Harvey Quinn,3:14 PM,Crime,The Martian,4.82208325519323
+711,Ember Forth,12:00 PM,Comedy,SING,7.34258341432669
+712,Noah Fall,8:31 AM,Horror,The Martian,2.47088894176804
+713,Henry Eastwood,8:20 AM,Thriller,Avatar,2.31632552962579
+714,Faith Allen,10:56 PM,Comedy,Terminator 2,9.34837388449738
+715,Abdul Fulton,4:51 PM,Comedy,Rambo II,4.525445998891
+716,Jayden Leslie,7:39 PM,Sci-Fi,Pretty Woman,2.08336392235167
+717,Ember Heaton,1:32 PM,Fantasy,Avatar,1.53185429215983
+718,Mina York,10:38 PM,Comedy,Allied,1.83797635875548
+719,Jules Hunt,1:07 PM,Family,Blood Diamond,9.07398075381014
+720,Estrella Martin,7:17 PM,Horror,Rambo I,0.340581597918915
+721,Vicky Wood,12:40 PM,Family,Mr. Bean's Holiday,3.90742629156794
+722,Carol Grady,6:57 PM,Drama,Shutter Island,4.62312749616016
+723,Beatrice Shepherd,7:47 AM,Thriller,The Godfather,0.819289154288959
+724,Ruth Ward,1:33 PM,Animation,Interstellar,3.75136501144216
+725,Elena Hunter,7:29 PM,History,Avengers Infinity War,8.8596566849666
+726,Keira Faulkner,3:20 PM,Biography,Harry Potter and The Chamber Of Secrets,2.855257786743
+727,Carla Fulton,3:22 PM,Crime,Limitless,9.26679510169979
+728,Bart Plant,3:55 PM,Fantasy,Terminator I,6.01109444397087
+729,Angelique Martin,10:53 PM,Musical,Black Panther,5.49318344914037
+730,Valentina Bell,6:48 PM,Comedy,The Dark Knight,2.8623156514309
+731,Ronald Sloan,11:39 AM,Horror,Octav,5.23218586679184
+732,Rufus Mcgregor,9:23 AM,Horror,Thor : Ragnarok,8.72545147022486
+733,Camden Redwood,9:07 AM,Action,The Ring,3.78432028404638
+734,Stephanie Knott,1:24 PM,Horror,Finding Dory,6.90350644518785
+735,Ronald Oswald,3:23 AM,Sci-Fi,Avengers Infinity War,4.01782592154007
+736,Eduardo Noon,8:14 AM,History,Iron Man ,3.92623676356219
+737,Rebecca Russell,10:48 PM,Biography,Chronicles of Narnia,6.03061959474842
+738,Keira Reynolds,12:56 PM,Action,Rambo III,8.33181492161556
+739,Fiona Brown,8:04 AM,Romance,Love,4.50552821741697
+740,Jenna Talbot,8:23 PM,Horror,Terminator 2,6.39350546635385
+741,Lily Hewitt,5:41 PM,Romance,Romeo and Juliet,6.05829853101554
+742,Tom Murray,4:27 AM,Adventure,Terminator I,7.60529308002689
+743,Liam Bright,5:04 AM,Sci-Fi,Octav,7.72537987992418
+744,Mya Stevens,6:18 AM,History,Blood Diamond,7.83421065930008
+745,Remy Gavin,1:11 AM,History,Rambo II,9.63745133235932
+746,Barney Mason,11:26 AM,History,Seven,8.30434853271784
+747,Gil Jeffery,11:10 AM,Sci-Fi,Iron Man ,0.862247660691965
+748,Fiona Wright,7:00 AM,Drama,Interstellar,6.78983238888431
+749,Rocco Russell,2:48 PM,Animation,The Dark Knight,4.01298139338055
+750,Renee Mills,9:42 PM,Romance,Terminator I,6.58237611156999
+751,Brad Shea,1:07 PM,Thriller,The Conjuring,3.64152106998559
+752,Belinda Potts,9:32 PM,Biography,Batman Begins,7.38790017757001
+753,Karen Gregory,12:04 AM,Romance,Zootropolis,0.141310947081685
+754,Courtney Edwards,2:14 PM,Fantasy,Friends With Kids,9.68240697853379
+755,Lucy Osmond,8:45 AM,Thriller,Chocolat,0.846341983343634
+756,Hope Hardwick,10:06 PM,Horror,Inside Out,9.63850121462648
+757,Javier Rust,8:54 AM,Biography,Romeo and Juliet,2.48144418582387
+758,Dorothy Brock,12:40 PM,Romance,The Conjuring,6.11683900194095
+759,Britney Lane,4:14 PM,Biography,Batman Begins,5.6881307492443
+760,Judith Richardson,3:25 AM,Animation,Rambo II,3.64045159082881
+761,Janice Coll,8:34 PM,Musical,Shutter Island,4.002421594226
+762,Florence Cartwright,6:13 PM,History,Chocolat,5.97301342802728
+763,Chester Farrow,1:30 AM,Romance,Star Wars,5.77052919323115
+764,Louise Purvis,4:21 PM,History,Harry Potter and The Chamber Of Secrets,3.25555830227936
+765,Carmella Wilkinson,7:36 PM,Thriller,Blood Diamond,9.05601808850468
+766,Hayden Button,1:30 AM,Crime,The Godfather,5.44994410939978
+767,Hank Wilkinson,2:29 AM,Adventure,Pretty Woman,7.67064608385351
+768,Penelope Parsons,11:40 AM,Biography,Shutter Island,8.79939779816167
+769,Raquel Vallory,8:16 PM,Horror,Blood Diamond,2.75222301331918
+770,Brad Gonzales,1:30 AM,Romance,Shrek,9.29106295960539
+771,Ron Saunders,5:00 AM,Adventure,Transformers,3.59974297163996
+772,Gil Pitt,1:37 AM,Family,Terminator 2,0.4299578971369
+773,Michelle Lowe,8:37 PM,Adventure,Brimstone,2.85369120298591
+774,Wade Pickard,10:03 AM,Romance,Shrek,5.44439453140106
+775,Mason Connor,10:25 PM,Fantasy,Inside Out,8.22655087021485
+776,Sonya Lloyd,3:06 AM,Comedy,Rambo III,3.39209058759366
+777,Sebastian Parker,2:10 PM,Sci-Fi,The Wolf Of Wallstreet,4.92341499213288
+778,Martha Freeburn,11:37 AM,Biography,American Pie,8.01381800603765
+779,Kendra Pond,5:52 AM,Crime,Black Panther,7.13377899822489
+780,Daniel Ebbs,10:46 PM,Thriller,Star Wars,9.81058858465896
+781,Megan Speed,6:35 PM,History,Inside Out,2.57135757038899
+782,Anabelle Radcliffe,6:56 AM,Thriller,Chronicles of Narnia,2.13882904645932
+783,Cedrick Varley,2:39 AM,Musical,Alien,8.09636493683623
+784,Tom Abbey,11:04 AM,Animation,Thor : Ragnarok,3.87219869665438
+785,Natalie Ring,4:31 PM,Sci-Fi,Black Panther,0.546391428702693
+786,Sylvia Button,9:29 PM,Adventure,Limitless,9.67374624296732
+787,Juliet Foxley,10:26 AM,Drama,Finding Dory,4.7487691639684
+788,Manuel Overson,12:54 PM,Family,Octav,7.02077838313802
+789,Noah Mason,8:10 AM,Musical,Transformers,8.90968688899171
+790,Bob Asher,1:04 AM,Family,Avatar,8.06115635254474
+791,Nathan Sloan,7:55 PM,Family,The Dark Knight,1.91881293846239
+792,Liliana Baker,7:04 AM,Crime,The Dark Tower,7.93674796025117
+793,Rowan Doherty,9:50 PM,Romance,Shrek,3.17351143116761
+794,Rick Pond,3:18 PM,Fantasy,Interstellar,4.80679511083606
+795,Carter Jones,1:42 PM,Romance,Zootropolis,4.30965412003438
+796,Dani White,5:00 PM,Comedy,Titanic,4.6096142966345
+797,Jack Wilton,1:22 AM,Comedy,Harry Potter and The Sorcerer's Stone,2.44451651696326
+798,Angelique Roth,7:15 AM,Crime,Interstellar,9.73960612003673
+799,Rosemary Giles,8:33 PM,Fantasy,Allied,3.35137140208453
+800,Camellia Brooks,9:39 PM,Sci-Fi,Octav,9.03999922985211
+801,William Redfern,12:40 AM,Action,American Pie,9.63230661751344
+802,Benny Robertson,2:29 AM,Musical,Friends With Kids,3.12041866086443
+803,Elijah Patel,2:20 AM,Sci-Fi,The Godfather,1.77241625253689
+804,Freya Thompson,12:31 AM,Romance,The Dark Tower,2.38885218481945
+805,Enoch Mcgregor,4:33 PM,Family,Casablanca,4.72156658290027
+806,Percy Coleman,5:33 AM,Family,Ice Age 1,8.51144728088353
+807,Sofia Potter,10:27 AM,Horror,Zootropolis,9.8506429585864
+808,Julia Sherwood,12:36 AM,Biography,Chronicles of Narnia,1.33569722265736
+809,Ryan Watt,3:18 PM,Thriller,The Ring,6.50189017015597
+810,Judith Lee,12:07 AM,Animation,Terminator 2,0.816199784547184
+811,Rosie Bloom,6:32 PM,Comedy,Alien,0.398390398080643
+812,Chloe Clifford,8:47 PM,Action,Mr. Bean's Holiday,7.17868636184311
+813,Janice Rose,4:35 PM,Animation,Finding Dory,0.24003654869275
+814,Vivian Bell,12:30 AM,Fantasy,Rambo III,3.44799963964522
+815,Lexi Moore,2:13 PM,Biography,Mr. Bean's Holiday,5.10214087697777
+816,Jazmin Lucas,10:48 PM,Musical,Romeo and Juliet,8.38450330932834
+817,Aisha Rosenbloom,9:46 AM,Drama,Mr. Bean's Holiday,0.802357126400972
+818,Matt Noon,2:56 PM,Thriller,Allied,4.69681407636814
+819,Bree Durrant,5:30 AM,Musical,Octav,7.62453111988703
+820,Josh Walter,12:48 AM,Sci-Fi,Chronicles of Narnia,9.10020255907448
+821,Maggie Stewart,5:12 AM,Comedy,Star Wars,8.92715519011354
+822,Tony Cork,4:31 PM,Drama,Transformers,1.10036861482094
+823,Penelope Bowen,1:55 AM,Animation,Interstellar,6.7071191867381
+824,Emma Reynolds,2:17 AM,Action,Chocolat,7.75922591740229
+825,Wade Hopkins,2:05 PM,Romance,Rambo I,2.94948595387372
+826,Janelle Atkinson,3:08 AM,Horror,Iron Man ,3.3064948382352
+827,Robyn Stewart,6:25 PM,Fantasy,Titanic,7.32667059978781
+828,Britney Blackwall,4:17 AM,Crime,Zootropolis,5.46307374558555
+829,Gil Crawley,4:10 PM,Biography,Avatar,5.39272915031422
+830,Quinn King,11:17 AM,Romance,The Ring,0.17168981496789
+831,Erick Butler,1:55 PM,Sci-Fi,Titanic,0.802376116533939
+832,Noah Bayliss,12:41 PM,Biography,Ice Age 2,3.82518531373943
+833,Chad Edler,2:47 AM,Fantasy,Black Panther,3.38620249945028
+834,Bob Kaur,7:33 PM,Biography,Casablanca,3.35764051990474
+835,Remy Hancock,1:44 PM,History,Love,1.85272419399243
+836,Ronald Kirby,1:49 PM,Family,Shutter Island,8.48042230144163
+837,Eduardo Lynch,6:50 PM,Animation,Ice Age 1,3.49320009094346
+838,Ryan Ripley,4:11 PM,Action,SING,4.19439350822679
+839,Melanie Shields,5:00 AM,Crime,Fantastic Beasts and Where To Find Them,1.47627124165942
+840,Angel Jackson,2:56 AM,Crime,Seven,5.55044921140673
+841,George Lomax,3:07 AM,Musical,Shrek,0.0405175523089792
+842,Harvey Phillips,3:36 AM,Thriller,Friends With Kids,5.355258146932
+843,Natalie Neville,10:04 AM,Fantasy,Romeo and Juliet,1.60624618530564
+844,Benjamin Jones,2:50 AM,Crime,The Wolf Of Wallstreet,4.38936965045956
+845,Mavis Hobson,2:47 AM,Horror,Interstellar,0.00203347392474929
+846,Christy Pratt,9:39 AM,History,Terminator I,4.86766132706202
+847,Leroy Harrison,12:30 AM,Adventure,Avatar,6.85788841538964
+848,Rocco Chadwick,12:58 PM,Adventure,SING,6.54186013366182
+849,Enoch Squire,5:27 PM,Romance,Friends With Kids,8.98165247961024
+850,Nick Ross,9:45 PM,Comedy,Avengers Infinity War,6.36328934662197
+851,Julia Mccormick,11:07 AM,Thriller,Shrek,6.18944915579141
+852,Julius Dixon,5:45 AM,Adventure,Iron Man ,1.01901491592592
+853,Nate Nash,7:03 AM,Action,The Dark Knight,2.92048964040377
+854,Enoch Stevenson,9:57 AM,Family,SING,2.37780660082484
+855,Mayleen Tyrrell,12:32 AM,Action,The Dark Tower,3.24786100827524
+856,Alma Silva,4:46 AM,Musical,The Godfather,2.94141146025686
+857,Chris Murphy,9:21 PM,Crime,The Godfather,3.81735717263881
+858,Bart Hobson,12:01 AM,Horror,Transformers,8.58686592596903
+859,Eve Mould,2:46 PM,History,Star Wars,1.08599406065698
+860,Violet Hammond,10:35 AM,Animation,Alien,2.92228844897928
+861,Ethan Rogan,6:45 PM,Comedy,Black Panther,5.09934118906937
+862,Jacqueline Stewart,6:43 PM,Fantasy,Rambo III,3.67647331239491
+863,Kamila Parker,8:33 PM,Animation,Terminator 2,5.32553238995631
+864,Vivian Sherwood,4:58 PM,Comedy,Inside Out,9.53439870175645
+865,Liliana Hood,5:46 PM,Comedy,The Dark Knight,5.52734264709397
+866,William Woods,6:52 PM,Musical,Mr. Bean's Holiday,4.55967572683453
+867,Rufus Oliver,6:01 PM,Animation,Wonder Woman,9.68900171326893
+868,Jack Lindop,1:48 AM,Adventure,Shrek,2.79476698618139
+869,Chester Flynn,5:10 PM,Family,Limitless,4.09686846430268
+870,Cynthia Evans,5:58 PM,Biography,Blood Diamond,2.52979812423224
+871,Marissa Willis,5:47 PM,Horror,Snatch,7.34487354119535
+872,Angela Rosenbloom,4:15 AM,Romance,Casablanca,4.24842700932567
+873,Matthew Powell,12:03 AM,Comedy,Zootropolis,5.50082908594088
+874,Freya Crawley,4:25 AM,Thriller,Romeo and Juliet,9.3026573622146
+875,Angelica Warner,10:46 AM,History,Mr. Bean's Holiday,2.11463540611539
+876,Carter Nayler,1:47 AM,Fantasy,Brimstone,4.83518791796415
+877,Lynn Pitt,1:03 PM,Comedy,Wonder Woman,7.31138726431475
+878,Domenic Armstrong,11:35 AM,Family,Brimstone,9.22224469120719
+879,Norah Richardson,7:21 AM,History,Rambo III,9.83704538449507
+880,Celia Mcgregor,8:10 AM,Thriller,The Godfather,0.390542770452119
+881,Mya Broomfield,5:18 PM,Musical,Transformers,4.87804704945444
+882,Gwenyth Ashwell,5:43 AM,Animation,Octav,9.36434644663909
+883,Liam Kelly,4:13 AM,Adventure,Finding Dory,8.18386009949439
+884,Ryan Rogers,2:34 PM,Animation,The Wolf Of Wallstreet,2.36531410197044
+885,Emely Watson,2:55 PM,Action,The Dark Tower,1.39706004150075
+886,Freya Beal,7:08 PM,Musical,Romeo and Juliet,2.97914491685999
+887,Johnathan Mitchell,4:07 PM,Crime,Wonder Woman,0.155085573510772
+888,Sebastian Eddison,6:34 AM,Action,Batman Begins,4.99486995953828
+889,Mayleen Plant,2:43 AM,Adventure,Rambo II,5.10542047308079
+890,Anabel Payne,10:12 AM,Fantasy,Alien,9.32391163535598
+891,Freya Parker,3:52 AM,Thriller,Rambo II,6.49571690358953
+892,Miriam Blythe,4:00 AM,Drama,The Ring,9.6257567199067
+893,Christy Todd,3:07 AM,Family,Batman Begins,1.04138689117571
+894,Ramon Ballard,7:35 AM,Crime,Alien,4.46569269963805
+895,Bart Chapman,11:02 AM,Crime,Limitless,7.33680492189564
+896,Nick Armstrong,9:42 PM,Fantasy,Harry Potter and The Chamber Of Secrets,0.316230639962587
+897,Isabella King,8:39 AM,Family,Rambo II,6.17850379421306
+898,Faith Antcliff,4:35 AM,Fantasy,Snatch,5.26539357158607
+899,Irene Hill,12:40 AM,Family,Zootropolis,6.45657879787338
+900,Manuel Owen,10:40 AM,Musical,The Notebook,6.64434087353029
+901,Sabrina Maxwell,1:31 PM,Romance,Love,5.71677724445089
+902,Nick Ventura,3:37 PM,Sci-Fi,Chronicles of Narnia,3.55042286755071
+903,Ruth Khan,7:09 AM,Biography,Shrek,2.57426304676303
+904,Ramon Lindop,2:05 AM,Adventure,The Ring,7.95372151069051
+905,Eduardo Randall,6:00 PM,Biography,Star Wars,8.28794100102407
+906,Tyler Burge,5:12 AM,Adventure,Ice Age 1,8.47928491722759
+907,Tess Graves,4:31 PM,Romance,SING,1.80462412201083
+908,Hope Cowan,3:21 PM,Family,The Notebook,3.71195028289778
+909,Mary Quinn,4:49 PM,Fantasy,Rambo I,1.09258757675653
+910,Logan Coll,11:16 AM,Musical,Fantastic Beasts and Where To Find Them,0.105893898338961
+911,Andie Rose,10:30 AM,Fantasy,Chocolat,5.17539251836734
+912,Alexa Neal,9:48 PM,Crime,Chronicles of Narnia,0.668833677502737
+913,Kurt Rust,6:51 AM,Thriller,Friends With Kids,5.65090351395817
+914,Alba Skinner,9:22 PM,Family,The Ring,7.58117770337554
+915,Melania Myatt,12:21 PM,Romance,Shrek,2.050775447884
+916,Percy Cartwright,11:13 AM,Crime,Ice Age 1,9.63316563918868
+917,Denis Randall,6:51 PM,Action,Limitless,8.89894309122998
+918,Johnny Glynn,11:20 AM,Crime,Zootropolis,9.43385955385578
+919,Hank Mcnally,4:51 AM,Sci-Fi,Rambo II,1.59855833398111
+920,Anthony Bell,7:31 PM,Fantasy,Pretty Woman,6.18446307405106
+921,Abdul Walker,3:43 AM,Animation,Mr. Bean's Holiday,6.72747649100026
+922,Kassandra Stewart,2:38 PM,Biography,Titanic,7.74391366203498
+923,Chris Owens,5:29 AM,Family,Inside Out,8.80269423583648
+924,Camden Bentley,12:40 PM,Fantasy,Avatar,6.95074829317199
+925,Alma Nayler,7:53 AM,Action,Rambo III,4.39889367222734
+926,Matt Gilmour,1:29 PM,Drama,Iron Man ,2.85870971105001
+927,Tania Lynch,12:05 AM,Thriller,Finding Dory,3.13082138687876
+928,Sabina Roscoe,7:10 AM,Crime,Chronicles of Narnia,1.32742613010454
+929,Louise Penn,12:05 AM,Fantasy,Fantastic Beasts and Where To Find Them,3.69271854622882
+930,Ilona Hobson,4:52 AM,Horror,The Martian,2.05952363836557
+931,Alexa Selby,6:09 AM,Animation,The Ring,4.71990314671765
+932,Phillip Craig,11:03 AM,Drama,Seven,5.79954250985735
+933,Percy Gregory,1:58 PM,Adventure,Allied,1.06576848731645
+934,Melanie Morris,5:48 AM,Romance,Rambo II,1.26243666618245
+935,Analise Clifford,10:21 AM,Biography,Alien,0.471277191988787
+936,Carissa Kelly,6:32 PM,Comedy,Rambo I,4.56046718431658
+937,Eileen Judd,5:48 PM,Thriller,Terminator 2,4.64632202994373
+938,Ryan Norris,1:32 AM,Adventure,Romeo and Juliet,8.06201926388872
+939,Caleb Vaughn,12:01 PM,History,Limitless,0.788583198929477
+940,Candace Plant,7:36 PM,Comedy,Snatch,9.97347041730465
+941,John Hamilton,11:29 AM,Drama,The Godfather,7.69160547465626
+942,Emerald Hunt,2:16 PM,Sci-Fi,Fantastic Beasts and Where To Find Them,9.62298096372885
+943,Trisha Collins,8:39 PM,Horror,Shutter Island,3.16071283172849
+944,Juliet Bell,4:30 PM,Crime,Octav,9.00046509644038
+945,Ryan Partridge,7:00 AM,Thriller,Rambo II,1.05523511863092
+946,Wade Brown,10:35 AM,Action,The Ring,5.33200753262826
+947,Maya Mitchell,12:33 PM,Action,Terminator I,0.671641751505268
+948,Jaylene Tate,1:20 PM,Fantasy,Avatar,2.01129258331437
+949,Sienna Ryan,7:03 PM,Comedy,Iron Man ,7.4086564427282
+950,Marissa Archer,12:28 PM,Comedy,Snatch,4.98763503413072
+951,Doris Lyon,7:00 PM,Sci-Fi,Shutter Island,1.05088012015954
+952,Denny Driscoll,8:43 PM,Biography,Black Panther,7.90756455292346
+953,Chadwick Saunders,6:46 AM,Animation,Allied,7.5225058023457
+954,Marissa Gray,9:11 AM,Biography,Love,5.27545044583988
+955,Nicholas Price,7:35 AM,History,The Ring,3.20678702146131
+956,Caleb Moran,4:43 AM,Drama,Mr. Bean's Holiday,1.27359636652916
+957,Chester Osman,8:18 AM,Adventure,Love,8.34627567014949
+958,Nick Bristow,3:26 AM,Adventure,Ice Age 1,5.18592727658615
+959,Chuck Thatcher,10:58 PM,Musical,Titanic,0.0938570583676254
+960,Fred Overson,10:13 AM,History,Rambo I,4.30898165484377
+961,Marilyn Lewis,3:35 AM,Animation,Interstellar,5.68701465599566
+962,Gwen Lucas,2:21 PM,Action,The Godfather,7.32949219985376
+963,Judith Roth,5:57 PM,Thriller,Wonder Woman,4.7309240329689
+964,Holly Cork,4:50 AM,Musical,Snatch,5.52165192715901
+965,Darlene Ebden,10:35 AM,Sci-Fi,Limitless,3.56924824303447
+966,Hannah Dillon,11:49 AM,Thriller,Blood Diamond,3.23115632880067
+967,Aiden Kelly,4:10 AM,Animation,Wonder Woman,2.7954950010383
+968,Irene Jackson,3:30 AM,Horror,Harry Potter and The Chamber Of Secrets,8.33998145923949
+969,Gil Graham,8:21 AM,Thriller,Rambo III,8.18062177634827
+970,Oliver Bingham,3:24 AM,Biography,Allied,1.34376839517791
+971,Rachael Nash,1:40 AM,Comedy,Chronicles of Narnia,5.35941307682517
+972,Domenic Kerr,4:47 AM,Action,Avatar,4.9596466603501
+973,Camden Wren,11:21 AM,Crime,Friends With Kids,9.19653892619374
+974,Gil Spencer,5:16 AM,Biography,Shutter Island,0.664935495548386
+975,Brad Cox,2:13 PM,Action,Chocolat,6.84714425534343
+976,Gemma Avery,9:12 AM,Drama,Blood Diamond,9.4357814846727
+977,Martin Casey,5:34 PM,Romance,The Ring,2.95505099508681
+978,Denis Baxter,3:43 PM,Romance,Brimstone,5.50978372828559
+979,Sabrina Drummond,3:50 AM,Crime,Mr. Bean's Holiday,2.68554071741437
+980,Livia Garcia,5:28 PM,Crime,The Ring,5.55889919286543
+981,Caitlyn Donnelly,3:30 AM,Adventure,Snatch,9.88815163443245
+982,Winnie Rehman,3:26 PM,Adventure,The Godfather,7.65597182822226
+983,Carter Flynn,3:57 PM,Musical,The Wolf Of Wallstreet,3.00602216366959
+984,Louise Zaoui,7:41 PM,Drama,Interstellar,7.70104907206309
+985,Peter Raven,12:47 AM,Sci-Fi,Black Panther,4.80997675043064
+986,Jack Mason,1:49 PM,Horror,Terminator I,0.517202668598482
+987,Freya Calderwood,2:36 AM,History,Zootropolis,2.86913156875834
+988,Noah Martin,10:55 AM,Fantasy,Avatar,2.56263187740121
+989,Caleb Rust,5:08 AM,Biography,Ice Age 1,1.63434912480151
+990,Denis Funnell,5:40 PM,Action,Fantastic Beasts and Where To Find Them,0.556058324666721
+991,Marina Phillips,12:21 AM,Action,Blood Diamond,6.2904986312103
+992,Harvey Clarke,3:23 AM,Action,American Pie,6.74602752725874
+993,Domenic Janes,1:11 AM,Drama,Ice Age 2,4.46268913497342
+994,Grace Carpenter,6:06 PM,Musical,American Pie,4.02381210821858
+995,Stephanie Dempsey,11:31 AM,Thriller,The Ring,0.89987703827204
+996,Gabriel Stevenson,2:18 AM,Horror,Casablanca,7.82095852299638
+997,Rocco Phillips,8:35 PM,Romance,Seven,6.32764485027997
+998,Ethan Robinson,9:41 PM,Musical,Rambo I,2.41899549188977
+999,Daphne Forth,4:00 PM,Comedy,Black Panther,4.31482157684621
+1000,Abbey Chadwick,8:38 AM,Crime,American Pie,7.2878438831716
+
