@@ -2,8 +2,8 @@ package edu.codeschool.training.classes_objects.Homework_20_Thread;
 
 public class SumArray {
     public static void main(String[] args) throws InterruptedException {
-        int [] array =new int[3];
-        for(int i=0;i<3;i++){
+        int [] array =new int[1_000_000];
+        for(int i=0;i<1_000_000;i++){
             array[i]=i;
         }
         SumRun sum1=new SumRun(array,0,array.length/2);

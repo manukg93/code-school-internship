@@ -2,7 +2,7 @@ package edu.codeschool.training.classes_objects.Homework_20_Thread;
 
 public class SumRun implements Runnable {
     private int[] array;
-    private int sum = 0;
+    private long sum = 0;
     int start;
     int end;
 
@@ -12,7 +12,7 @@ public class SumRun implements Runnable {
         this.end = end;
     }
 
-    public int getSum() {
+    public long getSum() {
         return sum;
     }
 
