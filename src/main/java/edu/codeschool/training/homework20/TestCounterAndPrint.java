@@ -18,6 +18,10 @@ public class TestCounterAndPrint {
         }
 
         thread2.start();
-
+        try {
+            thread2.join();
+        } catch (InterruptedException ex) {
+            System.out.println(ex.getStackTrace());
+        }
     }
 }
