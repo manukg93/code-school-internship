@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MyThread<T> implements Runnable {
-    Integer[] array;
-    List list = new ArrayList();
-    int count = 0;
+    private T[] array;
+    private List<T> list = new ArrayList();
+    private int count = 0;
 
-    public MyThread(Integer[] array) {
+    public MyThread(T[] array) {
         this.array = array;
     }
 
@@ -17,13 +17,11 @@ public class MyThread<T> implements Runnable {
             for (int i = count * 10; i < (count + 1) * 10; i++) {
                 list.add(array[i]);
             }
+            System.out.print(Thread.currentThread().getName() + " ");
             System.out.println(list);
-            System.out.println(Thread.currentThread().getName());
         } else {
             System.out.println("The quantity of threads must be lower than " + array.length / 10);
         }
-
-
     }
 
     @Override

@@ -4,14 +4,14 @@ import java.util.Arrays;
 
 public class AddElements {
     public static void main(String[] args) {
-        Integer [] array=new Integer[100];
-        for (int i=0;i<100;i++){
-            array[i]=i;
+        String[] array = new String[100];
+        for (int i = 0; i < 100; i++) {
+            array[i] = "Str" + i;
         }
         System.out.println(Arrays.toString(array));
-        MyThread myThread=new MyThread(array);
-        for(int i=0;i<10;i++){
-            Thread thread=new Thread(myThread);
+        MyThread myThread = new MyThread(array);
+        for (int i = 0; i < 5; i++) {
+            Thread thread = new Thread(myThread);
             thread.start();
         }
     }
