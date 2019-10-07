@@ -1,16 +1,18 @@
 package edu.codeschool.training.homework20;
 
-public class MaximumAndMinimum implements Runnable {
+public class MaxAndMin implements Runnable {
     private int[] array;
     private int start;
     private int end;
     private int max;
     private int min;
 
-    // Maximum class' constructor
-    public MaximumAndMinimum (int[] array, int start, int end) {
+    // constructor
+    public MaxAndMin (int[] array, int start, int end) {
+        if (array == null) {
+            return;
+        }
         this.array = array;
-
         if (start < 0 || end > this.array.length) {
             throw new IndexOutOfBoundsException("index is out of bounds");
         }
@@ -30,24 +32,35 @@ public class MaximumAndMinimum implements Runnable {
         return this.min;
     }
 
-    // find maximum and minimum values of the array
-    private void calculateMaximumAndMinimum () {
+    private int calculateMaximum () {
         if (array == null) {
-            return;
+            return 0;
         }
-        max = array[0];
-        min = array[0];
+        int max = array[0];
         for (int i = start; i < end; i++) {
             if (array[i] > max) {
                 max = array[i];
-            } else if (array[i] < min) {
+            }
+        }
+        return max;
+    }
+
+    private int calculateMinimum () {
+        if (array == null) {
+            return 0;
+        }
+        int min = array[0];
+        for (int i = start; i < end; i++) {
+            if (array[i] < min) {
                 min = array[i];
             }
         }
+        return min;
     }
 
     @Override
     public void run() {
-        calculateMaximumAndMinimum();
+        this.max = calculateMaximum();
+        this.min = calculateMinimum();
     }
 }
