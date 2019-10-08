@@ -3,11 +3,11 @@ package edu.codeschool.training.homework21;
 import java.util.List;
 
 public class Adder implements Runnable {
-    private List list;
+    private List<Integer> list;
     private int start;
     private int end;
 
-    public Adder(List list, int start, int end) {
+    public Adder(List<Integer> list, int start, int end) {
         this.list = list;
         this.start = start;
         this.end = end;
