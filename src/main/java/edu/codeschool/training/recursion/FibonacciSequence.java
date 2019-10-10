@@ -1,42 +1,28 @@
 package edu.codeschool.training.recursion;
 
-public class FibonacciSequence {
-    private int[] array = new int[20];
+class FibonacciSequence {
 
-    // default constructor
-    private FibonacciSequence() {
-        this.array[0] = 0;
-        this.array[1] = 1;
-    }
-
-    private int fibonacciNumbers(int n) {
+    private static int fibonacciNumber(int n) {
+        if (n < 0) {
+            System.out.println("n must be non negative");
+            return 0;
+        }
+        if (n == 0) {
+            return 0;
+        }
         if (n == 1) {
-            int next = 1;
-            this.array[n + 1] = next;
-            return next;
+            return 1;
         }
-        if (n == 2) {
-            int next = 2;
-            this.array[n + 1] = next;
-            return next;
-        }
-        if (n > 2) {
-            int next = fibonacciNumbers(n - 1) + fibonacciNumbers(n - 2);
-            this.array[n + 1] = next;
-            return next;
-        }
-        return 0;
+         return fibonacciNumber(n - 1) + fibonacciNumber(n - 2);
     }
 
-    private void printSequence() {
-        for ( int el : this.array ) {
-            System.out.print(el + "\t");
+    private static void printFibonacciNumbers(int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.print(fibonacciNumber(i) + "\t");
         }
     }
 
     public static void main(String[] args) {
-        FibonacciSequence seq = new FibonacciSequence();
-        System.out.println(seq.fibonacciNumbers(5));
-        seq.printSequence();
+        printFibonacciNumbers(10);
     }
 }
