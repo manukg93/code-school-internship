@@ -106,5 +106,22 @@ Find requirements of cinema app console application.
 
 
 
+         If logged in user is Admin user the following message should be printed
+         **** Hello {admin name}****
 
+          Menu
+           --------------
+           | 1. Add User
+           | 2. Edit User
+           | 3. Delete User
+           | 4. Delete Movie
+           | 5. Add movie
+           | 6. Edit movie
+           | 7. Get all users
+           | 7. Get all movies
+           | 8. Get 10 most watched movies
+           | 9. Get 10 rated movies
+           | 10.Get all comments for movie
+           | 11.Get all comments of user
+           | 12. Exit
 
