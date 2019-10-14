@@ -34,6 +34,77 @@ Menue
     	
 	
 	
-	
-	
-	
+
+Find requirements of cinema app console application.
+
+	When program started it should ask to login into system
+	    **** Welcome to {Cinema name} Cinema please login *****
+	    Username: (user should input username and press enter)
+	    Password: (user should input password and press enter)
+	    If username or password is not correct "Invalid username or password" message should be printed in the console and user should be asked to enter username password again.
+	    If username and password are correct the user should login into system.
+	    There two type of user ordinary user and admin user
+                        If logged in user is ordinary user bellow message should be printed and list of movies that currently available should be printed
+                           for example:
+                                        **** Welcome {User Name} to {Cinema name} Cinema enjoy your day!! ****
+
+                               ------------------------------------------------------------------------------------------------------------------------------------------------------------
+                               |
+                               |          ID    |        Director Name  |               duration     |                genres     |     movieTitle      |               imdbRating
+                               |           1    |      Jayden Saunders  |                   3:20     |             Biography     |          Seven      |         5.36794328706709
+                               |           2    |       Phoebe Herbert  |                   6:00     |                Action     |          Seven      |         8.70315733212193
+                               |           3    |       Phoebe Herbert  |                   3:20     |             Biography     |          Seven      |         5.36794328706709
+                               |           4    |       Phoebe Herbert  |                   3:20     |             Biography     |          Seven      |         5.36794328706709
+                               |           5    |       Phoebe Herbert  |                   3:20     |             Biography     |          Seven      |         5.36794328706709
+                               |           6    |       Phoebe Herbert  |                   3:20     |             Biography     |          Seven      |         5.36794328706709
+                               |           7    |       Phoebe Herbert  |                   3:20     |             Biography     |          Seven      |         5.36794328706709
+                               |           8    |       Phoebe Herbert  |                   3:20     |             Biography     |          Seven      |         5.36794328706709
+                               |           9    |       Phoebe Herbert  |                   3:20     |             Biography     |          Seven      |         5.36794328706709
+                               |          10    |       Phoebe Herbert  |                   3:20     |             Biography     |          Seven      |         5.36794328706709
+                               |
+                               -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                               Menu
+                               --------------
+                               | 1. Watch
+                               | 2. Rate
+                               | 3. Comment
+                               | 4. Exit
+
+                               Select action from menu: action
+                               Select movie: 5
+                               If watch selected the following message should pe printed:
+                                   **** Movie started ****
+                                   **** Enjoy your movie ****
+                                   **** Movie finished ****
+
+                             Above menu should be printed again
+
+                             If rate is selected
+                                Please rate movie {movie name} from 0 - 10
+                                After rated the movie rate should be updated and following should be printed:
+                                **** Thank you for your feedback ****
+
+                             Above menu should be printed again
+
+                             If Comment selected
+                                   Please add your comment for movie {movie name}
+                                   After comment added the movie comments should be updated the following message should be printed:
+                                   **** Thank you for your feedback ****
+
+                             If Exit is selected
+                                The user should be logged out from application
+
+                               Menu
+                               --------------
+                               | 1. Login
+                               | 2. Finish
+
+                             If Finish is selected application should finish its working
+
+
+
+
+
+
+
